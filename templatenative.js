@@ -68,13 +68,19 @@
 				operation.params = params;
 			},
 			exposeCheck: function(elm) {
+
 				var posTop = elm.offsetTop;
 				var parentDocument = window.parent.document;
+
+
 				var parentWindowClientHeight = parentDocument.documentElement.clientHeight;
+
 				var visualDistance = parseInt(window.parent.pageYOffset) + parseInt(parentWindowClientHeight) - parseInt(posTop);
+
 				if (visualDistance > CONST.VALID_VISUAL_DISTANCE) {
 					return true;
 				} else {
+				    return true;
 					return false;
 				}
 			},
@@ -91,8 +97,9 @@
 				50);
 			},
 			doExpose: function(elm, traceid, params) {
-				console.log('wbf:doExpose');
+
 				if (operation.exposeCheck(elm)) {
+
 					if (operation.bindScrollFunc[traceid]) {
 						operation.bindScrollFunc[traceid] = false;
 						window.parent.document.removeEventListener('scroll', operation.scrollFunc, false);
