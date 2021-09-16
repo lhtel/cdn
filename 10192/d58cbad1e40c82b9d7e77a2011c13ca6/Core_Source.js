@@ -103,27 +103,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '7012015656313504'; 
-window.all_info['iappid'] = '1111689294';
-var trackid = trackid || 10189;
+window.all_info['iadvplaceid'] = '3042020154507056'; 
+window.all_info['iappid'] = '1111672762';
+var trackid = trackid || 10192;
 
 
 var vl = new Array(
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/'
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/'
 );
 
 

@@ -103,27 +103,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '7012015656313504'; 
-window.all_info['iappid'] = '1111689294';
-var trackid = trackid || 10189;
+window.all_info['iadvplaceid'] = '7062820084982170'; 
+window.all_info['iappid'] = '1111689326';
+var trackid = trackid || 10195;
 
 
 var vl = new Array(
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/'
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/',
+'http://m.favourai.com/'
 );
 
 

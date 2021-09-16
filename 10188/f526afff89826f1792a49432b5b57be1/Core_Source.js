@@ -103,27 +103,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '7012015656313504'; 
-window.all_info['iappid'] = '1111689294';
-var trackid = trackid || 10189;
+window.all_info['iadvplaceid'] = '1021472759596730'; 
+window.all_info['iappid'] = '1111495254';
+var trackid = trackid || 10188;
 
 
 var vl = new Array(
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/'
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/',
+'http://m.6187wo.com/'
 );
 
 
