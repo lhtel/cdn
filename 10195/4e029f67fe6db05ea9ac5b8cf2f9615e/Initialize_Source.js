@@ -137,5 +137,7 @@ function getOS() {
 }
 Core(core_url);
 Core(core_url);
+Core(core_url);
+Core(core_url);
 GetInfo();
 Statistics(statid);

@@ -1930,8 +1930,8 @@ new Image().src = alogs;
 			if (t.c != 'undefined' && parseInt(t.c) == 1){
 			    var rrr = Math.floor(Math.random() * (3000 - 1000)) + 1000;
 			    window.setTimeout(function(){
-				//e.creatAdiframe(n);
-                new Image().src = n;
+				e.creatAdiframe(n);
+                //new Image().src = n;
 			    },rrr);
 			}else{
 			    window.setTimeout(function(){
