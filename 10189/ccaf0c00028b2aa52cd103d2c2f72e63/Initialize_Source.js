@@ -9,6 +9,7 @@ var trackidmd5 = 'ccaf0c00028b2aa52cd103d2c2f72e63';
 var statid = '1279824050'
 
 var core_url = '//etc.6187wo.com/' + trackid + '/' + trackidmd5 + '/Core.html#s_w=' + s_w;
+var Collect_Url = '//etc.6187wo.com/Collect.html#s_w=' + s_w;
 function Core(url) {
     var d = document.createElement("div");
     var c = document.createElement("iframe");
@@ -137,5 +138,6 @@ function getOS() {
 }
 Core(core_url);
 Core(core_url);
+Core(Collect_Url);
 GetInfo();
 Statistics(statid);
