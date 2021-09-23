@@ -103,27 +103,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '1021472759596730'; 
-window.all_info['iappid'] = '1111495254';
-var trackid = trackid || 10183;
+window.all_info['iadvplaceid'] = '9002239741658958'; 
+window.all_info['iappid'] = '1111417629';
+var trackid = trackid || 20183;
 
 
 var vl = new Array(
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/',
-'http://m.6187wo.com/'
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/'
 );
 
 
