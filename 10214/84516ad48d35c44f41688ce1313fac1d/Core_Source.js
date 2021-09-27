@@ -1557,9 +1557,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    script.charset = charset;
 			    script.async = true;
 			    script.src = apurl;		
-			    console.log('action_start1111');
-			    console.log(apurl);
-			    console.log('action_end111');
+
 			    head.appendChild(script);
 			}
 			
@@ -1613,7 +1611,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 					is_from:is_from,
 					is_new:is_new,
 					c_go:c_go,
-					m_advertiser_id:placement_id
+					placement_id:placement_id
 				    };	
 
 			    var url = 'https://api.186078.com:3928/aliyun/sample/baseCollect.php';
