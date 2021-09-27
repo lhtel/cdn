@@ -103,27 +103,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '3042020154507056'; 
-window.all_info['iappid'] = '1111672762';
-var trackid = trackid || 10192;
+window.all_info['iadvplaceid'] = '2012739624547110'; 
+window.all_info['iappid'] = '1111417629';
+var trackid = trackid || 10224;
 
 
 var vl = new Array(
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/'
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/'
 );
 
 

