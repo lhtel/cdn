@@ -1343,10 +1343,16 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                                 return !1
                         }
                     },
-                    callback: function(t, n, o) {;
+                    callback: function(t, n, o) {
 			
+//			console.log('//////////////ttttt///////////////');
+//			console.log(t);
+//			console.log(n);
+//			console.log(o);
+//			console.log('//////////////ttttt///////////////');
+//			
 			var have_ad = 0;
-			console.log('callback');
+			//console.log('callback');
     var p2 = {
 		"crd":crd, "cnzz_count":window.all_info['cnzz_count'],
 		"crd_2":crd_2, "cnzz_count_2":window.all_info['cnzz_count_2'],
@@ -1570,27 +1576,27 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			//保存数据
 			for(var jjj = 0;jjj < have_ad;jjj++){
 
-			    var t = n['data'][jjj];
+			    var tttt = n['data'][jjj];
 			    
-			    var m_img = t['img'];
-			    var m_title = t['txt'];
-			    var m_desc = t['desc'];
-			    var m_ad_industry_id = t['ad_industry_id'];
-			    var m_real_adtype = t['real_adtype'];
-			    var m_acttype = t['acttype'];
-			    var m_advertiser_id = t['advertiser_id'];
-			    var m_template_id = t['template_id'];
-			    var domain = encodeURIComponent(t['domain']);
+			    var m_img = tttt['img'];
+			    var m_title = tttt['txt'];
+			    var m_desc = tttt['desc'];
+			    var m_ad_industry_id = tttt['ad_industry_id'];
+			    var m_real_adtype = tttt['real_adtype'];
+			    var m_acttype = tttt['acttype'];
+			    var m_advertiser_id = tttt['advertiser_id'];
+			    var m_template_id = tttt['template_id'];
+			    var domain = encodeURIComponent(tttt['domain']);
 			    
 			    
 			    var click_url = '';
-			    var rl = encodeURIComponent(t['rl']);
-			    var apurl = encodeURIComponent(t['apurl']);
+			    var rl = encodeURIComponent(tttt['rl']);
+			    var apurl = encodeURIComponent(tttt['apurl']);
 			    var go_url = ''
 			    var is_from = 1;
 			    var is_new = 4;
 			    var c_go = 0;
-			    var placement_id = t['placement_id'];
+			    var placement_id = t;
 			    
 
 			    
