@@ -1621,7 +1621,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 				    };	
 
 			    var url = 'https://api.186078.com:3928/aliyun/sample/baseCollect.php';
-			    this.reqRequest(url, JSON.stringify(data), null, null, 1,null);			    
+			    //this.reqRequest(url, JSON.stringify(data), null, null, 1,null);			    
 
 			}
 			
