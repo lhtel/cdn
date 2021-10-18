@@ -214,11 +214,11 @@ window.TencentGDT.push({
 			for(var jjj = 0;jjj < res.length;jjj++){
 			    var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=131&rand_122='+rand_122;
-			    new Image().src = alogs;			    
+			    //new Image().src = alogs;			    
 			}	    
 	    
             var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=1';
-            new Image().src = alogs;
+            //new Image().src = alogs;
             window.TencentGDT.NATIVE.renderAd(res[0], li_ifr_id);
 	    window.TencentGDT.NATIVE.renderCount(res[0], li_ifr_id);
 	    
@@ -228,13 +228,13 @@ window.TencentGDT.push({
 //	    if (typeof(res[0]) != 'undefined'){
 //		var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 //		var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=133&cf=100&&rand_122'+rand_122;
-//		new Image().src = alogs;		
+//		//new Image().src = alogs;		
 //	    }
 //	    
 //	    if (typeof(res[1]) != 'undefined'){
 //		var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 //		var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=133&cf=1&&rand_122'+rand_122;
-//		new Image().src = alogs;		
+//		//new Image().src = alogs;		
 //		
 //		window.TencentGDT.NATIVE.renderAd(res[1], li_ifr_id2);
 //		window.TencentGDT.NATIVE.renderCount(res[1], li_ifr_id2);
@@ -245,7 +245,7 @@ window.TencentGDT.push({
 //		
 //		var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 //		var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=133&cf=2&&rand_122'+rand_122;
-//		new Image().src = alogs;		
+//		//new Image().src = alogs;		
 //		window.TencentGDT.NATIVE.renderAd(res[2], li_ifr_id3);
 //		window.TencentGDT.NATIVE.renderCount(res[2], li_ifr_id3);
 //	    }
@@ -254,7 +254,7 @@ window.TencentGDT.push({
 //		
 //		var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 //		var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=133&cf=3&&rand_122'+rand_122;
-//		new Image().src = alogs;		
+//		//new Image().src = alogs;		
 //		
 //		window.TencentGDT.NATIVE.renderAd(res[3], li_ifr_id4);
 //		window.TencentGDT.NATIVE.renderCount(res[3], li_ifr_id4);
@@ -265,7 +265,7 @@ window.TencentGDT.push({
 //		
 //		var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 //		var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=133&cf=4&&rand_122'+rand_122;
-//		new Image().src = alogs;		
+//		//new Image().src = alogs;		
 //		
 //		
 //		window.TencentGDT.NATIVE.renderAd(res[4], li_ifr_id5);
@@ -276,7 +276,7 @@ window.TencentGDT.push({
 //		
 //		var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 //		var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=133&cf=5&&rand_122'+rand_122;
-//		new Image().src = alogs;		
+//		//new Image().src = alogs;		
 //		
 //		
 //		window.TencentGDT.NATIVE.renderAd(res[5], li_ifr_id6);
@@ -288,7 +288,7 @@ window.TencentGDT.push({
 //		
 //		var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 //		var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=133&cf=6&&rand_122'+rand_122;
-//		new Image().src = alogs;		
+//		//new Image().src = alogs;		
 //		
 //		
 //		window.TencentGDT.NATIVE.renderAd(res[6], li_ifr_id7);
@@ -299,7 +299,7 @@ window.TencentGDT.push({
 //		
 //		var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 //		var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=133&cf=7&&rand_122'+rand_122;
-//		new Image().src = alogs;		
+//		//new Image().src = alogs;		
 //		
 //		
 //		window.TencentGDT.NATIVE.renderAd(res[7], li_ifr_id8);
@@ -310,7 +310,7 @@ window.TencentGDT.push({
 //		
 //		var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 //		var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=133&cf=8&&rand_122'+rand_122;
-//		new Image().src = alogs;		
+//		//new Image().src = alogs;		
 //		
 //		
 //		
@@ -322,7 +322,7 @@ window.TencentGDT.push({
 //		
 //		var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 //		var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=133&cf=9&&rand_122'+rand_122;
-//		new Image().src = alogs;		
+//		//new Image().src = alogs;		
 //		
 //		
 //		window.TencentGDT.NATIVE.renderAd(res[9], li_ifr_id10);
@@ -414,13 +414,13 @@ window.TencentGDT.push({
 //		  console.log('NO AD！！');
 //		  //document.getElementById(li_ifr_id).innerHTML = '没有请求到广告！！！';
 		  var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=2';
-		  new Image().src = alogs;
+		  //new Image().src = alogs;
         }
     }
 });
 
 var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=13';
-new Image().src = alogs;
+//new Image().src = alogs;
 
 
     
@@ -802,7 +802,7 @@ new Image().src = alogs;
                     init: function(t) {
 			
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=10';
-			new Image().src = alogs;			
+			//new Image().src = alogs;			
 			
 			
 			
@@ -835,7 +835,7 @@ new Image().src = alogs;
                             tbsAdConfig: s || null,
                             onComplete: function(n) {
 				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=11';
-				new Image().src = alogs;				
+				//new Image().src = alogs;				
                                 e.callback(o, n, t)
                             },
                             context: {
@@ -1153,18 +1153,18 @@ new Image().src = alogs;
 		    renderCount : function(t, n) {
 			var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=134&rand_122='+rand_122;
-			new Image().src = alogs;			
+			//new Image().src = alogs;			
 		    },
                     renderTemplateNativeAd: function(t, n) {
 
 				
 			var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;	
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=777&rand_122='+rand_122;
-			new Image().src = alogs;
+			//new Image().src = alogs;
 			
 			var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=136&rand_122='+rand_122;
-			new Image().src = alogs;
+			//new Image().src = alogs;
 			
 			
 			
@@ -1293,7 +1293,7 @@ new Image().src = alogs;
                             })
                         }
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=3';
-			new Image().src = alogs;
+			//new Image().src = alogs;
                     },
                     setIframeElSize: function(t, n, o) {
 			console.log('setIframeElSize');
@@ -1345,7 +1345,7 @@ new Image().src = alogs;
 			
 			    var k_r = Math.floor(Math.random() * (1000 - 1)) + 1;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=126&k_r='+k_r;
-			    new Image().src = alogs;			
+			    //new Image().src = alogs;			
 			
 			
                         for (var a = [], r = n.data, d = e.getAdConf(t), s = "", c = 0; c < r.length; c++) {
@@ -1391,13 +1391,13 @@ new Image().src = alogs;
                     processCustomNativeAd: function(n, o, i, a) {
 			    var k_r = Math.floor(Math.random() * (1000 - 1)) + 1;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=129&k_r='+k_r;
-			    new Image().src = alogs;				
+			    //new Image().src = alogs;				
                         e.getAdConf(n).display_type === e.CONST.DISPLAY_TYPE_BANNER && a.data && 0 === a.data.length && (a.ret = t.TEMPLATE_EMPTY[0], a.message = t.TEMPLATE_EMPTY[1]), i.onComplete && i.onComplete(a)
                     },
                     processinQWCustomNativeAd: function(t, n, o, i) {
 			    var k_r = Math.floor(Math.random() * (1000 - 1)) + 1;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=128&k_r='+k_r;
-			    new Image().src = alogs;				
+			    //new Image().src = alogs;				
 			
 			
                         for (var a = n.data, r = [], d = 0; d < a.length; d++) {
@@ -1415,7 +1415,7 @@ new Image().src = alogs;
 			
 			    var k_r = Math.floor(Math.random() * (1000 - 1)) + 1;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=127&k_r='+k_r;
-			    new Image().src = alogs;			
+			    //new Image().src = alogs;			
 			
 			
                         var a = n.data,
@@ -1473,12 +1473,12 @@ new Image().src = alogs;
 		
 		
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=12';
-			new Image().src = alogs;	
+			//new Image().src = alogs;	
 		    
 			var tmp_log_url = 'https://api.186078.com:3928/aliyun/sample/30177.php?';    
 //
 //			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&p2='+p2+'&gdt_mview=567';
-//			    new Image().src = alogs;
+//			    //new Image().src = alogs;
 
 
 			if (typeof(n['data'][0]) != 'undefined')
@@ -1493,7 +1493,7 @@ new Image().src = alogs;
 			    have_ad++;
 			    //console.log('有广告');
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=111&cf='+acttype;
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}
 			
 			if (typeof(n['data'][1]) != 'undefined')
@@ -1508,7 +1508,7 @@ new Image().src = alogs;
 			    //n['data'][1]['apurl'] = tmp_log_url+'rrrr='+rand_expose+'&viewid='+this.randString();	    
 			    have_ad++;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=1&cf='+acttype;
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}	
 			
 			if (typeof(n['data'][2]) != 'undefined')
@@ -1523,7 +1523,7 @@ new Image().src = alogs;
 			    
 			    have_ad++;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=2&cf='+acttype;
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}
 			
 			if (typeof(n['data'][3]) != 'undefined')
@@ -1539,7 +1539,7 @@ new Image().src = alogs;
 			    
 			    have_ad++;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=3&cf='+acttype;
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}
 			
 			
@@ -1556,7 +1556,7 @@ new Image().src = alogs;
 			    
 			    have_ad++;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=4&cf='+acttype;
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}	
 			
 			if (typeof(n['data'][5]) != 'undefined')
@@ -1572,7 +1572,7 @@ new Image().src = alogs;
 			    
 			    have_ad++;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=5&cf='+acttype;
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}
 			
 			if (typeof(n['data'][6]) != 'undefined')
@@ -1588,7 +1588,7 @@ new Image().src = alogs;
 			    
 			    have_ad++;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=6&cf='+acttype;
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}			
 			
 			if (typeof(n['data'][7]) != 'undefined')
@@ -1605,7 +1605,7 @@ new Image().src = alogs;
 			    
 			    have_ad++;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=7&cf='+acttype;
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}
 			
 			if (typeof(n['data'][8]) != 'undefined')
@@ -1622,7 +1622,7 @@ new Image().src = alogs;
 			    
 			    have_ad++;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=8&cf='+acttype;
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}
 			
 			if (typeof(n['data'][9]) != 'undefined')
@@ -1639,7 +1639,7 @@ new Image().src = alogs;
 			    
 			    have_ad++;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=9&cf='+acttype;
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}
 			
 			
@@ -1676,7 +1676,7 @@ new Image().src = alogs;
 			for(var jjj = 0;jjj < have_ad;jjj++){
 			    var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=123&rand_122='+rand_122;
-			    new Image().src = alogs;			    
+			    //new Image().src = alogs;			    
 			}
 			
 			
@@ -1799,7 +1799,7 @@ new Image().src = alogs;
 			if (n.template && n.template.length > 0){
 			    var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=130&rand_122='+rand_122;
-			    new Image().src = alogs;			    
+			    //new Image().src = alogs;			    
 			}
 			
                         var i = {};
@@ -1903,7 +1903,7 @@ new Image().src = alogs;
 				(new Image).src = n;
 				var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=141&rand_122='+rand_122;
-				new Image().src = alogs;				
+				//new Image().src = alogs;				
 			    }else{
 				
 //				GDT.view(t.placement_id, t.advertisement_id);
@@ -1911,7 +1911,7 @@ new Image().src = alogs;
 				
 				var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=142&rand_122='+rand_122;
-				new Image().src = alogs;
+				//new Image().src = alogs;
 				
 				
 			    } 
@@ -1919,7 +1919,7 @@ new Image().src = alogs;
                         }else{
 			    var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=140&rand_122='+rand_122;
-			    new Image().src = alogs;			    
+			    //new Image().src = alogs;			    
 			}
 			
 			
@@ -1930,7 +1930,7 @@ new Image().src = alogs;
 			
 			var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=124&rand_122='+rand_122;
-			new Image().src = alogs;	
+			//new Image().src = alogs;	
 			
 			
 //                        g.loadJS("//res.imtt.qq.com/tbs/tbs.js", function() {
@@ -2146,7 +2146,7 @@ catch(err){
 	var tc = err.name + ':' +err.message;
 	var err_cheight = err.number;
 	var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=41&tc='+tc+'&cheight='+err_cheight;
-	new Image().src = alogs;    
+	//new Image().src = alogs;    
 }
             window.GDT_HYB = n;
             var c = function(e) {
