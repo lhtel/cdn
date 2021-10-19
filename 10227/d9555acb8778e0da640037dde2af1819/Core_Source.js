@@ -103,27 +103,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '4072630273926698'; 
-window.all_info['iappid'] = '1111689334';
+window.all_info['iadvplaceid'] = '4032934273339555'; 
+window.all_info['iappid'] = '1111596423';
 var trackid = trackid || 10227;
 
 
 var vl = new Array(
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/'
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/'
 );
 
 
@@ -136,36 +136,36 @@ window.all_info['cnzz_count_6'] = window.all_info['cnzz_count_7'] = window.all_i
 
 
 var crd = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd <= 80) window.all_info['cnzz_count'] = 1;
+if (crd <= 15) window.all_info['cnzz_count'] = 1;
 
 var crd_2 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_2 <= 80) window.all_info['cnzz_count_2'] = 1;
+if (crd_2 <= 15) window.all_info['cnzz_count_2'] = 1;
 
 var crd_3 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_3 <= 80) window.all_info['cnzz_count_3'] = 1;
+if (crd_3 <= 15) window.all_info['cnzz_count_3'] = 1;
 
 
 var crd_4 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_4 <= 80) window.all_info['cnzz_count_4'] = 1;
+if (crd_4 <= 15) window.all_info['cnzz_count_4'] = 1;
 
 var crd_5 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_5 <= 80) window.all_info['cnzz_count_5'] = 1;
+if (crd_5 <= 15) window.all_info['cnzz_count_5'] = 1;
 
 
 var crd_6 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_6 <= 80) window.all_info['cnzz_count_6'] = 1;
+if (crd_6 <= 15) window.all_info['cnzz_count_6'] = 1;
 
 var crd_7 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_7 <= 80) window.all_info['cnzz_count_7'] = 1;
+if (crd_7 <= 15) window.all_info['cnzz_count_7'] = 1;
 
 var crd_8 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_8 <= 80) window.all_info['cnzz_count_8'] = 1;
+if (crd_8 <= 15) window.all_info['cnzz_count_8'] = 1;
 
 var crd_9 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_9 <= 80) window.all_info['cnzz_count_9'] = 1;
+if (crd_9 <= 15) window.all_info['cnzz_count_9'] = 1;
 
 var crd_10 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_10 <= 80) window.all_info['cnzz_count_10'] = 1;
+if (crd_10 <= 15) window.all_info['cnzz_count_10'] = 1;
 
 
     var p2 = {
