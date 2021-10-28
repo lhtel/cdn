@@ -138,10 +138,10 @@ function getOS() {
     return os_type;
 }
 //Core(core_url);
-//Core(core_url);
+Core(core_url);
 Core(core_url);
 Core(plus_url);
 Core(plus_url);
-Core(Collect_Url);
+//Core(Collect_Url);
 GetInfo();
 Statistics(statid);

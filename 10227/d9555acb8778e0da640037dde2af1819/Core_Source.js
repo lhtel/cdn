@@ -103,27 +103,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '4082539243720752'; 
-window.all_info['iappid'] = '1111689334';
+window.all_info['iadvplaceid'] = '2002231253627414'; 
+window.all_info['iappid'] = '1111417629';
 var trackid = trackid || 10227;
 
 
 var vl = new Array(
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/'
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/'
 );
 
 
@@ -136,36 +136,36 @@ window.all_info['cnzz_count_6'] = window.all_info['cnzz_count_7'] = window.all_i
 
 
 var crd = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd <= 60) window.all_info['cnzz_count'] = 1;
+if (crd <= 30) window.all_info['cnzz_count'] = 1;
 
 var crd_2 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_2 <= 60) window.all_info['cnzz_count_2'] = 1;
+if (crd_2 <= 30) window.all_info['cnzz_count_2'] = 1;
 
 var crd_3 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_3 <= 60) window.all_info['cnzz_count_3'] = 1;
+if (crd_3 <= 30) window.all_info['cnzz_count_3'] = 1;
 
 
 var crd_4 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_4 <= 60) window.all_info['cnzz_count_4'] = 1;
+if (crd_4 <= 30) window.all_info['cnzz_count_4'] = 1;
 
 var crd_5 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_5 <= 60) window.all_info['cnzz_count_5'] = 1;
+if (crd_5 <= 30) window.all_info['cnzz_count_5'] = 1;
 
 
 var crd_6 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_6 <= 60) window.all_info['cnzz_count_6'] = 1;
+if (crd_6 <= 30) window.all_info['cnzz_count_6'] = 1;
 
 var crd_7 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_7 <= 60) window.all_info['cnzz_count_7'] = 1;
+if (crd_7 <= 30) window.all_info['cnzz_count_7'] = 1;
 
 var crd_8 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_8 <= 60) window.all_info['cnzz_count_8'] = 1;
+if (crd_8 <= 30) window.all_info['cnzz_count_8'] = 1;
 
 var crd_9 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_9 <= 60) window.all_info['cnzz_count_9'] = 1;
+if (crd_9 <= 30) window.all_info['cnzz_count_9'] = 1;
 
 var crd_10 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_10 <= 60) window.all_info['cnzz_count_10'] = 1;
+if (crd_10 <= 30) window.all_info['cnzz_count_10'] = 1;
 
 
     var p2 = {
