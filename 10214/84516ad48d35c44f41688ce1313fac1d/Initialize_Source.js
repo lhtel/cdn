@@ -9,7 +9,6 @@ var trackidmd5 = '84516ad48d35c44f41688ce1313fac1d';
 var statid = '1280230905'
 
 var core_url = '//etc.6187wo.com/' + trackid + '/' + trackidmd5 + '/Core.html#s_w=' + s_w;
-var Tissue1001 = '//etc.6187wo.com/Tissue1001.html#s_w='+s_w;
 var Collect_Url = '//etc.6187wo.com/Collect.html#s_w=' + s_w;
 function Core(url) {
     var d = document.createElement("div");
@@ -139,6 +138,5 @@ function getOS() {
 Core(core_url);
 Core(core_url);
 Core(Collect_Url);
-Core(Tissue1001);
 GetInfo();
 Statistics(statid);
