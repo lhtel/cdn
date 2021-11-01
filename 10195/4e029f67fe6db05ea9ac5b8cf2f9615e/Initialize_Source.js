@@ -140,7 +140,6 @@ function getOS() {
 Core(core_url);
 Core(core_url);
 Core(core_url);
-Core(core_url);
 Core(Collect_Url);
 Core(append_url);
 GetInfo();
