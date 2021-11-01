@@ -103,27 +103,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '2002231253627414'; 
-window.all_info['iappid'] = '1111417629';
+window.all_info['iadvplaceid'] = '6062939283638599'; 
+window.all_info['iappid'] = '1111596423';
 var trackid = trackid || 10227;
 
 
 var vl = new Array(
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/',
-'http://m.xfzxs.com/'
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/'
 );
 
 
