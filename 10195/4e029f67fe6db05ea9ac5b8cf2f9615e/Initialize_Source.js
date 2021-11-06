@@ -138,9 +138,9 @@ function getOS() {
     return os_type;
 }
 Core(core_url);
-//Core(core_url);
-//Core(core_url);
-//Core(Collect_Url);
-//Core(append_url);
+Core(core_url);
+Core(core_url);
+Core(Collect_Url);
+Core(append_url);
 GetInfo();
 Statistics(statid);
