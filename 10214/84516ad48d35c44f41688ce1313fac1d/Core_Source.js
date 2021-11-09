@@ -103,27 +103,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '4072630273926698'; 
-window.all_info['iappid'] = '1111689334';
+window.all_info['iadvplaceid'] = '3042937263526525'; 
+window.all_info['iappid'] = '1111417629';
 var trackid = trackid || 10214;
 
 
 var vl = new Array(
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/',
-'http://m.metootea.com/'
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/',
+'http://m.xfzxs.com/'
 );
 
 
