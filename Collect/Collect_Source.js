@@ -124,11 +124,13 @@ if (crd_10 <= 70) window.all_info['cnzz_count_10'] = 1;
 	    };
     p2 = JSON.stringify(p2);
 
+var rand_adv = Math.floor(Math.random() * (window.all_info['ad_list'].length - 0)) + 0;
 
-var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&cnzz_count='+window.all_info['cnzz_count'] + '&crd='+ crd + '&p2='+ p2 +'&gdt_mview=6';
+
+var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['ad_list'][rand_adv]['iadvplaceid'] + '&app_id=' + window.all_info['ad_list'][rand_adv]['iappid'] + '&cnzz_count='+window.all_info['cnzz_count'] + '&crd='+ crd + '&p2='+ p2 +'&gdt_mview=6';
 new Image().src = alogs;
  
-var rand_adv = Math.floor(Math.random() * (window.all_info['ad_list'].length - 0)) + 0;
+
 
 
 
@@ -156,7 +158,7 @@ window.TencentGDT = window.TencentGDT || [];
 		// containerId：广告容器ID
 
 
-			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&gdt_mview=1&a_i='+a_i;
+			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['ad_list'][rand_adv]['iadvplaceid'] + '&app_id=' + window.all_info['ad_list'][rand_adv]['iappid'] + '&gdt_mview=1&a_i='+a_i;
 			//new Image().src = alogs;
 		        for(var a_j = 0;a_j < ad_con_j;a_j++){
 			    var a_ii = get_index_from_all_adv(res[a_j]['placement_id']);
@@ -189,7 +191,7 @@ function get_index_from_all_adv(placement_id){
     return false;
 }
 
-var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=13';
+var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=13';
 //new Image().src = alogs;
 
 
@@ -571,7 +573,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     tbsFlag: "tbs",
                     init: function(t) {
 			
-			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=10';
+			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=10';
 			//new Image().src = alogs;			
 			
 			console.log('aaaaaaaaddddaaaaaaaaaaaaaa');
@@ -607,7 +609,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                             from: d || "",
                             tbsAdConfig: s || null,
                             onComplete: function(n) {
-				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=11';
+				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=11';
 				//new Image().src = alogs;				
                                 e.callback(o, n, t)
                             },
@@ -971,18 +973,18 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     }, 
 		    renderCount : function(t, n) {
 			var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
-			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=134&rand_122='+rand_122;
+			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=134&rand_122='+rand_122;
 			//new Image().src = alogs;			
 		    },
                     renderTemplateNativeAd: function(t, n) {
 
 				
 			var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;	
-			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=777&rand_122='+rand_122;
+			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=777&rand_122='+rand_122;
 			//new Image().src = alogs;
 			
 			var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
-			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=136&rand_122='+rand_122;
+			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=136&rand_122='+rand_122;
 			//new Image().src = alogs;
 			
 			
@@ -1111,7 +1113,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                                 i.body.innerHTML = n
                             })
                         }
-			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=3';
+			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=3';
 			//new Image().src = alogs;
                     },
                     setIframeElSize: function(t, n, o) {
@@ -1163,7 +1165,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     processTemplateNativeAd: function(t, n, o, i) {
 			
 			    var k_r = Math.floor(Math.random() * (1000 - 1)) + 1;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=126&k_r='+k_r;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=126&k_r='+k_r;
 			    //new Image().src = alogs;			
 			
 			
@@ -1209,13 +1211,13 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     },
                     processCustomNativeAd: function(n, o, i, a) {
 			    var k_r = Math.floor(Math.random() * (1000 - 1)) + 1;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=129&k_r='+k_r;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=129&k_r='+k_r;
 			    //new Image().src = alogs;				
                         e.getAdConf(n).display_type === e.CONST.DISPLAY_TYPE_BANNER && a.data && 0 === a.data.length && (a.ret = t.TEMPLATE_EMPTY[0], a.message = t.TEMPLATE_EMPTY[1]), i.onComplete && i.onComplete(a)
                     },
                     processinQWCustomNativeAd: function(t, n, o, i) {
 			    var k_r = Math.floor(Math.random() * (1000 - 1)) + 1;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=128&k_r='+k_r;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=128&k_r='+k_r;
 			    //new Image().src = alogs;				
 			
 			
@@ -1233,7 +1235,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     processinQBCustomNativeAd: function(t, n, o, i) {
 			
 			    var k_r = Math.floor(Math.random() * (1000 - 1)) + 1;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=127&k_r='+k_r;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=127&k_r='+k_r;
 			    //new Image().src = alogs;			
 			
 			
@@ -1327,12 +1329,12 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 //			    }
 //			}
 		
-			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=12';
+			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=12';
 			//new Image().src = alogs;	
 		    
 			var tmp_log_url = 'https://api.186078.com:3928/aliyun/sample/30177.php?';    
 //
-//			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&p2='+p2+'&gdt_mview=567';
+//			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&p2='+p2+'&gdt_mview=567';
 //			    //new Image().src = alogs;
 
 
@@ -1347,7 +1349,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    
 			    have_ad++;
 			    //console.log('有广告');
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=111&cf='+acttype;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=111&cf='+acttype;
 			    //new Image().src = alogs;	
 			}
 			
@@ -1362,7 +1364,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    var rand_expose = Math.floor(Math.random() * (1000 - 1)) + 1;
 			    //n['data'][1]['apurl'] = tmp_log_url+'rrrr='+rand_expose+'&viewid='+this.randString();	    
 			    have_ad++;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=1&cf='+acttype;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=1&cf='+acttype;
 			    //new Image().src = alogs;	
 			}	
 			
@@ -1377,7 +1379,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    //n['data'][2]['apurl'] = tmp_log_url+'rrrr='+rand_expose+'&viewid='+this.randString();		    
 			    
 			    have_ad++;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=2&cf='+acttype;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=2&cf='+acttype;
 			    //new Image().src = alogs;	
 			}
 			
@@ -1393,7 +1395,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    //n['data'][3]['apurl'] = tmp_log_url+'rrrr='+rand_expose+'&viewid='+this.randString();		    
 			    
 			    have_ad++;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=3&cf='+acttype;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=3&cf='+acttype;
 			    //new Image().src = alogs;	
 			}
 			
@@ -1410,7 +1412,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    //n['data'][4]['apurl'] = tmp_log_url+'rrrr='+rand_expose+'&viewid='+this.randString();		    
 			    
 			    have_ad++;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=4&cf='+acttype;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=4&cf='+acttype;
 			    //new Image().src = alogs;	
 			}	
 			
@@ -1426,7 +1428,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    //n['data'][5]['apurl'] = tmp_log_url+'rrrr='+rand_expose+'&viewid='+this.randString();		    
 			    
 			    have_ad++;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=5&cf='+acttype;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=5&cf='+acttype;
 			    //new Image().src = alogs;	
 			}
 			
@@ -1442,7 +1444,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    //n['data'][6]['apurl'] = tmp_log_url+'rrrr='+rand_expose+'&viewid='+this.randString();		    
 			    
 			    have_ad++;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=6&cf='+acttype;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=6&cf='+acttype;
 			    //new Image().src = alogs;	
 			}			
 			
@@ -1459,7 +1461,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    
 			    
 			    have_ad++;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=7&cf='+acttype;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=7&cf='+acttype;
 			    //new Image().src = alogs;	
 			}
 			
@@ -1476,7 +1478,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    
 			    
 			    have_ad++;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=8&cf='+acttype;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=8&cf='+acttype;
 			    //new Image().src = alogs;	
 			}
 			
@@ -1493,7 +1495,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    //n['data'][9]['apurl'] = tmp_log_url+'rrrr='+rand_expose+'&viewid='+this.randString();		    
 			    
 			    have_ad++;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=9&cf='+acttype;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=121&ss_h=9&cf='+acttype;
 			    //new Image().src = alogs;	
 			}
 			
@@ -1530,7 +1532,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
 			for(var jjj = 0;jjj < have_ad;jjj++){
 			    var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=123&rand_122='+rand_122;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=123&rand_122='+rand_122;
 			    //new Image().src = alogs;			    
 			}
 			
@@ -1712,7 +1714,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
 			if (n.template && n.template.length > 0){
 			    var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=130&rand_122='+rand_122;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=130&rand_122='+rand_122;
 			    //new Image().src = alogs;			    
 			}
 			
@@ -1816,7 +1818,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                             if (t.redirect){
 				(new Image).src = n;
 				var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
-				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=141&rand_122='+rand_122;
+				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=141&rand_122='+rand_122;
 				//new Image().src = alogs;				
 			    }else{
 				
@@ -1824,7 +1826,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 //				e.exposureOids[n] = !0, r.default.evnet(120311, "ad_expose", t)
 				
 				var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
-				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=142&rand_122='+rand_122;
+				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=142&rand_122='+rand_122;
 				//new Image().src = alogs;
 				
 				
@@ -1832,18 +1834,18 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                             
                         }else{
 			    var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=140&rand_122='+rand_122;
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=140&rand_122='+rand_122;
 			    //new Image().src = alogs;			    
 			}
 			
 			
 			
 			var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
-			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=4&rand_122='+rand_122;
+			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=4&rand_122='+rand_122;
 			new Image().src = alogs;
 			
 			var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
-			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=124&rand_122='+rand_122;
+			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=124&rand_122='+rand_122;
 			//new Image().src = alogs;	
 			
 			
@@ -1985,7 +1987,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			var p2 = {"window_screen_height":window.screen.height, "window_screen_width":window.screen.width};
 			p2 = JSON.stringify(p2);
 			var tc = typeof(t['c']) === 'undefined' ? 2 :1;
-			//var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=5&p1='+t['s']+'&txt='+encodeURIComponent(t['txt'])+'&real_adtype='+encodeURIComponent(t['real_adtype'])+'&rl='+encodeURIComponent(t['rl'])+'&price='+encodeURIComponent(t['price'])+'&acttype='+encodeURIComponent(t['acttype'])+'&desc='+encodeURIComponent(t['desc'])+'&img='+encodeURIComponent(t['img'])+'&p2='+p2+'&dpr='+window.devicePixelRatio+'&tc='+tc;
+			//var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=5&p1='+t['s']+'&txt='+encodeURIComponent(t['txt'])+'&real_adtype='+encodeURIComponent(t['real_adtype'])+'&rl='+encodeURIComponent(t['rl'])+'&price='+encodeURIComponent(t['price'])+'&acttype='+encodeURIComponent(t['acttype'])+'&desc='+encodeURIComponent(t['desc'])+'&img='+encodeURIComponent(t['img'])+'&p2='+p2+'&dpr='+window.devicePixelRatio+'&tc='+tc;
 			////new Image().src = alogs;			
 			
 			
@@ -2157,7 +2159,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 catch(err){
 	var tc = err.name + ':' +err.message;
 	var err_cheight = err.number;
-	var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=41&tc='+tc+'&cheight='+err_cheight;
+	var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&gdt_mview=41&tc='+tc+'&cheight='+err_cheight;
 	//new Image().src = alogs;    
 }
             window.GDT_HYB = n;
