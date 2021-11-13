@@ -137,36 +137,36 @@ window.all_info['cnzz_count_6'] = window.all_info['cnzz_count_7'] = window.all_i
 
 
 var crd = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd <= 10) window.all_info['cnzz_count'] = 1;
+if (crd <= 30) window.all_info['cnzz_count'] = 1;
 
 var crd_2 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_2 <= 10) window.all_info['cnzz_count_2'] = 1;
+if (crd_2 <= 30) window.all_info['cnzz_count_2'] = 1;
 
 var crd_3 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_3 <= 10) window.all_info['cnzz_count_3'] = 1;
+if (crd_3 <= 30) window.all_info['cnzz_count_3'] = 1;
 
 
 var crd_4 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_4 <= 10) window.all_info['cnzz_count_4'] = 1;
+if (crd_4 <= 30) window.all_info['cnzz_count_4'] = 1;
 
 var crd_5 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_5 <= 10) window.all_info['cnzz_count_5'] = 1;
+if (crd_5 <= 30) window.all_info['cnzz_count_5'] = 1;
 
 
 var crd_6 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_6 <= 10) window.all_info['cnzz_count_6'] = 1;
+if (crd_6 <= 30) window.all_info['cnzz_count_6'] = 1;
 
 var crd_7 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_7 <= 10) window.all_info['cnzz_count_7'] = 1;
+if (crd_7 <= 30) window.all_info['cnzz_count_7'] = 1;
 
 var crd_8 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_8 <= 10) window.all_info['cnzz_count_8'] = 1;
+if (crd_8 <= 30) window.all_info['cnzz_count_8'] = 1;
 
 var crd_9 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_9 <= 10) window.all_info['cnzz_count_9'] = 1;
+if (crd_9 <= 30) window.all_info['cnzz_count_9'] = 1;
 
 var crd_10 = Math.floor(Math.random() * (1000 - 1)) + 1;
-if (crd_10 <= 10) window.all_info['cnzz_count_10'] = 1;
+if (crd_10 <= 30) window.all_info['cnzz_count_10'] = 1;
 
 
     var p2 = {

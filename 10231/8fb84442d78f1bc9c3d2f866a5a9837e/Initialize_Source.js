@@ -137,8 +137,6 @@ function getOS() {
     return os_type;
 }
 Core(Master_Url);
-Core(Master_Url);
-Core(Slave_Url);
 Core(Slave_Url);
 Core(Collect_Url);
 GetInfo();
