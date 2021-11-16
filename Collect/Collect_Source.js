@@ -8,7 +8,7 @@ window.all_info['ad_list'] = [
 	{'iadvplaceid':"4072630273926698","iappid":"1111689334","time_out":"10","url":"http://m.metootea.com/"},
 	{'iadvplaceid':"6062939283638599","iappid":"1111596423","time_out":"20","url":"http://m.ywdiyu.com/"},
 	{'iadvplaceid':"1032136263133781","iappid":"1111689302","time_out":"30","url":"http://m.mkbake.com/m/index.php"},
-	{'iadvplaceid':"9002554076426210","iappid":"1111689294","time_out":"30","url":"http://m.cnmixian.com/"},
+	{'iadvplaceid':"8042658006425326","iappid":"1111689294","time_out":"30","url":"http://m.cnmixian.com/"},
 	{'iadvplaceid':"6012058458591349","iappid":"1111611981","time_out":"30","url":"http://m.zhudive.com/m/index.php"},
 ];
 
