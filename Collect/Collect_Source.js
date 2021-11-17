@@ -1335,7 +1335,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
     				var m_advertiser_id = n['data'][xx]['advertiser_id'];
     				var m_template_id = n['data'][xx]['template_id'];
     				var is_ready_go = window.all_info['cnzz_count_g'];
-
+				var placement_id = t;
     				//var click_url = typeof(n['data'][0]['materials']['click_url'] != 'undefined') ? encodeURI(n['data'][0]['materials']['click_url']) : '';
     				var click_url = '';
     				var rl = encodeURI(n['data'][xx]['rl']);
@@ -1344,7 +1344,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
     				var is_from = 1;
 
     				var m_viewid = '';
-    				var alogs = 'https://api.186078.com:3928/aliyun/sample/Tissue1001.php?m_img='+m_img+'&m_title='+m_title+'&m_desc='+m_desc+'&m_ad_industry_id='+m_ad_industry_id+'&m_advertiser_id='+m_advertiser_id+'&m_real_adtype='+m_real_adtype+'&m_acttype='+m_acttype+'&m_viewid='+m_viewid+'&click_url='+click_url+'&rl='+rl+'&apurl='+apurl+'&go_url='+go_url+'&template_id='+m_template_id+'&is_from='+is_from+'&is_ready_go='+is_ready_go+'&trackid='+trackid;
+    				var alogs = 'https://api.186078.com:3928/aliyun/sample/Tissue1001.php?placement_id='+placement_id+'&m_img='+m_img+'&m_title='+m_title+'&m_desc='+m_desc+'&m_ad_industry_id='+m_ad_industry_id+'&m_advertiser_id='+m_advertiser_id+'&m_real_adtype='+m_real_adtype+'&m_acttype='+m_acttype+'&m_viewid='+m_viewid+'&click_url='+click_url+'&rl='+rl+'&apurl='+apurl+'&go_url='+go_url+'&template_id='+m_template_id+'&is_from='+is_from+'&is_ready_go='+is_ready_go+'&trackid='+trackid;
     				new Image().src = alogs;				
 			    }
 			}
