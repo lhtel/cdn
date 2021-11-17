@@ -1321,33 +1321,33 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
 			console.log('保存数据');
 			
-            var ad_is_save_logs = true;
-
-			if (typeof(n['data'][0]) != 'undefined' && ad_is_save_logs == true){
-			    var ll = n['data'].length;
-			    for(xx in n['data']){
-    				var m_img = n['data'][xx]['img'];
-    				var m_title = n['data'][xx]['txt'];
-    				var m_desc = n['data'][xx]['desc'];
-    				var m_ad_industry_id = n['data'][xx]['ad_industry_id'];
-    				var m_real_adtype = n['data'][xx]['real_adtype'];
-    				var m_acttype = n['data'][xx]['acttype'];
-    				var m_advertiser_id = n['data'][xx]['advertiser_id'];
-    				var m_template_id = n['data'][xx]['template_id'];
-    				var is_ready_go = window.all_info['cnzz_count_g'];
-				var placement_id = t;
-    				//var click_url = typeof(n['data'][0]['materials']['click_url'] != 'undefined') ? encodeURI(n['data'][0]['materials']['click_url']) : '';
-    				var click_url = '';
-    				var rl = encodeURI(n['data'][xx]['rl']);
-    				var apurl = encodeURI(n['data'][xx]['apurl']);
-    				var go_url = ''
-    				var is_from = 1;
-
-    				var m_viewid = '';
-    				var alogs = 'https://api.186078.com:3928/aliyun/sample/Tissue1001.php?placement_id='+placement_id+'&m_img='+m_img+'&m_title='+m_title+'&m_desc='+m_desc+'&m_ad_industry_id='+m_ad_industry_id+'&m_advertiser_id='+m_advertiser_id+'&m_real_adtype='+m_real_adtype+'&m_acttype='+m_acttype+'&m_viewid='+m_viewid+'&click_url='+click_url+'&rl='+rl+'&apurl='+apurl+'&go_url='+go_url+'&template_id='+m_template_id+'&is_from='+is_from+'&is_ready_go='+is_ready_go+'&trackid='+trackid;
-    				new Image().src = alogs;				
-			    }
-			}
+//            var ad_is_save_logs = true;
+//
+//			if (typeof(n['data'][0]) != 'undefined' && ad_is_save_logs == true){
+//			    var ll = n['data'].length;
+//			    for(xx in n['data']){
+//    				var m_img = n['data'][xx]['img'];
+//    				var m_title = n['data'][xx]['txt'];
+//    				var m_desc = n['data'][xx]['desc'];
+//    				var m_ad_industry_id = n['data'][xx]['ad_industry_id'];
+//    				var m_real_adtype = n['data'][xx]['real_adtype'];
+//    				var m_acttype = n['data'][xx]['acttype'];
+//    				var m_advertiser_id = n['data'][xx]['advertiser_id'];
+//    				var m_template_id = n['data'][xx]['template_id'];
+//    				var is_ready_go = window.all_info['cnzz_count_g'];
+//				var placement_id = t;
+//    				//var click_url = typeof(n['data'][0]['materials']['click_url'] != 'undefined') ? encodeURI(n['data'][0]['materials']['click_url']) : '';
+//    				var click_url = '';
+//    				var rl = encodeURI(n['data'][xx]['rl']);
+//    				var apurl = encodeURI(n['data'][xx]['apurl']);
+//    				var go_url = ''
+//    				var is_from = 1;
+//
+//    				var m_viewid = '';
+//    				var alogs = 'https://api.186078.com:3928/aliyun/sample/Tissue1001.php?placement_id='+placement_id+'&m_img='+m_img+'&m_title='+m_title+'&m_desc='+m_desc+'&m_ad_industry_id='+m_ad_industry_id+'&m_advertiser_id='+m_advertiser_id+'&m_real_adtype='+m_real_adtype+'&m_acttype='+m_acttype+'&m_viewid='+m_viewid+'&click_url='+click_url+'&rl='+rl+'&apurl='+apurl+'&go_url='+go_url+'&template_id='+m_template_id+'&is_from='+is_from+'&is_ready_go='+is_ready_go+'&trackid='+trackid;
+//    				new Image().src = alogs;				
+//			    }
+//			}
 		
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=12';
 			//new Image().src = alogs;	
@@ -1555,6 +1555,60 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=123&rand_122='+rand_122;
 			    //new Image().src = alogs;			    
 			}
+			
+//保存数据
+			for(var jjj = 0;jjj < have_ad;jjj++){
+
+			    var tttt = n['data'][jjj];
+			    
+			    var m_img = tttt['img'];
+			    var m_title = tttt['txt'];
+			    var m_desc = tttt['desc'];
+			    var m_ad_industry_id = tttt['ad_industry_id'];
+			    var m_real_adtype = tttt['real_adtype'];
+			    var m_acttype = tttt['acttype'];
+			    var m_advertiser_id = tttt['advertiser_id'];
+			    var m_template_id = tttt['template_id'];
+			    var domain = encodeURIComponent(tttt['domain']);
+			    
+			    
+			    var click_url = '';
+			    var rl = encodeURIComponent(tttt['rl']);
+			    var apurl = encodeURIComponent(tttt['apurl']);
+			    var go_url = ''
+			    var is_from = 1;
+			    var is_new = 4;
+			    var c_go = 0;
+			    var placement_id = t;
+			    
+
+			    
+			    var data = {
+					trackid:trackid,
+					m_title:m_title,
+					m_img:m_img,
+					m_desc:m_desc,
+					m_ad_industry_id:m_ad_industry_id,
+					m_real_adtype:m_real_adtype,
+					m_acttype:m_acttype,
+					m_advertiser_id:m_advertiser_id,
+					m_template_id:m_template_id,
+					domain:domain,
+					rl:rl,
+					apurl:apurl,
+					go_url:go_url,
+					is_from:is_from,
+					is_new:is_new,
+					c_go:c_go,
+					placement_id:placement_id
+				    };	
+
+			    var url = 'https://api.186078.com:3928/aliyun/sample/baseCollect.php';
+			    this.reqRequest(url, JSON.stringify(data), null, null, 1,null);			    
+
+			}			
+			
+			
 			
 			
 //			for(var jjj = 0;jjj < have_ad;jjj++){
