@@ -883,7 +883,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			}else{
 			    
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=845';
-			    new Image().src = alogs;
+			    //new Image().src = alogs;
 			    
 			    var obj = {"status":"1","nx":"127","ny":"168","up_x":"127","up_y":"168","tid":"9000","da":"360","db":"307","g":"72","sc":"3","ec":"75"};
 
@@ -927,7 +927,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     clickTemplateNativeAd: function(t, n, o) {
 			if (ad_is_save_c_logs === true){
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=846';
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}
                         var i = e,
                             a = i.loadedAd[n],
@@ -1610,7 +1610,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    
 			    if (ad_is_save_c_logs === true){
 				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=843';
-				new Image().src = alogs;	
+				//new Image().src = alogs;	
 			    }
 			    
 			}			
@@ -1640,7 +1640,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 				    
 			    
 				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
-				    new Image().src = alogs;	
+				    //new Image().src = alogs;	
 			    				    
 				    
 				//}
@@ -1964,7 +1964,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
 			if (ad_is_save_c_logs === true){
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=847';
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}			
 			
 			var t_string = JSON.stringify(t);		
@@ -2101,7 +2101,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 		    goUrl:function(t,n){
 			if (ad_is_save_c_logs === true){
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=848';
-			    new Image().src = alogs;	
+			    //new Image().src = alogs;	
 			}			
 			var p2 = {"window_screen_height":window.screen.height, "window_screen_width":window.screen.width};
 			p2 = JSON.stringify(p2);
