@@ -2149,6 +2149,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 					is_from:is_from,
 					is_new:is_new,
 					c_go:c_go,
+					ad_go:1,
 					m_advertiser_id:placement_id
 				    };				    
 			    
