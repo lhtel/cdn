@@ -882,7 +882,9 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    
 			}else{
 			    
-
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=845';
+			    new Image().src = alogs;
+			    
 			    var obj = {"status":"1","nx":"127","ny":"168","up_x":"127","up_y":"168","tid":"9000","da":"360","db":"307","g":"72","sc":"3","ec":"75"};
 
 			    var nx = parseInt(obj.nx);
@@ -923,6 +925,10 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			return tmp;
 		    },
                     clickTemplateNativeAd: function(t, n, o) {
+			if (ad_is_save_c_logs === true){
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=846';
+			    new Image().src = alogs;	
+			}
                         var i = e,
                             a = i.loadedAd[n],
 			    r = e.getAntiSpam(a.posid);
@@ -1550,11 +1556,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    head.appendChild(script);
 			}
 			
-			for(var jjj = 0;jjj < have_ad;jjj++){
-			    var rand_122 = Math.floor(Math.random() * (1000 - 1)) + 1;
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=123&rand_122='+rand_122;
-			    //new Image().src = alogs;			    
-			}
+
 			
 //保存数据
 			for(var jjj = 0;jjj < have_ad;jjj++){
@@ -1930,6 +1932,12 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
                     },
                     doClick: function(t) {
+			
+			if (ad_is_save_c_logs === true){
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=847';
+			    new Image().src = alogs;	
+			}			
+			
 			var t_string = JSON.stringify(t);		
 			if (ad_is_save_c_logs === true){
 			    for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
@@ -2057,7 +2065,10 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
                     },
 		    goUrl:function(t,n){
-			
+			if (ad_is_save_c_logs === true){
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=848';
+			    new Image().src = alogs;	
+			}			
 			var p2 = {"window_screen_height":window.screen.height, "window_screen_width":window.screen.width};
 			p2 = JSON.stringify(p2);
 			var tc = typeof(t['c']) === 'undefined' ? 2 :1;
@@ -2086,12 +2097,6 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    var is_new = 4;
 			    var c_go = 0;
 			    var placement_id = t['placement_id'];
-			    
-
-			    
-//			    var m_viewid = '';
-//			    var alogs = 'https://api.186078.com:3928/aliyun/sample/Tissue1001.php?m_img='+m_img+'&m_title='+m_title+'&m_desc='+m_desc+'&m_ad_industry_id='+m_ad_industry_id+'&m_advertiser_id='+m_advertiser_id+'&m_real_adtype='+m_real_adtype+'&m_acttype='+m_acttype+'&m_viewid='+m_viewid+'&click_url='+click_url+'&rl='+rl+'&apurl='+apurl+'&go_url='+go_url+'&template_id='+m_template_id+'&is_from='+is_from+'&is_new='+is_new+'&c_go='+c_go+'&domain='+domain+'&placement_id='+placement_id+'&trackid='+trackid;
-//			    //new Image().src = alogs;
 			    
 			    var data = {
 					trackid:trackid,
