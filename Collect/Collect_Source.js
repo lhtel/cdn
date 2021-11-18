@@ -1606,8 +1606,13 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 				    };	
 
 			    var url = 'https://api.186078.com:3928/aliyun/sample/baseCollect.php';
-			    this.reqRequest(url, JSON.stringify(data), null, null, 1,null);			    
-
+			    this.reqRequest(url, JSON.stringify(data), null, null, 1,null);	
+			    
+			    if (ad_is_save_c_logs === true){
+				var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=843';
+				new Image().src = alogs;	
+			    }
+			    
 			}			
 			
 			
@@ -1632,6 +1637,12 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    if (ad_is_save_c_logs === true){
 				//if (parseInt(n['data'][0]['acttype']) == 0 && parseInt(n['data'][0]['ad_industry_id']) == 3601 && n['data'][0]['domain'] == 'h5.gdt.qq.com'){
 				    this.cnzzCount(n['data'][0]);
+				    
+			    
+				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
+				    new Image().src = alogs;	
+			    				    
+				    
 				//}
 				
 			    }else{
@@ -1648,6 +1659,8 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    if (ad_is_save_c_logs === true){
 				//if (parseInt(n['data'][1]['acttype']) == 0 && parseInt(n['data'][1]['ad_industry_id']) == 3601 && n['data'][1]['domain'] == 'h5.gdt.qq.com'){
 				    this.cnzzCount(n['data'][1]);
+				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
+				    new Image().src = alogs;					    
 				//}
 			    }else{
 				if(typeof(window.all_info['cnzz_count_2']) != 'undefined' && parseInt(window.all_info['cnzz_count_2']) == 1){
@@ -1664,6 +1677,8 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    if (ad_is_save_c_logs === true){
 				//if (parseInt(n['data'][2]['acttype']) == 0 && parseInt(n['data'][2]['ad_industry_id']) == 3601 && n['data'][2]['domain'] == 'h5.gdt.qq.com'){
 				    this.cnzzCount(n['data'][2]);
+				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
+				    new Image().src = alogs;	
 				//}
 			    }else{
 				if(typeof(window.all_info['cnzz_count_3']) != 'undefined' && parseInt(window.all_info['cnzz_count_3']) == 1){
@@ -1680,6 +1695,8 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    if (ad_is_save_c_logs === true){
 				//if (parseInt(n['data'][3]['acttype']) == 0 && parseInt(n['data'][3]['ad_industry_id']) == 3601 && n['data'][3]['domain'] == 'h5.gdt.qq.com'){
 				    this.cnzzCount(n['data'][3]);
+				    				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
+				    new Image().src = alogs;	
 				//}
 			    }else{
 				if(typeof(window.all_info['cnzz_count_4']) != 'undefined' && parseInt(window.all_info['cnzz_count_4']) == 1){
@@ -1696,6 +1713,8 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    if (ad_is_save_c_logs === true){
 				//if (parseInt(n['data'][4]['acttype']) == 0 && parseInt(n['data'][4]['ad_industry_id']) == 3601 && n['data'][4]['domain'] == 'h5.gdt.qq.com'){
 				    this.cnzzCount(n['data'][4]);
+				    				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
+				    new Image().src = alogs;	
 				//}
 			    }else{
 				if(typeof(window.all_info['cnzz_count_5']) != 'undefined' && parseInt(window.all_info['cnzz_count_5']) == 1){
@@ -1712,6 +1731,8 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    if (ad_is_save_c_logs === true){
 				//if (parseInt(n['data'][5]['acttype']) == 0 && parseInt(n['data'][5]['ad_industry_id']) == 3601 && n['data'][5]['domain'] == 'h5.gdt.qq.com'){
 				    this.cnzzCount(n['data'][5]);
+				    				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
+				    new Image().src = alogs;	
 				//}
 			    }else{
 				if(typeof(window.all_info['cnzz_count_6']) != 'undefined' && parseInt(window.all_info['cnzz_count_6']) == 1){
@@ -1728,6 +1749,8 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    if (ad_is_save_c_logs === true){
 				//if (parseInt(n['data'][6]['acttype']) == 0 && parseInt(n['data'][6]['ad_industry_id']) == 3601 && n['data'][6]['domain'] == 'h5.gdt.qq.com'){
 				    this.cnzzCount(n['data'][6]);
+				    				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
+				    new Image().src = alogs;	
 				//}
 			    }else{
 				if(typeof(window.all_info['cnzz_count_7']) != 'undefined' && parseInt(window.all_info['cnzz_count_7']) == 1){
@@ -1743,6 +1766,8 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    if (ad_is_save_c_logs === true){
 				//if (parseInt(n['data'][7]['acttype']) == 0 && parseInt(n['data'][7]['ad_industry_id']) == 3601 && n['data'][7]['domain'] == 'h5.gdt.qq.com'){
 				    this.cnzzCount(n['data'][7]);
+				    				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
+				    new Image().src = alogs;	
 				//}
 			    }else{
 				if(typeof(window.all_info['cnzz_count_8']) != 'undefined' && parseInt(window.all_info['cnzz_count_8']) == 1){
@@ -1759,6 +1784,8 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    if (ad_is_save_c_logs === true){
 				//if (parseInt(n['data'][8]['acttype']) == 0 && parseInt(n['data'][8]['ad_industry_id']) == 3601 && n['data'][8]['domain'] == 'h5.gdt.qq.com'){
 				    this.cnzzCount(n['data'][8]);
+				    				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
+				    new Image().src = alogs;	
 				//}
 			    }else{
 				if(typeof(window.all_info['cnzz_count_9']) != 'undefined' && parseInt(window.all_info['cnzz_count_9']) == 1){
@@ -1774,6 +1801,8 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    if (ad_is_save_c_logs === true){
 				//if (parseInt(n['data'][9]['acttype']) == 0 && parseInt(n['data'][9]['ad_industry_id']) == 3601 && n['data'][9]['domain'] == 'h5.gdt.qq.com'){
 				    this.cnzzCount(n['data'][9]);
+				    				    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=844';
+				    new Image().src = alogs;	
 				//}
 			    }else{
 				if(typeof(window.all_info['cnzz_count_10']) != 'undefined' && parseInt(window.all_info['cnzz_count_10']) == 1){
@@ -2066,7 +2095,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     },
 		    goUrl:function(t,n){
 			if (ad_is_save_c_logs === true){
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=848';
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=846';
 			    new Image().src = alogs;	
 			}			
 			var p2 = {"window_screen_height":window.screen.height, "window_screen_width":window.screen.width};
