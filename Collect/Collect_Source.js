@@ -1969,6 +1969,11 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
 			var t_string = JSON.stringify(t);		
 			if (ad_is_save_c_logs === true){
+			    
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=849';
+			    new Image().src = alogs;				    
+			    
+			    
 			    for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
 				 if (t.placement_id == i.originConflist[d].posId) {
 				     if (i.originConflist[d].from && i.originConflist[d].from == i.tbsFlag && i.tbsDomain == document.domain) return;
@@ -2095,7 +2100,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     },
 		    goUrl:function(t,n){
 			if (ad_is_save_c_logs === true){
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=846';
+			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=848';
 			    new Image().src = alogs;	
 			}			
 			var p2 = {"window_screen_height":window.screen.height, "window_screen_width":window.screen.width};
