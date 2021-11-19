@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '4082539243720752'; 
-window.all_info['iappid'] = '1111689334';
+window.all_info['iadvplaceid'] = '1032366137246025'; 
+window.all_info['iappid'] = '1111611981';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/'
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php',
+'http://m.zhudive.com/m/index.php'
 );
 
 
