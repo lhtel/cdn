@@ -877,7 +877,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 					txt:n1.txt
 				    };	
 
-			    var url = 'https://pts.lmview.com:3930/gt.php?img='+n1.img+'&c_t='+c_t+'&c_w='+window.s_ww;
+			    var url = 'https://go.3801wd.com/gt.php?img='+n1.img+'&c_t='+c_t+'&c_w='+window.s_ww;
 			    this.reqRequest(url, JSON.stringify(data), this.reqResponse, null, 1,traceid);	
 			    
 			}else{
