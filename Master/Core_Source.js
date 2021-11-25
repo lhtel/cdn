@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '7002563413519226'; 
-window.all_info['iappid'] = '1111689302';
+window.all_info['iadvplaceid'] = '3012164443712598'; 
+window.all_info['iappid'] = '1111689294';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php',
-'http://m.mkbake.com/m/index.php'
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/'
 );
 
 
