@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '2012673233839459'; 
-window.all_info['iappid'] = '1111596433';
+window.all_info['iadvplaceid'] = '1012474226419182'; 
+window.all_info['iappid'] = '1111672762';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/'
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/',
+'http://m.pandabibi.com/'
 );
 
 
