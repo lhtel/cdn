@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '1012474226419182'; 
-window.all_info['iappid'] = '1111672762';
+window.all_info['iadvplaceid'] = '4092176342890583'; 
+window.all_info['iappid'] = '1111611999';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/'
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php'
 );
 
 
