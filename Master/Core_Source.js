@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '2002878358086262'; 
-window.all_info['iappid'] = '1111611999';
+window.all_info['iadvplaceid'] = '2022672481330706'; 
+window.all_info['iappid'] = '1111689302';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php'
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php',
+'http://m.mkbake.com/m/index.php'
 );
 
 
