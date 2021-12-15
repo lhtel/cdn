@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '7072276423067728'; 
-window.all_info['iappid'] = '1111611999';
+window.all_info['iadvplaceid'] = '1052470476380363'; 
+window.all_info['iappid'] = '1111596423';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php',
-'http://m.ulatour.com/m/index.php'
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/'
 );
 
 
