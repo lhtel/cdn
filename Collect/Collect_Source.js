@@ -32,7 +32,7 @@ window.all_info['ad_list'] = [
 	// {'iadvplaceid':"3012269468163599","iappid":"1110480309","time_out":"0","url":"http://m.321dai.com"},
 	// {'iadvplaceid':"1062968418567661","iappid":"1110546630","time_out":"0","url":"http://m.6187wo.com"},
 	// {'iadvplaceid':"4062167488161603","iappid":"1110344899","time_out":"0","url":"http://m.xfzxs.com"},
-	{'iadvplaceid':"8042472495110808","iappid":"1111543492","time_out":"0","url":"https://m.gdrsmy.com/"},
+	// {'iadvplaceid':"8042472495110808","iappid":"1111543492","time_out":"0","url":"https://m.gdrsmy.com/"},
 	{'iadvplaceid':"4012975475117856","iappid":"1111359557","time_out":"0","url":"https://m.yimadata.com/"},
 ];
 
