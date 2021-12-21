@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '6062577656392667'; 
-window.all_info['iappid'] = '1111596433';
+window.all_info['iadvplaceid'] = '7012478781867057'; 
+window.all_info['iappid'] = '1111611999';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/',
-'http://m.hivepe.com/'
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php'
 );
 
 
