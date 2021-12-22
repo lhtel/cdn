@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>cnzz统计</title>
+    <style type="text/css">
+        *{margin: 0;padding:0;}
+    </style>
+</head>
+<body>
+<script>
+    (function () {
+        var web_id = getParameter('web_id');
+        //new Image().src = "//sspmiaoshuo.cn-hangzhou.log.aliyuncs.com/logstores/system/track_ua.gif?APIVersion=0.6.0&position=17&web_id="+web_id;
+        if(!web_id) return;
+        //new Image().src = "//sspmiaoshuo.cn-hangzhou.log.aliyuncs.com/logstores/system/track_ua.gif?APIVersion=0.6.0&position=18&web_id="+web_id;
+        document.write('<script src="//s22.cnzz.com/z_stat.php?id='+web_id+'&web_id='+web_id+'" language="JavaScript"><\/script>');
+        function getParameter(name, cancelBubble) {
+            var r = new RegExp("(\\?|#|&)" + name + "=([^&#]*)(&|#|$)");
+            var m = location.href.match(r);
+            if ((!m || m == "") && !cancelBubble) m = window.location.href.match(r);
+            return (!m ? "" : m[2]);
+        }
+    })();
+
+</script>
+</body>
+</html>

