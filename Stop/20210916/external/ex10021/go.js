@@ -1,1 +1,0 @@
-window.top.location="http://etc.6187wo.com/external/ex10021/go.html";
