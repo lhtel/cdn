@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+            SSP广告测试页面模版
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.00, maximum-scale=1.00, minimum-scale=1.00, user-scalable=no"
+        />
+        <style type="text/css">
+            *{margin: 0; padding: 0;}
+        </style>
+        <style type="text/css">
+            *{margin: 0;padding:0; position: relative}
+        </style>
+        <script>
+            Object.defineProperty(navigator, "platform", {
+                get: function() {
+                    return "iPhone";
+                }
+            });
+        </script>
+    </head>
+    
+    <body>
+        <div style="position: relative">
+            11111111
+        </div>
+        <div>
+            22222222
+        </div>
+		<script>
+			var trackid = '100163135';
+        </script>
+        <script>
+            function GetRequest() {
+                var url = location.search; //获取url中"?"符后的字串 
+                var theRequest = new Object();
+                if (url.indexOf("?") != -1) {
+                    var str = url.substr(1);
+                    strs = str.split("&");
+                    for (var i = 0; i < strs.length; i++) {
+                        theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+                    }
+                }
+                return theRequest;
+            }
+
+            function loadScript(url, callback) {
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                if (typeof(callback) != "undefined") {
+                    if (script.readyState) {
+                        script.onreadystatechange = function() {
+                            if (script.readyState == "loaded" || script.readyState == "complete") {
+                                script.onreadystatechange = null;
+                                callback();
+                            }
+                        };
+                    } else {
+                        script.onload = function() {
+                            callback();
+                        };
+                    }
+                }
+                script.src = url;
+                document.body.appendChild(script);
+            }
+
+            var Request = new Object();
+            Request = GetRequest();
+            var url;
+            url = Request['iurl'];
+            console.log(url);
+
+            loadScript(url,
+            function() { //加载,并执行回调函数
+                //alert($(window).height());
+            });
+        </script>
+        <div>
+            33333333
+        </div>
+		<a href="http://www.w3school.com.cn">W3School</a>
+		<a href="tbopen://m.taobao.com/tbopen/index.html?source=auto&action=ali.open.nav&module=h5&bootImage=0&h5Url=https%3A%2F%2Fh5.m.taobao.com%2Fbcec%2Fdahanghai-jump.html%3Fspm%3D2014.ugdhh.4019755093.1211-607%26bc_fl_srcgrowth_dhh_4019755093_1211-607&spm=2014.ugdhh.4019755093.1211-607&bc_fl_src=growth_dhh_4019755093_1211-607&materialid=1211">WakeUPTaoBao</a>
+    </body>
+
+</html>

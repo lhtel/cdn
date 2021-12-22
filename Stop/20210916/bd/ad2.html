@@ -1,0 +1,76 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.00, maximum-scale=1.00, minimum-scale=1.00, user-scalable=no">
+</head>
+<body style="background-color: #ffffff; margin: 0px; padding: 0px;">
+<script>
+    function getParameter(name, cancelBubble) {
+        var r = new RegExp("(\\?|#|&)" + name + "=([^&#]*)(&|#|$)");
+        var m = location.href.match(r);
+        if ((!m || m == "") && !cancelBubble)
+            m = window.location.href.match(r);
+        return (!m ? "" : m[2]);
+    }
+
+    var placement_id = getParameter('placement_id');
+    var app_id = getParameter('app_id');
+    var c = getParameter('c');
+    var vl = getParameter('vl');
+    console.log('wwwwwww');
+    console.log(c);
+    console.log(placement_id);
+    console.log(app_id);
+    console.log('wwwwwww');
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.id = 'gdt-' + placement_id;
+    var text = 'var TencentGDT = TencentGDT || [];';
+    text += 'TencentGDT.push({';
+    text += 'placement_id:placement_id,';
+    text += 'type:\'banner\',';
+    text += 'c:c,';
+    text += 'vl:vl,';
+    text += "fill_type:'full',";
+    text += 'app_id: app_id';
+    text += '});';
+    text += '(function() {';
+    text += "var doc=document, h=doc.getElementsByTagName('head')[0], s=doc.createElement('script');";
+    text += "s.async=true; s.src='i.js';";
+    text += "h && h.insertBefore(s,h.firstChild)";
+    text += "})();";
+
+
+
+    console.log(text);
+
+    script.text = text;
+    document.body.appendChild(script);
+
+
+</script>
+
+
+
+
+    <script type="text/javascript" id="gdt-9070942930297556_bak">
+
+//        var TencentGDT = TencentGDT || [];
+//        TencentGDT.push({
+//            placement_id:'9070942930297556',
+//            type:'banner',
+//            c:c,
+////containerid:'ad_container',//如果容器不合适，可自定义广告容器
+//            fill_type:'full',//填充方式，full：填满宽度，fix:固定大小,
+//            app_id: "1107994221"
+//        });
+//        (function() {
+//            var doc=document, h=doc.getElementsByTagName('head')[0], s=doc.createElement('script');
+//            s.async=true; s.src='i.js';
+//            h && h.insertBefore(s,h.firstChild)
+//        })()
+
+    </script>
+</body>
+</html>

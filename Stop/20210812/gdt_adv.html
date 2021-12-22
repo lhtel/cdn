@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <style>
+            <!--
+            *{
+                padding:0;
+                box-sizing: border-box;
+                margin:0;
+            }
+            #img{
+
+                height: auto;
+                position: relative;
+                margin: 19px 19px 10px;
+            }
+            #img img{
+                width:100%;
+            }
+
+            #title{
+                color: #333;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                word-break: break-all;
+                font-size: 16px;
+                display: inline-block;
+                margin: 0 19px 10px;
+            }
+            #descript{
+                color: #666;
+                padding-right: 30px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                position: relative;
+                font-size: 14px;
+                line-height: 1.5;
+                margin: 0 19px 10px;
+            }
+
+            #advbox{
+                position: relative
+            }
+            .del {
+                display: inline-block;
+                width: 13px;
+                height: 13px;
+                position: absolute;
+                bottom: 0;
+                right: 19px;
+                margin-top: -6px;
+                background-repeat: no-repeat;
+                background-size: 13px 13px;
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAM1BMVEUAAADNzc3Q0NDR0dHMzMzNzc3MzMzNzc3Nzc3Nzc3MzMzMzMzNzc3Nzc3MzMzMzMzMzMyBgp5XAAAAEHRSTlMAJCssQUhQgImT9ff4+fr7v+DyLAAAAH5JREFUKM/F0MsOgCAMRNFBQBFf/f+vlQoxWsa1rBpOaMgFAIfutKtpjVZCTpeIWAtZpJhbxZqK7B6I1qqMOhp7iLGXvMzIwzq5jUizbSHSjEqxTeUggrBcjyKRXBey1rptF966/CB+tR5/bO2+Wg9A4q1nHRJrPdfB99nKNpwXsA1BB549WwAAAABJRU5ErkJggg==);
+                font-size: 0;
+            }
+            -->
+        </style>
+    </head>
+    <body>
+        <div class="adv" id="advbox" onClick="golink()">
+
+            <div id="img">
+            </div>
+            <div id="title"></div>
+            <div id="descript"></div>
+            <div class="del" onClick="del()"></div>
+        </div>
+
+        <script type="text/javascript">
+            function del(e){
+                var ev = e ||window.event;
+                ev.stopPropagation();
+            }
+            var data = null;
+            var xhr = new XMLHttpRequest();
+            xhr.open("get", "https://api.186078.com:3928/gdt_adv.php");
+            xhr.send();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    data = JSON.parse(xhr.responseText);
+                    document.getElementById("title").innerHTML = data.title
+                    document.getElementById("descript").innerHTML = data.desc
+
+                    var img = document.createElement("img")
+                    img.src = data.img
+
+                    document.getElementById("img").appendChild(img)
+                    img.onload = function () {
+                        var load = new XMLHttpRequest()
+                        load.open('get', '//sspmiaoshuo.cn-hangzhou.log.aliyuncs.com/logstores/system/track_ua.gif?APIVersion=0.6.0&trackid=10178&gdt_mview=10&advid=' + data.id)
+                        load.send();
+                    }
+                }
+            }
+             function golink() {
+                var load = new XMLHttpRequest()
+                load.open('get', '//sspmiaoshuo.cn-hangzhou.log.aliyuncs.com/logstores/system/track_ua.gif?APIVersion=0.6.0&trackid=10178&gdt_mview=11&advid=' + data.id)
+                load.send();
+                window.top.location.href = data.link
+            }
+        </script>
+		<div style="display: none;">
+		<script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279472368&web_id=1279472368"></script>
+		</div>
+    </body>
+</html>

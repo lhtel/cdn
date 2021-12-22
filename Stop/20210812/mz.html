@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>AD</title>
+	<meta charset="UTF-8">
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	
+	<style>
+	    
+	    img{height:auto;position:absolute;top:0;left:0;right:0;bottom:0;width:100%;-webkit-animation:all .3s ease-in 0s;transition:all .3s ease-in 0s}
+
+	</style>
+    </head>
+
+    <body style="margin:0px; padding:0px;">
+	
+	<div id="ad_id">
+
+	    <img id = "img_id" src="" />
+
+    </div>
+	 <script>
+        function getParameter(name, cancelBubble) {
+            var r = new RegExp("(\\?|#|&)" + name + "=([^&#]*)(&|#|$)");
+            var m = location.href.match(r);
+            if ((!m || m == "") && !cancelBubble) m = window.location.href.match(r);
+            return (!m ? "" : m[2]);
+        }
+	
+	var img = decodeURIComponent(getParameter('img'));
+	var click_link = decodeURIComponent(getParameter('clk_url'));
+	
+	
+	document.getElementById('img_id').src = img;
+
+	
+	
+	var oDiv = document.getElementById("ad_id");
+	oDiv.addEventListener("click", function(){
+	    window.top.location.href = click_link;
+	});
+
+    </script>
+	
+
+    </body>
+</html>

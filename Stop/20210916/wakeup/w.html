@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+</head>
+<body>
+<a href='tbopen://m.taobao.com/tbopen/index.html?source=auto&action=ali.open.nav&module=h5&bootImage=0&h5Url=https%3A%2F%2Fh5.m.taobao.com%2Fbcec%2Fdahanghai-jump.html%3Fspm%3D2014.ugdhh.4019755093.1215-607%26bc_fl_srcgrowth_dhh_4019755093_1215-607&spm=2014.ugdhh.4019755093.1215-607&bc_fl_src=growth_dhh_4019755093_1215-607&materialid=1215'>JD TEST</a>
+</div>
+<script language=javascript>
+	jd='tbopen://m.taobao.com/tbopen/index.html?source=auto&action=ali.open.nav&module=h5&bootImage=0&h5Url=https%3A%2F%2Fh5.m.taobao.com%2Fbcec%2Fdahanghai-jump.html%3Fspm%3D2014.ugdhh.4019755093.1215-607%26bc_fl_srcgrowth_dhh_4019755093_1215-607&spm=2014.ugdhh.4019755093.1215-607&bc_fl_src=growth_dhh_4019755093_1215-607&materialid=1215'
+	//top.location.href = jd;
+	loadURL(jd);
+</script>
+<script language=javascript>
+// 给原生传递数据
+function loadURL(url) {
+  var iFrame;
+  var u = navigator.userAgent;
+  var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+  var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+  if (isAndroid) {
+    //安卓终端使用iframe
+    iFrame = document.createElement("iframe");
+    iFrame.setAttribute("src", url);
+    iFrame.setAttribute("style", "display:none;");
+    iFrame.setAttribute("height", "0px");
+    iFrame.setAttribute("width", "0px");
+    iFrame.setAttribute("frameborder", "0");
+    document.body.appendChild(iFrame);
+    // 发起请求后这个 iFrame 就没用了，所以把它从 dom 上移除掉
+    iFrame.parentNode.removeChild(iFrame);
+    iFrame = null;
+  } else if (isiOS) {
+    //iOS终端直接页面跳转
+    window.location.href = url;
+    // 如果用户没有安装淘宝APP，则提示用户去安装淘宝
+    setTimeout(() => {
+        alert('请去应用市场下载App')； // 这里可以自行写一个延时关闭的弹窗，也可以跳转至app下载地址，我这里就偷懒了
+    }, 2000);
+  } else {
+    window.location.href = url;
+  }
+}
+</script>
+</body>
+</html>
