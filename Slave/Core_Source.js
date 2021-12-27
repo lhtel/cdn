@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '3042275964600834'; 
-window.all_info['iappid'] = '1111689294';
+window.all_info['iadvplaceid'] = '5042174994624520'; 
+window.all_info['iappid'] = '1111596433';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/',
-'http://m.cnmixian.com/'
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/',
+'http://m.hivepe.com/'
 );
 
 
