@@ -110,21 +110,21 @@ var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/',
-'http://metootea.com/'
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/',
+'http://m.cnmixian.com/'
 );
 
 
