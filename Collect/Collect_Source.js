@@ -33,7 +33,7 @@ window.all_info['ad_list'] = [
 	// {'iadvplaceid':"1062968418567661","iappid":"1110546630","time_out":"0","url":"http://m.6187wo.com"},
 	// {'iadvplaceid':"4062167488161603","iappid":"1110344899","time_out":"0","url":"http://m.xfzxs.com"},
 	// {'iadvplaceid':"8042472495110808","iappid":"1111543492","time_out":"0","url":"https://m.gdrsmy.com/"},
-	{'iadvplaceid':"7082572598079827","iappid":"1200353849","time_out":"0","url":"http://seslt.com"},
+	{'iadvplaceid':"3032089088071761","iappid":"1200353849","time_out":"0","url":"http://seslt.com"},
 ];
 
 var vl = new Array(
