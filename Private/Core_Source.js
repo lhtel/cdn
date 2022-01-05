@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '8092463911210769'; 
-window.all_info['iappid'] = '1111611981';
+window.all_info['iadvplaceid'] = '6002362961814721'; 
+window.all_info['iappid'] = '1111596423';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php',
-'http://m.zhudive.com/m/index.php'
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/'
 );
 
 

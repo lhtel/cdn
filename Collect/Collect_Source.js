@@ -10,7 +10,7 @@ window.all_info['ad_list'] = [
 	{'iadvplaceid':"9032869971515717","iappid":"1111689334","time_out":"0","url":"http://metootea.com/"},
 	{'iadvplaceid':"6062960931515736","iappid":"1111611999","time_out":"0","url":"http://m.ulatour.com/m/index.php"},
 	{'iadvplaceid':"2052962911110768","iappid":"1111689326","time_out":"0","url":"http://m.favourai.com/"},
-	{'iadvplaceid':"6002362961814721","iappid":"1111596423","time_out":"0","url":"http://m.ywdiyu.com/"},
+	{'iadvplaceid':"3002382285223760","iappid":"1111596423","time_out":"0","url":"http://m.ywdiyu.com/"},
 	{'iadvplaceid':"4062168911512790","iappid":"1111596433","time_out":"0","url":"http://m.hivepe.com/"},
 	{'iadvplaceid':"4012864941216762","iappid":"1111672762","time_out":"0","url":"http://m.pandabibi.com/"},
 	{'iadvplaceid':"5042764911417890","iappid":"1111689302","time_out":"0","url":"http://m.mkbake.com/m/index.php"},
