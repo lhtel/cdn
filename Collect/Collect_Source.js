@@ -5,7 +5,7 @@ window.all_info = [];
 
 window.all_info['ad_list'] = [
 	{'iadvplaceid':"6022367941818733","iappid":"1111417629","time_out":"0","url":"http://m.xfzxs.com/"},
-	{'iadvplaceid':"9042668961014774","iappid":"1111495254","time_out":"0","url":"http://6187wo.com/"},
+	{'iadvplaceid':"7052786411757587","iappid":"1111495254","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"4082463991215785","iappid":"1111283873","time_out":"0","url":"http://3801wd.com/"},
 	{'iadvplaceid':"8082784376915021","iappid":"1111689334","time_out":"0","url":"http://metootea.com/"},
 	{'iadvplaceid':"6062960931515736","iappid":"1111611999","time_out":"0","url":"http://m.ulatour.com/m/index.php"},
