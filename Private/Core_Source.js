@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '9042668961014774'; 
-window.all_info['iappid'] = '1111495254';
+window.all_info['iadvplaceid'] = '5032982481671697'; 
+window.all_info['iappid'] = '1200353849';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/'
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com',
+'http://seslt.com'
 );
 
 
