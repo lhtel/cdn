@@ -104,7 +104,7 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '5032982481671697'; 
+window.all_info['iadvplaceid'] = '8092288426394553'; 
 window.all_info['iappid'] = '1200353849';
 var trackid = trackid || window.sys_trackid;
 
