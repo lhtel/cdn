@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '8052286659227952'; 
-window.all_info['iappid'] = '1200353849';
+window.all_info['iadvplaceid'] = '7022887700028850'; 
+window.all_info['iappid'] = '1111611999';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com',
-'http://seslt.com'
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php',
+'http://m.ulatour.com/m/index.php'
 );
 
 
