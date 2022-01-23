@@ -13,7 +13,7 @@ window.all_info['ad_list'] = [
 	{'iadvplaceid':"3002382285223760","iappid":"1111596423","time_out":"0","url":"http://m.ywdiyu.com/"},
 	{'iadvplaceid':"8082583660056866","iappid":"1111596433","time_out":"0","url":"http://m.hivepe.com/"},
 	{'iadvplaceid':"6092186815092711","iappid":"1111672762","time_out":"0","url":"http://m.pandabibi.com/"},
-	{'iadvplaceid':"5042764911417890","iappid":"1111689302","time_out":"0","url":"http://m.mkbake.com/m/index.php"},
+	{'iadvplaceid':"2062093032378860","iappid":"1111689302","time_out":"0","url":"http://m.mkbake.com/m/index.php"},
 	{'iadvplaceid':"7002188565590021","iappid":"1111689294","time_out":"0","url":"http://m.cnmixian.com/"},
 	{'iadvplaceid':"8042688250939882","iappid":"1111611981","time_out":"0","url":"http://m.zhudive.com/m/index.php"},
 	// {'iadvplaceid':"3042937263526525","iappid":"1111417629","time_out":"0","url":"http://m.xfzxs.com/"},
