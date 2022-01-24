@@ -20,14 +20,13 @@ window.all_info['ad_list'] = [
 	{'iadvplaceid':"7012590074160048","iappid":"1111417629","time_out":"0","url":"http://m.xfzxs.com/"},
 	{'iadvplaceid':"9022195084566087","iappid":"1111495254","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"4092398024462039","iappid":"1111283873","time_out":"0","url":"http://3801wd.com/"},
-	
 	{'iadvplaceid':"3022297034861075","iappid":"1111689334","time_out":"0","url":"http://metootea.com/"},
 	{'iadvplaceid':"2032599014061086","iappid":"1111611999","time_out":"0","url":"http://m.ulatour.com/m/index.php"},
 	{'iadvplaceid':"9012995074665054","iappid":"1111689326","time_out":"0","url":"http://m.favourai.com/"},
 	
-	{'iadvplaceid':"3002382285223760","iappid":"1111596423","time_out":"0","url":"http://m.ywdiyu.com/"},
-	{'iadvplaceid':"8082583660056866","iappid":"1111596433","time_out":"0","url":"http://m.hivepe.com/"},
-	{'iadvplaceid':"6092186815092711","iappid":"1111672762","time_out":"0","url":"http://m.pandabibi.com/"},
+	{'iadvplaceid':"3032694065586913","iappid":"1111596423","time_out":"0","url":"http://m.ywdiyu.com/"},
+	{'iadvplaceid':"8072290055398121","iappid":"1111596433","time_out":"0","url":"http://m.hivepe.com/"},
+	{'iadvplaceid':"5022394085795167","iappid":"1111672762","time_out":"0","url":"http://m.pandabibi.com/"},
 	
 	{'iadvplaceid':"8092096074965192","iappid":"1111689302","time_out":"0","url":"http://m.mkbake.com/m/index.php"},
 	{'iadvplaceid':"7002495024061131","iappid":"1111689294","time_out":"0","url":"http://m.cnmixian.com/"},
