@@ -4,6 +4,11 @@ window.curNode = document.currentScript || (function(){var script=document.query
 window.all_info = []; 
 
 window.all_info['ad_list'] = [
+	{'iadvplaceid':"7082998355979623","iappid":"1110546630","time_out":"0","url":"http://6187wo.com/"},
+	{'iadvplaceid':"6032496395474645","iappid":"1110480309","time_out":"0","url":"http://321dai.com/"},
+	{'iadvplaceid':"7082497375072647","iappid":"1110558024","time_out":"0","url":"http://dashi88.com/"},
+	{'iadvplaceid':"4082890375676689","iappid":"1110344899","time_out":"0","url":"http://www.xfzxs.com/"},
+	
 	{'iadvplaceid':"7002285762097742","iappid":"1111417629","time_out":"0","url":"http://m.xfzxs.com/"},
 	{'iadvplaceid':"7052786411757587","iappid":"1111495254","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"7052996103456473","iappid":"1111283873","time_out":"0","url":"http://3801wd.com/"},
