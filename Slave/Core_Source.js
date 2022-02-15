@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '5022394085795167'; 
-window.all_info['iappid'] = '1111672762';
+window.all_info['iadvplaceid'] = '3002382285223760'; 
+window.all_info['iappid'] = '1111596423';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/',
-'http://m.pandabibi.com/'
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/',
+'http://m.ywdiyu.com/'
 );
 
 
