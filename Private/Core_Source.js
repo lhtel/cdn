@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '5012696830501378'; 
-window.all_info['iappid'] = '1200353849';
+window.all_info['iadvplaceid'] = '9042095872978087'; 
+window.all_info['iappid'] = '1200398041';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/'
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/'
 );
 
 
