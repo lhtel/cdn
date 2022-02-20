@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '9082896850201592'; 
-window.all_info['iappid'] = '1200353849';
+window.all_info['iadvplaceid'] = '7082093883383983'; 
+window.all_info['iappid'] = '1200399808';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/',
-'http://seslt.com/'
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/'
 );
 
 
