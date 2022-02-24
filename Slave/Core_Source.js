@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '1012994958221812'; 
-window.all_info['iappid'] = '1200398041';
+window.all_info['iadvplaceid'] = '4053106050911719'; 
+window.all_info['iappid'] = '1200399808';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/'
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/'
 );
 
 
