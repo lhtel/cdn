@@ -4,19 +4,17 @@ window.curNode = document.currentScript || (function(){var script=document.query
 window.all_info = []; 
 
 window.all_info['ad_list'] = [
-	{'iadvplaceid':"5072298598875494","iappid":"1200400619","time_out":"0","url":"http://6187wo.com/"},
+	//{'iadvplaceid':"5072298598875494","iappid":"1200400619","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"6023507410315984","iappid":"1200400632","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"9013601194284712","iappid":"1200399809","time_out":"0","url":"http://favourai.com/"},
 	{'iadvplaceid':"1083106074396670","iappid":"1200398039","time_out":"0","url":"http://metootea.com/"},
 	{'iadvplaceid':"7062493874979770","iappid":"1200398036","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"9072693824475676","iappid":"1200399807","time_out":"0","url":"http://3801wd.com/"},
-	{'iadvplaceid':"8082294854870603","iappid":"1200400636","time_out":"0","url":"http://metootea.com/"},
-	{'iadvplaceid':"5062092864571350","iappid":"1200400623","time_out":"0","url":"http://favourai.com/"},
+	{'iadvplaceid':"9003801881325162","iappid":"1200400622","time_out":"0","url":"http://metootea.com/"},
 	
 	//{'iadvplaceid':"7002285762097742","iappid":"1111417629","time_out":"0","url":"http://m.xfzxs.com/"},
 	//{'iadvplaceid':"7052786411757587","iappid":"1111495254","time_out":"0","url":"http://6187wo.com/"},
 	//{'iadvplaceid':"7052996103456473","iappid":"1111283873","time_out":"0","url":"http://3801wd.com/"},
-	//{'iadvplaceid':"8082784376915021","iappid":"1111689334","time_out":"0","url":"http://metootea.com/"},
 	//{'iadvplaceid':"7022887700028850","iappid":"1111611999","time_out":"0","url":"http://m.ulatour.com/m/index.php"},
 	//{'iadvplaceid':"8032089905393243","iappid":"1111689326","time_out":"0","url":"http://m.favourai.com/"},
 	//{'iadvplaceid':"3002382285223760","iappid":"1111596423","time_out":"0","url":"http://m.ywdiyu.com/"},
