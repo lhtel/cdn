@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '7062493874979770'; 
-window.all_info['iappid'] = '1200398036';
+window.all_info['iadvplaceid'] = '9072693824475676'; 
+window.all_info['iappid'] = '1200399807';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/'
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/',
+'http://3801wd.com/'
 );
 
 
