@@ -12,7 +12,7 @@ window.all_info['ad_list'] = [
 	{'iadvplaceid':"4043903806079234","iappid":"1200399806","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"9003801881325162","iappid":"1200400622","time_out":"0","url":"http://metootea.com/"},
 	//{'iadvplaceid':"9072693824475676","iappid":"1200399807","time_out":"0","url":"http://3801wd.com/"},
-	{'iadvplaceid':"7062493874979770","iappid":"1200398036","time_out":"0","url":"http://6187wo.com/"},
+	//{'iadvplaceid':"7062493874979770","iappid":"1200398036","time_out":"0","url":"http://6187wo.com/"},
 	
 	//{'iadvplaceid':"7002285762097742","iappid":"1111417629","time_out":"0","url":"http://m.xfzxs.com/"},
 	//{'iadvplaceid':"7052786411757587","iappid":"1111495254","time_out":"0","url":"http://6187wo.com/"},
