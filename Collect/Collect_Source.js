@@ -5,9 +5,9 @@ window.all_info = [];
 
 window.all_info['ad_list'] = [
 	//{'iadvplaceid':"5072298598875494","iappid":"1200400619","time_out":"0","url":"http://6187wo.com/"},
-	{'iadvplaceid':"6023507410315984","iappid":"1200400632","time_out":"0","url":"http://6187wo.com/"},
+	//{'iadvplaceid':"6023507410315984","iappid":"1200400632","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"9013601194284712","iappid":"1200399809","time_out":"0","url":"http://favourai.com/"},
-	{'iadvplaceid':"1083106074396670","iappid":"1200398039","time_out":"0","url":"http://metootea.com/"},
+	//{'iadvplaceid':"1083106074396670","iappid":"1200398039","time_out":"0","url":"http://metootea.com/"},
 	//{'iadvplaceid':"8013109882887077","iappid":"1200398041","time_out":"0","url":"http://favourai.com/"},
 	{'iadvplaceid':"4043903806079234","iappid":"1200399806","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"9003801881325162","iappid":"1200400622","time_out":"0","url":"http://metootea.com/"},
