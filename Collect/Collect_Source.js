@@ -4,43 +4,14 @@ window.curNode = document.currentScript || (function(){var script=document.query
 window.all_info = []; 
 
 window.all_info['ad_list'] = [
-	//{'iadvplaceid':"5072298598875494","iappid":"1200400619","time_out":"0","url":"http://6187wo.com/"},
-	//{'iadvplaceid':"6023507410315984","iappid":"1200400632","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"9013601194284712","iappid":"1200399809","time_out":"0","url":"http://favourai.com/"},
-	//{'iadvplaceid':"1083106074396670","iappid":"1200398039","time_out":"0","url":"http://metootea.com/"},
-	//{'iadvplaceid':"8013109882887077","iappid":"1200398041","time_out":"0","url":"http://favourai.com/"},
 	{'iadvplaceid':"4043903806079234","iappid":"1200399806","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"9003801881325162","iappid":"1200400622","time_out":"0","url":"http://metootea.com/"},
-	//{'iadvplaceid':"9072693824475676","iappid":"1200399807","time_out":"0","url":"http://3801wd.com/"},
-	//{'iadvplaceid':"7062493874979770","iappid":"1200398036","time_out":"0","url":"http://6187wo.com/"},
 	
-	//{'iadvplaceid':"7002285762097742","iappid":"1111417629","time_out":"0","url":"http://m.xfzxs.com/"},
-	//{'iadvplaceid':"7052786411757587","iappid":"1111495254","time_out":"0","url":"http://6187wo.com/"},
-	//{'iadvplaceid':"7052996103456473","iappid":"1111283873","time_out":"0","url":"http://3801wd.com/"},
-	//{'iadvplaceid':"7022887700028850","iappid":"1111611999","time_out":"0","url":"http://m.ulatour.com/m/index.php"},
-	//{'iadvplaceid':"8032089905393243","iappid":"1111689326","time_out":"0","url":"http://m.favourai.com/"},
-	//{'iadvplaceid':"3002382285223760","iappid":"1111596423","time_out":"0","url":"http://m.ywdiyu.com/"},
-	//{'iadvplaceid':"8082583660056866","iappid":"1111596433","time_out":"0","url":"http://m.hivepe.com/"},
-	//{'iadvplaceid':"6092186815092711","iappid":"1111672762","time_out":"0","url":"http://m.pandabibi.com/"},
-	//{'iadvplaceid':"2062093032378860","iappid":"1111689302","time_out":"0","url":"http://m.mkbake.com/m/index.php"},
-	//{'iadvplaceid':"7002188565590021","iappid":"1111689294","time_out":"0","url":"http://m.cnmixian.com/"},
-	//{'iadvplaceid':"8042688250939882","iappid":"1111611981","time_out":"0","url":"http://m.zhudive.com/m/index.php"},
-	//
-	//{'iadvplaceid':"7012590074160048","iappid":"1111417629","time_out":"0","url":"http://m.xfzxs.com/"},
-	//{'iadvplaceid':"9022195084566087","iappid":"1111495254","time_out":"0","url":"http://6187wo.com/"},
-	//{'iadvplaceid':"4092398024462039","iappid":"1111283873","time_out":"0","url":"http://3801wd.com/"},
-	//{'iadvplaceid':"3022297034861075","iappid":"1111689334","time_out":"0","url":"http://metootea.com/"},
-	//{'iadvplaceid':"2032599014061086","iappid":"1111611999","time_out":"0","url":"http://m.ulatour.com/m/index.php"},
-	//{'iadvplaceid':"9012995074665054","iappid":"1111689326","time_out":"0","url":"http://m.favourai.com/"},
-	//
-	//{'iadvplaceid':"3032694065586913","iappid":"1111596423","time_out":"0","url":"http://m.ywdiyu.com/"},
-	//{'iadvplaceid':"8072290055398121","iappid":"1111596433","time_out":"0","url":"http://m.hivepe.com/"},
-	//{'iadvplaceid':"5022394085795167","iappid":"1111672762","time_out":"0","url":"http://m.pandabibi.com/"},
-	//
-	//{'iadvplaceid':"8092096074965192","iappid":"1111689302","time_out":"0","url":"http://m.mkbake.com/m/index.php"},
-	//{'iadvplaceid':"7002495024061131","iappid":"1111689294","time_out":"0","url":"http://m.cnmixian.com/"},
-	//{'iadvplaceid':"7012794054366160","iappid":"1111611981","time_out":"0","url":"http://m.zhudive.com/m/index.php"},
-	//{'iadvplaceid':"3032089088071761","iappid":"1200353849","time_out":"0","url":"http://seslt.com"},
+	{'iadvplaceid':"3033612769022520","iappid":"1110344899","time_out":"0","url":"http://xfzxs.com/"},
+	{'iadvplaceid':"9023113709520498","iappid":"1110546630","time_out":"0","url":"http://6187wo.com/"},
+	{'iadvplaceid':"4033113729228416","iappid":"1110480309","time_out":"0","url":"http://321dai.com/"},
+	{'iadvplaceid':"9033616789028405","iappid":"1110558024","time_out":"0","url":"http://dashi88.com/"},
 ];
 
 var vl = new Array(
