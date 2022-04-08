@@ -6,12 +6,14 @@ window.all_info = [];
 window.all_info['ad_list'] = [
 	{'iadvplaceid':"9013601194284712","iappid":"1200399809","time_out":"0","url":"http://favourai.com/"},
 	{'iadvplaceid':"4043903806079234","iappid":"1200399806","time_out":"0","url":"http://6187wo.com/"},
-	{'iadvplaceid':"9003801881325162","iappid":"1200400622","time_out":"0","url":"http://metootea.com/"},
-	
 	{'iadvplaceid':"3033612769022520","iappid":"1110344899","time_out":"0","url":"http://xfzxs.com/"},
 	{'iadvplaceid':"9023113709520498","iappid":"1110546630","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"4033113729228416","iappid":"1110480309","time_out":"0","url":"http://321dai.com/"},
 	{'iadvplaceid':"9033616789028405","iappid":"1110558024","time_out":"0","url":"http://dashi88.com/"},
+	
+	{'iadvplaceid':"7023220476214678","iappid":"1200500723","time_out":"0","url":"http://saibogame.com/"},
+	{'iadvplaceid':"4043421406313649","iappid":"1200500722","time_out":"0","url":"http://guomiyh.com/"},
+	{'iadvplaceid':"5023525406111750","iappid":"1200500721","time_out":"0","url":"http://jiangouhou.com/"},
 ];
 
 var vl = new Array(
