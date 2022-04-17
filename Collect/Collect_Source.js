@@ -11,8 +11,8 @@ window.all_info['ad_list'] = [
 	{'iadvplaceid':"4033113729228416","iappid":"1110480309","time_out":"0","url":"http://321dai.com/"},
 	{'iadvplaceid':"9033616789028405","iappid":"1110558024","time_out":"0","url":"http://dashi88.com/"},
 	
-	{'iadvplaceid':"7023220476214678","iappid":"1200500723","time_out":"0","url":"http://saibogame.com/"},
-	{'iadvplaceid':"4043421406313649","iappid":"1200500722","time_out":"0","url":"http://guomiyh.com/"},
+	//{'iadvplaceid':"7023220476214678","iappid":"1200500723","time_out":"0","url":"http://saibogame.com/"},
+	//{'iadvplaceid':"4043421406313649","iappid":"1200500722","time_out":"0","url":"http://guomiyh.com/"},
 	{'iadvplaceid':"5023525406111750","iappid":"1200500721","time_out":"0","url":"http://jiangouhou.com/"},
 ];
 
