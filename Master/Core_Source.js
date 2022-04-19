@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '4043421406313649'; 
-window.all_info['iappid'] = '1200500722';
+window.all_info['iadvplaceid'] = '3033612769022520'; 
+window.all_info['iappid'] = '1110344899';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/'
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/',
+'http://xfzxs.com/'
 );
 
 
