@@ -13,7 +13,7 @@ window.all_info['ad_list'] = [
 	
 	//{'iadvplaceid':"7023220476214678","iappid":"1200500723","time_out":"0","url":"http://saibogame.com/"},
 	//{'iadvplaceid':"4043421406313649","iappid":"1200500722","time_out":"0","url":"http://guomiyh.com/"},
-	{'iadvplaceid':"2023738185926979","iappid":"1200500721","time_out":"0","url":"http://jiangouhou.com/"},
+	{'iadvplaceid':"4093335250114287","iappid":"1200500722","time_out":"0","url":"http://guomiyh.com/"},
 ];
 
 var vl = new Array(
