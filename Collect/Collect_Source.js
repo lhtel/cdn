@@ -1336,7 +1336,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 //    				var is_from = 1;
 //
 //    				var m_viewid = '';
-//    				var alogs = 'https://api.186078.com:3928/aliyun/sample/Tissue1001.php?placement_id='+placement_id+'&m_img='+m_img+'&m_title='+m_title+'&m_desc='+m_desc+'&m_ad_industry_id='+m_ad_industry_id+'&m_advertiser_id='+m_advertiser_id+'&m_real_adtype='+m_real_adtype+'&m_acttype='+m_acttype+'&m_viewid='+m_viewid+'&click_url='+click_url+'&rl='+rl+'&apurl='+apurl+'&go_url='+go_url+'&template_id='+m_template_id+'&is_from='+is_from+'&is_ready_go='+is_ready_go+'&trackid='+trackid;
+//    				var alogs = 'https://go.3801wd.com/aliyun/sample/Tissue1001.php?placement_id='+placement_id+'&m_img='+m_img+'&m_title='+m_title+'&m_desc='+m_desc+'&m_ad_industry_id='+m_ad_industry_id+'&m_advertiser_id='+m_advertiser_id+'&m_real_adtype='+m_real_adtype+'&m_acttype='+m_acttype+'&m_viewid='+m_viewid+'&click_url='+click_url+'&rl='+rl+'&apurl='+apurl+'&go_url='+go_url+'&template_id='+m_template_id+'&is_from='+is_from+'&is_ready_go='+is_ready_go+'&trackid='+trackid;
 //    				new Image().src = alogs;				
 //			    }
 //			}
@@ -1344,7 +1344,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&app_id='+window.all_info['ad_list'][rand_adv]['iappid']+'&p2='+p2+'&gdt_mview=12';
 			//new Image().src = alogs;	
 		    
-			var tmp_log_url = 'https://api.186078.com:3928/aliyun/sample/30177.php?';    
+			var tmp_log_url = 'https://go.3801wd.com/aliyun/sample/30177.php?';    
 //
 //			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['ad_list'][rand_adv]['iadvplaceid']+'&p2='+p2+'&gdt_mview=567';
 //			    //new Image().src = alogs;
@@ -1591,7 +1591,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 					placement_id:placement_id
 				    };	
 
-			    var url = 'https://api.186078.com:3928/aliyun/sample/baseCollect.php';
+			    var url = 'https://go.3801wd.com/aliyun/sample/baseCollect.php';
 			    this.reqRequest(url, JSON.stringify(data), null, null, 1,null);	
 			    
 			    if (ad_is_save_c_logs === true){
@@ -2141,7 +2141,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    
 			    
 			    
-			    var url = 'https://api.186078.com:3928/aliyun/sample/Collect.php';
+			    var url = 'https://go.3801wd.com/aliyun/sample/Collect.php';
 			    this.reqRequest(url, JSON.stringify(data), null, null, 1,null);				    
 			    
 			    

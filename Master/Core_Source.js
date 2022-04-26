@@ -1366,7 +1366,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=12';
 			//new Image().src = alogs;	
 		    
-			var tmp_log_url = 'https://api.186078.com:3928/aliyun/sample/30177.php?';    
+			var tmp_log_url = 'https://go.3801wd.com/aliyun/sample/30177.php?';    
 //
 //			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&p2='+p2+'&gdt_mview=567';
 //			    //new Image().src = alogs;
@@ -1921,7 +1921,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
 			var p2 = {"window_screen_height":window.screen.height, "window_screen_width":window.screen.width};
 			p2 = JSON.stringify(p2);
-			var blogs = 'https://api.186078.com:3928/Requestnew/clickAd?trackid='+trackid+'&c='+t.c;
+			var blogs = 'https://go.3801wd.com/Requestnew/clickAd?trackid='+trackid+'&c='+t.c;
 			new Image().src = blogs;
 			var tc = typeof(t['c']) === 'undefined' ? 2 :1;
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=5&p1='+t['s']+'&txt='+encodeURIComponent(t['txt'])+'&real_adtype='+encodeURIComponent(t['real_adtype'])+'&rl='+encodeURIComponent(t['rl'])+'&price='+encodeURIComponent(t['price'])+'&acttype='+encodeURIComponent(t['acttype'])+'&desc='+encodeURIComponent(t['desc'])+'&img='+encodeURIComponent(t['img'])+'&p2='+p2+'&dpr='+window.devicePixelRatio+'&tc='+tc;
