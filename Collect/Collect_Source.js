@@ -8,8 +8,8 @@ window.all_info['ad_list'] = [
 	{'iadvplaceid':"4043903806079234","iappid":"1200399806","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"1023423807685128","iappid":"1110344899","time_out":"0","url":"http://xfzxs.com/"},
 	{'iadvplaceid':"2063327944404929","iappid":"1110546630","time_out":"0","url":"http://6187wo.com/"},
-	{'iadvplaceid':"1083533048272958","iappid":"1110480309","time_out":"0","url":"http://321dai.com/"},
-	{'iadvplaceid':"9033616789028405","iappid":"1110558024","time_out":"0","url":"http://dashi88.com/"},
+	//{'iadvplaceid':"1083533048272958","iappid":"1110480309","time_out":"0","url":"http://321dai.com/"},
+	{'iadvplaceid':"4013034212483332","iappid":"1110558024","time_out":"0","url":"http://dashi88.com/"},
 	
 	//{'iadvplaceid':"7023220476214678","iappid":"1200500723","time_out":"0","url":"http://saibogame.com/"},
 	//{'iadvplaceid':"4043421406313649","iappid":"1200500722","time_out":"0","url":"http://guomiyh.com/"},
