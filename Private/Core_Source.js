@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '4043903806079234'; 
-window.all_info['iappid'] = '1200399806';
+window.all_info['iadvplaceid'] = '9013601194284712'; 
+window.all_info['iappid'] = '1200399809';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/',
-'http://6187wo.com/'
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/',
+'http://favourai.com/'
 );
 
 
