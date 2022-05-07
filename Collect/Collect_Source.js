@@ -9,7 +9,7 @@ window.all_info['ad_list'] = [
 	{'iadvplaceid':"8053639363247686","iappid":"1110344899","time_out":"0","url":"http://xfzxs.com/"},
 	{'iadvplaceid':"2063334369984232","iappid":"1110546630","time_out":"0","url":"http://6187wo.com/"},
 	//{'iadvplaceid':"1083533048272958","iappid":"1110480309","time_out":"0","url":"http://321dai.com/"},
-	{'iadvplaceid':"4013034212483332","iappid":"1110558024","time_out":"0","url":"http://dashi88.com/"},
+	{'iadvplaceid':"7003535570753443","iappid":"1200500721","time_out":"0","url":"http://jiangouhou.com/"},
 	
 	//{'iadvplaceid':"7023220476214678","iappid":"1200500723","time_out":"0","url":"http://saibogame.com/"},
 	//{'iadvplaceid':"4043421406313649","iappid":"1200500722","time_out":"0","url":"http://guomiyh.com/"},

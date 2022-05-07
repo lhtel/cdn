@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '9013601194284712'; 
-window.all_info['iappid'] = '1200399809';
+window.all_info['iadvplaceid'] = '4013034212483332'; 
+window.all_info['iappid'] = '1110558024';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/',
-'http://favourai.com/'
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/',
+'http://dashi88.com/'
 );
 
 
