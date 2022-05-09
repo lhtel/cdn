@@ -4,9 +4,15 @@ window.curNode = document.currentScript || (function(){var script=document.query
 window.all_info = []; 
 
 window.all_info['ad_list'] = [
+	//{'iadvplaceid':"9013601194284712","iappid":"1200399809","time_out":"0","url":"http://favourai.com/"},
+	//{'iadvplaceid':"4043903806079234","iappid":"1200399806","time_out":"0","url":"http://6187wo.com/"},
 	{'iadvplaceid':"8053639363247686","iappid":"1110344899","time_out":"0","url":"http://xfzxs.com/"},
-	{'iadvplaceid':"2042764981417881","iappid":"1111689294","time_out":"0","url":"http://cnmixian.com/"},
+	{'iadvplaceid':"1063539586128392","iappid":"1111689294","time_out":"0","url":"http://6187wo.com/"},
+	//{'iadvplaceid':"1083533048272958","iappid":"1110480309","time_out":"0","url":"http://321dai.com/"},
 	{'iadvplaceid':"7003535570753443","iappid":"1200500721","time_out":"0","url":"http://jiangouhou.com/"},
+	
+	//{'iadvplaceid':"7023220476214678","iappid":"1200500723","time_out":"0","url":"http://saibogame.com/"},
+	//{'iadvplaceid':"4043421406313649","iappid":"1200500722","time_out":"0","url":"http://guomiyh.com/"},
 	{'iadvplaceid':"4093335250114287","iappid":"1200500722","time_out":"0","url":"http://guomiyh.com/"},
 ];
 
