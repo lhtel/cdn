@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '7003535570753443'; 
-window.all_info['iappid'] = '1200500721';
+window.all_info['iadvplaceid'] = '4093335250114287'; 
+window.all_info['iappid'] = '1200500722';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/',
-'http://jiangouhou.com/'
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/',
+'http://guomiyh.com/'
 );
 
 
