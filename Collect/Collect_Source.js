@@ -4,9 +4,9 @@ window.curNode = document.currentScript || (function(){var script=document.query
 window.all_info = []; 
 
 window.all_info['ad_list'] = [
-	{'iadvplaceid':"1073334810414197","iappid":"1111283873","time_out":"0","url":"http://3801wd.com/"},
-	{'iadvplaceid':"3083339870010225","iappid":"1111611999","time_out":"0","url":"http://ulatour.com/"},
-	{'iadvplaceid':"4033031860713472","iappid":"1111596433","time_out":"0","url":"http://hivepe.com/"},
+	{'iadvplaceid':"1063732964895061","iappid":"1111495254","time_out":"0","url":"http://6187wo.com/"},
+	{'iadvplaceid':"4033439934988966","iappid":"1200400636","time_out":"0","url":"http://metootea.com/"},
+	//{'iadvplaceid':"4033031860713472","iappid":"1111596433","time_out":"0","url":"http://hivepe.com/"},
 	//{'iadvplaceid':"1063539586128392","iappid":"1111689294","time_out":"0","url":"http://cnmixian.com/"},
 	//{'iadvplaceid':"1083533048272958","iappid":"1110480309","time_out":"0","url":"http://321dai.com/"},
 	{'iadvplaceid':"4093335772149947","iappid":"1111611981","time_out":"0","url":"http://zhudive.com/"},
