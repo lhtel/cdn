@@ -4,7 +4,7 @@ window.curNode = document.currentScript || (function(){var script=document.query
 window.all_info = []; 
 
 window.all_info['ad_list'] = [
-	{'iadvplaceid':"1063732964895061","iappid":"1111495254","time_out":"0","url":"http://6187wo.com/"},
+	{'iadvplaceid':"1023341417677688","iappid":"1200400623","time_out":"0","url":"http://favourai.com/"},
 	{'iadvplaceid':"4033439934988966","iappid":"1200400636","time_out":"0","url":"http://metootea.com/"},
 	{'iadvplaceid':"2053147096949018","iappid":"1111283873","time_out":"0","url":"http://3801wd.com/"},
 	{'iadvplaceid':"3093645026414902","iappid":"1200399809","time_out":"0","url":"http://favourai.com/"},

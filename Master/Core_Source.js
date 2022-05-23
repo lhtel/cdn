@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '4093335250114287'; 
-window.all_info['iappid'] = '1200500722';
+window.all_info['iadvplaceid'] = '1063732964895061'; 
+window.all_info['iappid'] = '1111495254';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/',
-'http://guomiyh.com/'
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/',
+'http://6187wo.com/'
 );
 
 
