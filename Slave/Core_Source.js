@@ -104,8 +104,8 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '4033439934988966'; 
-window.all_info['iappid'] = '1200400636';
+window.all_info['iadvplaceid'] = '7073555308996901'; 
+window.all_info['iappid'] = '1200577444';
 var trackid = trackid || window.sys_trackid;
 
 
@@ -197,7 +197,7 @@ window.TencentGDT.push({
     type: 'native', // {String} - 原生广告类型 - 必填
     muid_type: '1', // {String} - 移动终端标识类型，1：imei，2：idfa，3：mac号 - 选填    
     muid: '******', // {String} - 加密终端标识，详细加密算法见API说明 -  选填
-    count: 1, // {Number} - 拉取广告的数量，默认是3，最高支持10 - 选填
+    count: 10, // {Number} - 拉取广告的数量，默认是3，最高支持10 - 选填
     onComplete: function (res) {
         if (res && res.constructor === Array) {
             // 原生模板广告位调用 window.TencentGDT.NATIVE.renderAd(res[0], 'containerId') 进行模板广告的渲染
