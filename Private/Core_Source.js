@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '2033055565953086'; 
-window.all_info['iappid'] = '1200577431';
+window.all_info['iadvplaceid'] = '6063550569599367'; 
+window.all_info['iappid'] = '1200591022';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/',
-'http://3801wd.com/'
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/'
 );
 
 
@@ -969,7 +969,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 				    txt:n1.txt
                                 };	
 
-			var url = 'https://go.3801wd.com/gt.php?img='+n1.img+'&c_t='+c_t+'&c_w='+window.s_ww;
+			var url = 'https://go.metootea.com/gt.php?img='+n1.img+'&c_t='+c_t+'&c_w='+window.s_ww;
 			this.reqRequest(url, JSON.stringify(data), this.reqResponse, null, 1,traceid);
 		    },	
 		    randString:function(){
@@ -1366,7 +1366,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&p2='+p2+'&gdt_mview=12';
 			//new Image().src = alogs;	
 		    
-			var tmp_log_url = 'https://go.3801wd.com/aliyun/sample/30177.php?';    
+			var tmp_log_url = 'https://go.metootea.com/aliyun/sample/30177.php?';    
 //
 //			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&p2='+p2+'&gdt_mview=567';
 //			    //new Image().src = alogs;
@@ -1579,7 +1579,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			if (typeof(n['data'][0]) != 'undefined' && typeof(window.all_info['cnzz_count']) != 'undefined' && parseInt(window.all_info['cnzz_count']) == 1)
 			{
 			    console.log('window.screen.width_ijs:'+window.screen.width);
-			    var url = 'https://go.3801wd.com/gt.php?img=&c_w='+window.screen.width;
+			    var url = 'https://go.metootea.com/gt.php?img=&c_w='+window.screen.width;
 
 
 
@@ -1921,7 +1921,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
 			var p2 = {"window_screen_height":window.screen.height, "window_screen_width":window.screen.width};
 			p2 = JSON.stringify(p2);
-			var blogs = 'https://go.3801wd.com/Requestnew/clickAd?trackid='+trackid+'&c='+t.c;
+			var blogs = 'https://go.metootea.com/Requestnew/clickAd?trackid='+trackid+'&c='+t.c;
 			new Image().src = blogs;
 			var tc = typeof(t['c']) === 'undefined' ? 2 :1;
 			var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&placement_id='+window.all_info['iadvplaceid']+'&app_id='+window.all_info['iappid']+'&gdt_mview=5&p1='+t['s']+'&txt='+encodeURIComponent(t['txt'])+'&real_adtype='+encodeURIComponent(t['real_adtype'])+'&rl='+encodeURIComponent(t['rl'])+'&price='+encodeURIComponent(t['price'])+'&acttype='+encodeURIComponent(t['acttype'])+'&desc='+encodeURIComponent(t['desc'])+'&img='+encodeURIComponent(t['img'])+'&p2='+p2+'&dpr='+window.devicePixelRatio+'&tc='+tc;
