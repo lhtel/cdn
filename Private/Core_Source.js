@@ -104,27 +104,27 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '2043669244770021'; 
-window.all_info['iappid'] = '1200624834';
+window.all_info['iadvplaceid'] = '9013268299543752'; 
+window.all_info['iappid'] = '1200624838';
 var trackid = trackid || window.sys_trackid;
 
 
 var vl = new Array(
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/',
-'http://brophio.com/'
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/',
+'http://metootea.com/'
 );
 
 
