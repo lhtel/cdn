@@ -4,10 +4,10 @@ window.curNode = document.currentScript || (function(){var script=document.query
 window.all_info = []; 
 
 window.all_info['ad_list'] = [
-	{'iadvplaceid':"7053773121418750","iappid":"1200631961","time_out":"0","url":"http://brophio.com/"},
-	{'iadvplaceid':"2043671121116781","iappid":"1200631962","time_out":"0","url":"http://brophio.com/"},
-	{'iadvplaceid':"1073679191316742","iappid":"1200631963","time_out":"0","url":"http://brophio.com/"},
-	{'iadvplaceid':"2063778101214773","iappid":"1200631964","time_out":"0","url":"http://brophio.com/"},
+	{'iadvplaceid':"7013970287638937","iappid":"1200683135","time_out":"0","url":"http://brophio.com/"},
+	{'iadvplaceid':"9013670227836966","iappid":"1200683137","time_out":"0","url":"http://metootea.com/"},
+	//{'iadvplaceid':"1073679191316742","iappid":"1200631963","time_out":"0","url":"http://brophio.com/"},
+	//{'iadvplaceid':"2063778101214773","iappid":"1200631964","time_out":"0","url":"http://brophio.com/"},
 ];
 
 var vl = new Array(
