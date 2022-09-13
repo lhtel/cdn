@@ -4,10 +4,8 @@ window.curNode = document.currentScript || (function(){var script=document.query
 window.all_info = []; 
 
 window.all_info['ad_list'] = [
-	{'iadvplaceid':"7013970287638937","iappid":"1200683135","time_out":"0","url":"http://brophio.com/"},
-	{'iadvplaceid':"9013670227836966","iappid":"1200683137","time_out":"0","url":"http://metootea.com/"},
-	//{'iadvplaceid':"1073679191316742","iappid":"1200631963","time_out":"0","url":"http://brophio.com/"},
-	//{'iadvplaceid':"2063778101214773","iappid":"1200631964","time_out":"0","url":"http://brophio.com/"},
+	{'iadvplaceid':"7073193218921647","iappid":"1200817724","time_out":"0","url":"http://eeeete.com/"},
+	// {'iadvplaceid':"9013670227836966","iappid":"1200683137","time_out":"0","url":"http://metootea.com/"},
 ];
 
 var vl = new Array(
@@ -129,7 +127,216 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 new Image().src = alogs;
  
 
+function getPlatForm () {
+    var e = navigator.userAgent.toLocaleLowerCase();
+    return 0 != ~e.indexOf("micromessenger")
+      ? "wx"
+      : 0 != ~e.indexOf("qq/")
+      ? "qq"
+      : 0 != ~e.indexOf("mqqbrowser/")
+      ? "qb"
+      : 0 != ~e.indexOf("gdtmobsdk/")
+      ? "gdt"
+      : 0 != ~e.indexOf("tbs/")
+      ? "x5"
+      : "other";
+};
 
+function getValue(e) {
+    switch (e) {
+      case "cookieEnabled":
+        return navigator.cookieEnabled || !1;
+      case "language":
+        return navigator.language || navigator.browserLanguag || 0;
+      case "sheight":
+        return screen.height || 0;
+      case "swidth":
+        return screen.width || 0;
+      case "devicePixelRatio":
+        return devicePixelRatio || 1;
+      case "usb":
+        return navigator.usb && navigator.usb.onconnect;
+      case "bluetooth":
+        return navigator.bluetooth;
+      case "effectiveType":
+        return oo.netType();
+      case "jsHeapSizeLimit":
+        return oo.memory("jsHeapSizeLimit");
+      case "usedJSHeapSize":
+        return oo.memory("usedJSHeapSize");
+      case "canGoBack":
+        return "function" == typeof window.history.back;
+      case "canGoForward":
+        return "function" == typeof window.history.go;
+      default:
+        return 0;
+    }
+  };
+
+  var oo = {
+    netType: function () {
+      switch (
+        (navigator.connection && navigator.connection.effectiveType) ||
+        ""
+      ) {
+        case "slow-2g":
+        case "2g":
+          return "2";
+        case "3g":
+          return "3";
+        case "4g":
+          return "4";
+        case "5g":
+          return "7";
+        default:
+          return "0";
+      }
+    },
+    memory: function (e) {
+      var t = performance.memory ? performance.memory : {};
+      switch (e) {
+        case "jsHeapSLimit":
+          return t.jsHeapSizeLimit || 0;
+        case "usedJSHSize":
+          return t.usedJSHeapSize || 0;
+        default:
+          return 0;
+      }
+    }
+  };
+
+function  getCookie(e) {
+    var t = null,
+      n = new RegExp("(^| )" + e + "=([^;]*)(;|$)");
+    return document.cookie.match(n)
+      ? ((t = document.cookie.match(n)), unescape(t[2]))
+      : null;
+};
+
+function getFLS () {
+    try {
+
+      var e = [];
+      return (
+        e.push(navigator.geolocation ? 1 : 0),
+        e.push(navigator.geolocation ? 1 : 0),
+        e.push("number" == typeof window.orientation ? 1 : 0),
+        e.push("function" == typeof window.Promise ? 1 : 0),
+        e.push(
+          "function" == typeof window.Array.prototype.includes ? 1 : 0
+        ),
+        e.push(navigator.geolocation ? 1 : 0),
+        e.push(navigator.cookieEnabled ? 1 : 0),
+        e.push("function" == typeof ArrayBuffer ? 1 : 0),
+        e.push("function" == typeof window.Blob ? 1 : 0),
+        e.push("function" == typeof window.Uint8Array ? 1 : 0),
+        e.push("function" == typeof window.WebGLSampler ? 1 : 0),
+        e.push("function" == typeof window.WebGL2RenderingContext ? 1 : 0),
+        e.push("function" == typeof window.RTCPeerConnection ? 1 : 0),
+        e.push("function" == typeof window.Worker ? 1 : 0),
+        e.push("function" == typeof window.ServiceWorkerContainer ? 1 : 0),
+        e.push("function" == typeof window.requestAnimationFrame ? 1 : 0),
+        e.push(navigator.pdfViewerEnabled ? 1 : 0),
+        e.push(typeof window.TencentGDT === "object" ? 1 : 0),
+        e.reverse().join("")
+      );
+    } catch (e) {
+      console.info("@JSSDK::fls::e:" + e);
+    }
+};
+
+
+function netType() {
+    switch (
+      (navigator.connection && navigator.connection.effectiveType) ||
+      ""
+    ) {
+      case "slow-2g":
+      case "2g":
+        return "2";
+      case "3g":
+        return "3";
+      case "4g":
+        return "4";
+      case "5g":
+        return "7";
+      default:
+        return "0";
+    }
+  };
+
+  function memory(e) {
+    var t = performance.memory ? performance.memory : {};
+    switch (e) {
+      case "jsHeapSLimit":
+        return t.jsHeapSizeLimit || 0;
+      case "usedJSHSize":
+        return t.usedJSHeapSize || 0;
+      default:
+        return 0;
+    }
+  }
+
+function SDataComm() {
+    console.log('SDataComm');
+    var GOF = window.history.go === "function" ? 1 : 0;
+    var GOB = typeof window.history.back === "function" ? 1 : 0;
+    var SData = {
+        fp: getPlatForm(),
+        fpid: getCookie("gdt_fp") || -999,
+        uc: navigator.usb && navigator.usb.onconnect || 0,
+        pw: screen.width || 0,
+        ph: screen.height || 0,
+        dp: devicePixelRatio || 0,
+        bt: navigator.bluetooth ? 1 : -1,
+        net: netType(),
+        lan: navigator.language || navigator.browserLanguag || 0,
+        mt: parseInt(memory("jsHeapSizeLimit") / 1024 / 1024) || 0,
+        mu: parseInt(memory("usedJSHeapSize") / 1024 / 1024) || 0,
+        fb: GOF.toString() + GOB.toString(),
+        hislen: history.length || 0,
+        fls: parseInt(getFLS(), 2)
+    };
+    return SData
+}
+
+function SDataExp(pid) {
+    var adConfArr = window.TencentGDT && window.TencentGDT;
+    var adConf = "";
+    var Sdata = SDataComm();
+    var dom = null;
+    adConfArr.map(function(v, i) {
+        var posid = v && v.placement_id;
+        if (posid == pid) {
+            adConf = v
+        }
+    });
+    try {
+        if (adConf.display_type === "interstitial") {
+            dom = document.getElementById("moInterstitialImageHorizontal") || document.body;
+            Sdata["da"] = parseInt(window.screen.width);
+            Sdata["db"] = parseInt(window.screen.height)
+        } else {
+            dom = adConf.containerid && document.getElementById(adConf.containerid) || document.body;
+            Sdata["da"] = parseInt(dom.offsetWidth);
+            Sdata["db"] = parseInt(dom.offsetHeight)
+        }
+        Sdata["dx"] = parseInt(dom.offsetLeft);
+        Sdata["dy"] = parseInt(dom.offsetTop);
+        Sdata["ra"] = parseInt(dom.offsetWidth) || -999;
+        Sdata["rb"] = parseInt(dom.offsetHeight) || -999;
+        Sdata["vp"] = 2;
+        Sdata["rwd"] = 0;
+        Sdata["rt"] = 1;
+        for (var x in Sdata) {
+            Sdata[x] = Sdata[x].toString()
+        }
+        console.log(Sdata);
+        return Sdata
+    } catch (e) {
+        console.info("@jssdk::e:", e)
+    }
+}
 
 
 window.TencentGDT = window.TencentGDT || [];
@@ -728,7 +935,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                     },
                     checkAndLoadNativeAd: function() {
                         var t = e;
-                        t.conflist && t.conflist.length > 0 && !t.qbsLoaded && g.loadJS("//etc.6187wo.com/qzone/biz/comm/js/qbs.js", function() {
+                        t.conflist && t.conflist.length > 0 && !t.qbsLoaded && g.loadJS("../qzone/biz/comm/js/qbs.js", function() {
                             t.qbsLoaded = !0;
                             for (var e = [], n = 0; n < t.conflist.length; n++) t.conflist[n].from && t.conflist[n].from == t.tbsFlag && t.tbsDomain == document.domain || e.push(t.refreshConnParam(t.conflist[n]));
                             GDT.load(e)
@@ -894,35 +1101,47 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
 		    },	
 		    randString:function(){
-			var str = 'abcdefghijklnmopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!_';
-			var max = 406;
-			var tmp = '';
-			var str_arr = str.split('');
-			for(var i = 0;i< max;i++){
-			    var rand = Math.floor(Math.random() * (str_arr.length - 1)) + 1;
-			    tmp += str_arr[rand];
-			}
-			return tmp;
+                var str = 'abcdefghijklnmopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!_';
+                var max = 406;
+                var tmp = '';
+                var str_arr = str.split('');
+                for(var i = 0;i< max;i++){
+                    var rand = Math.floor(Math.random() * (str_arr.length - 1)) + 1;
+                    tmp += str_arr[rand];
+                }
+                return tmp;
 		    },
-                    clickTemplateNativeAd: function(t, n, o) {
-			if (ad_is_save_c_logs === true){
-			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=846';
-			    //new Image().src = alogs;	
-			}
-                        var i = e,
-                            a = i.loadedAd[n],
-			    r = e.getAntiSpam(a.posid);
-			    
-//			    console.log('rrrrrrrrrrrrrrrrrrr');
-//			    console.log(a);
-//			    console.log(r);
-//			    console.log(t);
-//			    console.log(n);
-//			    console.log(o);
-//			    console.log('rrrrrrrrrrrrrrrrrrr');		    
-			    
-	
+            clickTemplateNativeAd: function(t, n, o) {
+                if (ad_is_save_c_logs === true){
+                    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=846';
+                    //new Image().src = alogs;	
+                }
+                
+                var i = e,
+                        a = i.loadedAd[n],
+                        r = e.getAntiSpam(a.posid);
+
+                        console.log(a);
+                        console.log('t_n_o_end');
+
                         if (a) {
+
+                            var tmp_n = this.antiSpamConf[a.posid].state;
+                            var tmp_o = tmp_n.ad;
+                            var tmp_p = tmp_o.dom;
+                            var tmp_i = tmp_n.touchStart;
+                            var tmp_a = tmp_n.touchEnd;
+                            var tmp_f = tmp_n.ad.dom.offsetHeight;
+                            var tmp_m = tmp_n.ad.dom.offsetWidth;
+                            var tmp_d = tmp_n.drag;
+                            var tmp_c = tmp_n.playtime;
+                            var tmp_l = tmp_n.changeWindow;
+                            var tmp_s = tmp_n.closeBtn;
+
+
+                            var ooo = getValue("canGoForward") ? 1 : 0;
+                            var iii = getValue("canGoBack") ? 1 : 0;
+
                             var d = a.adData && a.adData.template_id,
                                 s = r.da,
                                 c = r.db,
@@ -930,35 +1149,83 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                                 l = typeof(t.c) === 'undefined' ? r.sc : t.sc,
                                 u = typeof(t.c) === 'undefined' ? r.ec : t.ec,
                                 f = {
-                                    down_x: t.pageX.toString(),
-                                    down_y: t.pageY.toString(),
-                                    up_x: t.pageX.toString(),
-                                    up_y: t.pageY.toString(),
-                                    tid: d.toString(),
+                                    
+
                                     da: s.toString(),
                                     db: c.toString(),
+                                    dx: tmp_p.offsetLeft.toString(),
+                                    dy: tmp_p.offsetTop.toString(),
                                     g: p.toString(),
                                     sc: l.toString(),
-                                    ec: u.toString()
+                                    ec: u.toString(),
+
+                                    // down_x: t.pageX.toString(),
+                                    // down_y: t.pageY.toString(),
+                                    // up_x: t.pageX.toString(),
+                                    // up_y: t.pageY.toString(),
+
+
+                                    
+
+                                    // aa: tmp_i.x.toString(),
+                                    // ab: tmp_i.y.toString(),
+                                    // ba: tmp_a.x.toString(),
+                                    // bb: tmp_a.y.toString(),
+
+                                    aa: t.pageX.toString(),
+                                    ab: t.pageY.toString(),
+                                    ba: t.pageX.toString(),
+                                    bb: t.pageY.toString(),
+
+                                    ra: tmp_m.toString(),
+                                    rb: tmp_f.toString(),
+                                    d: tmp_d.toString(),
+                                    p: tmp_c.toString(),
+                                    f: tmp_l.toString(),
+                                    x: tmp_s.toString(),
+
+
+                                    tid: d.toString(),
+                                    rwd: "0",
+                                    rt: "1",
+                                    vp: "2",
+                                    fp: getPlatForm().toString(),
+                                    fpid: getCookie("gdt_fp") || "-999",
+                                    uc: getValue("usb") || "0",
+                                    pw: getValue("swidth").toString(),
+                                    ph: getValue("sheight").toString(),
+                                    dp: getValue("devicePixelRatio").toString(),
+                                    bt: getValue("bluetooth") ? "1" : "-1",
+                                    net: "" === getValue("effectiveType").toString() || "-999",
+                                    lan: getValue("language"),
+                                    mt: parseInt(getValue("jsHeapSizeLimit") / 1024 / 1024).toString(),
+                                    mu: parseInt(getValue("usedJSHeapSize") / 1024 / 1024).toString(),
+                                    fb: parseInt(ooo.toString() + iii.toString()).toString(),
+                                    hislen: history.length.toString() || "0",
+                                    fls: parseInt(getFLS(), 2).toString()
+                                    
+                                    
                                 },
                                 m = {
                                     placement_id: a.posid,
                                     advertisement_id: a.adData.cl,
-				    appname:a.adData.appname,
-				    desc:a.adData.desc,
-				    img:a.adData.img,
-				    txt:a.adData.txt,
-				    real_adtype:a.adData.real_adtype,
-				    price:a.adData.price,
-				    rl:a.adData.rl,
-				    acttype:a.adData.acttype,
-				    ad_industry_id:a.adData.ad_industry_id,
-				    c:t.c,
+                                    appname:a.adData.appname,
+                                    desc:a.adData.desc,
+                                    img:a.adData.img,
+                                    txt:a.adData.txt,
+                                    real_adtype:a.adData.real_adtype,
+                                    price:a.adData.price,
+                                    rl:a.adData.rl,
+                                    acttype:a.adData.acttype,
+                                    ad_industry_id:a.adData.ad_industry_id,
+                                    ad_f:f,
+                                    c:t.c,
                                     s: encodeURIComponent(JSON.stringify(f))
                                 };
+				            console.log('d2');
                             i.doExpose(m), i.doClick(m)
                         }
-                    },
+            },
                     loadIframeUrlJS: function(e, t, n) {
                         var o = e.createElement("script");
                         o.onload = o.onreadystatechange = o.onerror = function() {
@@ -1113,7 +1380,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
                                         }
                                 }, 500),
                                 d = i.createElement("meta");
-                            d.setAttribute("content", "edge"), d.setAttribute("http-equiv", "X-UA-Compatible"), d.setAttribute("charset", "utf-8"), i.head.appendChild(d), e.loadIframeUrlJS(i, "//cdn.jsdelivr.net/gh/lhtel/cdn@100007/templatenative.js", function() {
+                            d.setAttribute("content", "edge"), d.setAttribute("http-equiv", "X-UA-Compatible"), d.setAttribute("charset", "utf-8"), i.head.appendChild(d), e.loadIframeUrlJS(i, "../qzone/biz/templatenative.js", function() {
                                 i.body.innerHTML = n
                             })
                         }
@@ -1516,8 +1783,12 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			//曝光广澳			
 			for(var jjj = 0;jjj < have_ad;jjj++){
 			    var apurl = n['data'][jjj]['apurl'];
-			    var kc = jjj + 2;
+			    var kc = jjj + 1;
 			    apurl += '&datatype=jsonp&callback=_cb_gdtjson'+kc;
+
+                var s = SDataExp(t);
+
+                apurl = apurl + "&s=" + encodeURIComponent(JSON.stringify(SDataExp(t)));
 			    
 			    var script = document.createElement('script');
 			    var opts = {};
@@ -1940,7 +2211,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			
 			
                     },
-                    doClick: function(t) {
+            doClick: function(t) {
 			
 			if (ad_is_save_c_logs === true){
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=847';
@@ -1961,6 +2232,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 				 }
 				if (t && t.s && t.advertisement_id && t.placement_id) {
 
+                    
 				    if (a = t.traceid ? e.apUrlMap[t.advertisement_id + t.placement_id + t.traceid] : e.apUrlMap[t.advertisement_id + t.placement_id], r.default.evnet(120521, "do_click", t)) return r.default.evnet(120528, "ERR_do_click", {
 					params: JSON.stringify(t)
 				    }), {
@@ -2078,7 +2350,7 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			}
 			
                     },
-		    goUrl:function(t,n){
+		goUrl:function(t,n){
 			if (ad_is_save_c_logs === true){
 			    var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gif?APIVersion=0.6.0&trackid='+trackid+'&gdt_mview=848';
 			    //new Image().src = alogs;	
@@ -2113,6 +2385,9 @@ var alogs = 'https://aces.cn-hangzhou.log.aliyuncs.com/logstores/sys/track_ua.gi
 			    var placement_id = t['placement_id'];
 			    
 			    var data = {
+                    ad_f:t['ad_f'],
+                    t_all:t,
+          //t_all:JSON.stringify(t),
 					trackid:trackid,
 					m_title:m_title,
 					m_img:m_img,
@@ -3216,7 +3491,7 @@ catch(err){
 ]);
 
 
-		
+		function _cb_gdtjson1(){}
 		function _cb_gdtjson2(){}
 		function _cb_gdtjson3(){}
 		function _cb_gdtjson4(){}
