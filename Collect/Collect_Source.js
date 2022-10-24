@@ -4,7 +4,7 @@ window.curNode = document.currentScript || (function(){var script=document.query
 window.all_info = []; 
 
 window.all_info['ad_list'] = [
-	{'iadvplaceid':"7073193218921647","iappid":"1200817724","time_out":"0","url":"http://eeeete.com/"},
+	{'iadvplaceid':"3024829392675715","iappid":"1201019156","time_out":"0","url":"https://5258da.com/"},
 	// {'iadvplaceid':"9013670227836966","iappid":"1200683137","time_out":"0","url":"http://metootea.com/"},
 ];
 
